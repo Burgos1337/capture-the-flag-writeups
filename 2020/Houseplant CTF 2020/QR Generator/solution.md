@@ -1,6 +1,6 @@
 # QR Generator writeup
 
-Taking the hint about `backticks` into the account I had got the idea of performing RCE in this challenge. While exploring the task 
+Taking the hint about `backticks` into the account I had got an idea of performing RCE in this challenge. While exploring the task 
 functionality it becomes obvious that QR code return us only the first symbol of our string:
 
 ![Снимок экрана (632)](https://user-images.githubusercontent.com/57829161/80568779-4aee8480-8a00-11ea-97c1-54991f9d624c.jpg)
