@@ -8,4 +8,4 @@ the idea to retrieve the `flag` document and, fortunately, it was the solution:
 
 ![Снимок экрана (625)](https://user-images.githubusercontent.com/57829161/80567569-1f6a9a80-89fe-11ea-9cdb-ef1449676dbb.png)
 
-rtcp{d0n't_g1ve_us3rs_db_a((3ss}
+Flag: rtcp{d0n't_g1ve_us3rs_db_a((3ss}
