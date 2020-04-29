@@ -25,7 +25,7 @@ I wanted to see what the redacted text was, so I tried to return the variables:
 
 ![Снимок экрана (639)](https://user-images.githubusercontent.com/57829161/80571476-5c865b00-8a05-11ea-80e9-79df2915357e.jpg)
 
-So the final step was to return the `flag` variable:
+The final step was to return the `flag` variable:
 
 ![Снимок экрана (640)](https://user-images.githubusercontent.com/57829161/80571484-5f814b80-8a05-11ea-82f9-5bcc74a86350.jpg)
 
