@@ -4,7 +4,7 @@ Firstly we are given the 7zip archive - let's download this one and explore the 
 
 ![Снимок экрана (634)](https://user-images.githubusercontent.com/57829161/80571430-48daf480-8a05-11ea-8d99-320f75de441e.jpg)
 
-That for sure looks like base64 encoded data, so I decoded that from base64 in cyberchef and then saved as PNG due to the PNG header:
+That for sure looks like base64 encoded data, so I decoded that from base64 in cyberchef and then saved as PNG:
 
 ![Снимок экрана (635)](https://user-images.githubusercontent.com/57829161/80571437-4d9fa880-8a05-11ea-8e0b-f28db8124854.jpg)
 
