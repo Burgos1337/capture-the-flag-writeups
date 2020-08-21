@@ -10,8 +10,8 @@ for i in range(len(s)):
         v = 0
         for j in range(0, 8):
             if h & (1 << j) != 0:
-                v = v | (1 << (8 - j - 1))
-        if(v == s[i]):
-            flag += chr(~h)
+               v = v | (1 << (8 - j - 1))
+        if (v == s[i]):
+           flag += chr(~h)
                
 print(flag[::-1])
