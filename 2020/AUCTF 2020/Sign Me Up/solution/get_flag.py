@@ -11,7 +11,7 @@ try:
         for ch in printable:
             res = pow(ord(ch), e, n)
             if res == int(f[inc]):
-                flag += ch
-                inc += 1
+               flag += ch
+               inc += 1
 except IndexError:
     print(flag)
