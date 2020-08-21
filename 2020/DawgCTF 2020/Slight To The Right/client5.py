@@ -80,8 +80,8 @@ for bbb in range(len(encflag) - len(flag)):
 		enc = sock.recv(1024)
 		enc = enc[16:]
 
-		if(enc[len(flag)] == encflag[len(flag)]):
-		     print("FOUND!!")
-		     flag += guess
-		     print(flag)
-		     break
+		if (enc[len(flag)] == encflag[len(flag)]):
+		   print("FOUND!!")
+		   flag += guess
+		   print(flag)
+		   break
