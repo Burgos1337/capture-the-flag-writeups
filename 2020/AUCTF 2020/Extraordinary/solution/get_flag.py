@@ -17,7 +17,7 @@ try:
             msg = p.recvuntil("'\n").split()[1][2:-1]
             print(data, '->', msg)
             if len(msg) == 0:
-                find += ch
-                print('Good :', find)
+               find += ch
+               print('Good :', find)
 except KeyboardInterrupt:
     print(find)
