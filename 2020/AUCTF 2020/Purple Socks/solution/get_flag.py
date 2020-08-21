@@ -13,7 +13,7 @@ for x in range(len(inp)):
     s.add(res[x] == secret[x])
 
 if s.check() == sat:
-    model = s.model()
-    print(''.join([chr(int(str(model[inp[z]]))) for z in range(len(inp))]))
+   model = s.model()
+   print(''.join([chr(int(str(model[inp[z]]))) for z in range(len(inp))]))
 else:
-    print("unsat")
+   print("unsat")
