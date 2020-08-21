@@ -6,16 +6,16 @@ raw = open('re4.bin', 'rb').read()
 
 def hook_code(uc, address, size, user_data):
     if address == 0x01AA:
-        print('end of decoding stage')
-        shellcode = uc.mem_read(2, 0x63)
-        open('shellcode', 'wb').write(shellcode)
+       print('end of decoding stage')
+       shellcode = uc.mem_read(2, 0x63)
+       open('shellcode', 'wb').write(shellcode)
     
     if address == 0xf:
-        eax = uc.reg_read(UC_X86_REG_EAX)
-        print(hex(eax))
+       eax = uc.reg_read(UC_X86_REG_EAX)
+       print(hex(eax))
     
     if address == 0x27:
-        uc.emu_stop()
+       uc.emu_stop()
 
 
 uc = Uc(UC_ARCH_X86, UC_MODE_32)
