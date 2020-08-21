@@ -10,9 +10,9 @@ for i in f:
     except:
         sor = chr(i ^ key)
     if sor == 'N':
-        dat += i
+       dat += i
     else:
-        dat += sor
+       dat += sor
 
 with open('data', 'wb') as out:
     out.write(dat)
