@@ -40,11 +40,11 @@ class AsciiMathPrinter(StrPrinter):
     def _print_Pow(self, expr):
         b = self._print(expr.base)
         if expr.exp is S.Half:
-            return "sqrt(%s)" % b
+           return "sqrt(%s)" % b
 
         if -expr.exp is S.Half:
-            return "1/sqrt(%s)" % b
+           return "1/sqrt(%s)" % b
         if expr.exp is -S.One:
-            return "1/%s" % b
+           return "1/%s" % b
 
         return "%s^(%s)" % (b, self._print(expr.exp)) 
