@@ -19,7 +19,7 @@ for i in range(6):
 for x in range(50):
     line = con.recvline().decode().split(' ')
     if (aa > 0):
-        line = line[1:]
+       line = line[1:]
     print (line)
     txt = line[1]
     nbr = int(line[3].split('=')[1])
