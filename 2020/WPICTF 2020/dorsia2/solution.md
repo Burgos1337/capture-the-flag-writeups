@@ -10,4 +10,4 @@ All remains is to cat `flag.txt` in the same way:
 
 ![dr(flag)](https://user-images.githubusercontent.com/57829161/79734045-bea4d900-82fe-11ea-8f66-9f343ffd992a.png)
 
-Flag: WPI{1_H4VE_2_return_SOME_VIDE0TAP3S}
+Flag: `WPI{1_H4VE_2_return_SOME_VIDE0TAP3S}`
