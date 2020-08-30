@@ -6,7 +6,7 @@ public class breakable
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter flag: ");
         String userInput = scanner.next();
-        String input = userInput.substring("rtcp{".length(),userInput.length()-1);
+        String input = userInput.substring("rtcp{".length(), userInput.length() - 1);
         if (check(input)) {
            System.out.println("Access granted.");
         } else {
@@ -23,13 +23,13 @@ public class breakable
            return false;
         }
         for (i = 0; i < flag.length()-2; i++){
-            theflag += (char)((int)(flag.charAt(i)) + (int)(input.charAt(i+2)));
+            theflag += (char)((int)(flag.charAt(i)) + (int)(input.charAt(i + 2)));
         }
         for (i = 2; i < flag.length(); i++){
-            theflag += (char)((int)(flag.charAt(i)) + (int)(input.charAt(i-2)));
+            theflag += (char)((int)(flag.charAt(i)) + (int)(input.charAt(i - 2)));
         }
         String[] flags = theflag.split("");
-        for (; i < (int)((flags.length)/2); i++){
+        for (; i < (int)((flags.length) / 2); i++){
             flags[i] = Character.toString((char)((int)(flags[i].charAt(0)) + 20));
         }
         return theflag.equals("ÒdÝ¾¤¤¾ÙàåÐcÝÆÏÜ¦aã");
