@@ -8,7 +8,6 @@ from gen.PSListener import PSListener
 
 from sympy.printing.str import StrPrinter
 
-
 def process_sympy(sympy):
 
     matherror = MathErrorListener(sympy)
