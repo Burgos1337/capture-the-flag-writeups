@@ -13,4 +13,4 @@ interesting there:
 Now we get the `R` letter, that can't help but suggest an idea to retrieve the whole flag symbol by symbol, so I have made the 
 python script to automate this process...
 
-After launching the `get_flag.py` we finally get the flag: rtcp{fl4gz_1n_qr_c0d3s???_b1c3fea}
+After launching the `get_flag.py` we finally get the flag: `rtcp{fl4gz_1n_qr_c0d3s???_b1c3fea}`
