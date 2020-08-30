@@ -14,4 +14,4 @@ So we record the correct number and timestamp and then replay that resending the
 
 ![Снимок экрана (631)](https://user-images.githubusercontent.com/57829161/80570182-09130d80-8a03-11ea-9ceb-75f19519af4c.jpg)
 
-Flag: rtcp{w0w_s0_p53uD0}
+Flag: `rtcp{w0w_s0_p53uD0}`
