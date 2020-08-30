@@ -8,4 +8,4 @@ No flag on the front page! That's really strange...
 
 ![wwc(1)](https://user-images.githubusercontent.com/57829161/79128430-2c577f00-7dac-11ea-8d55-e8443e677f58.png)
 
-Flag: DawgCTF{ClearEdge_ElizebethSmith}
+Flag: `DawgCTF{ClearEdge_ElizebethSmith}`
