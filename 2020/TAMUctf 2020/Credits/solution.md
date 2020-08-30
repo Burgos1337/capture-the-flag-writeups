@@ -19,4 +19,4 @@ Well, now we need just to buy the flag and check it in the inventory list:
 
 ![Credits(flag)](https://user-images.githubusercontent.com/57829161/78355862-2812b100-75b7-11ea-9156-b1a469a8fc4d.png)
 
-Flag: gigem{serverside_53rv3r5163_SerVeRSide}
+Flag: `gigem{serverside_53rv3r5163_SerVeRSide}`
