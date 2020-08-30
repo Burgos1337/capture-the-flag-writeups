@@ -18,4 +18,4 @@ After forwarding the request in burp suite we get the flag on the server:
 
 
 
-Flag: `utflag{n3xt_y3ar_go1ng_bl1nd}`
+Flag: `utflag{n3xt_y3ar_go1ng_bl1nd}`   
