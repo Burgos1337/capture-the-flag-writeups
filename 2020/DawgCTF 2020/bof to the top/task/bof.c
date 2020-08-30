@@ -6,7 +6,7 @@
 
 void audition(int time, int room_num) {
     char* flag = "/bin/cat flag.txt";
-    if (time == 1200 && room_num == 366){
+    if (time == 1200 && room_num == 366) {
        system(flag);
     }
 }
