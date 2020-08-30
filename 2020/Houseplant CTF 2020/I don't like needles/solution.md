@@ -19,4 +19,4 @@ the flag:
 
 ![Снимок экрана (621)](https://user-images.githubusercontent.com/57829161/80566956-c8b09100-89fc-11ea-99e6-032bbcce54a1.png)
 
-Flag: rtcp{y0u-kn0w-1-didn't-mean-it-like-th@t}
+Flag: `rtcp{y0u-kn0w-1-didn't-mean-it-like-th@t}`
