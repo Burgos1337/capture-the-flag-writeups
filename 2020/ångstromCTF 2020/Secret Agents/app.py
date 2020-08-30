@@ -4,7 +4,6 @@ from .secret import host, user, passwd, dbname
 
 import mysql.connector
 
-
 dbconfig = {
     "host":host,
     "user":user,
@@ -20,12 +19,10 @@ limiter = Limiter(
     default_limits=["1 per second"],
 )"""
 
-
 #@limiter.exempt
 @app.route("/")
 def index():
     return render_template("index.html")
-
 
 @app.route("/login")
 def login():
