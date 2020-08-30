@@ -37,7 +37,7 @@
 </body>
 
 <script>
-    var PIXELARRAY=new Array()
+    var PIXELARRAY = new Array()
 
     function hexToRgb(hex) {
         var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
@@ -50,8 +50,8 @@
 
     function sendTHEPIXEL() {
         var loc = (parseInt(document.getElementById("ypos").value*100)) + parseInt(document.getElementById("xpos").value)
-        converted=hexToRgb(document.getElementById("colour").value)
-        finstring="rgb("+converted.r+","+converted.g+","+converted.b+")"
+        converted = hexToRgb(document.getElementById("colour").value)
+        finstring = "rgb("+converted.r+","+converted.g+","+converted.b+")"
         PIXELARRAY[loc] = finstring
         var docdata= {
             dat:PIXELARRAY
@@ -102,6 +102,6 @@
     db.collection("board").doc("data")
     .onSnapshot(function(doc) {
         drawCanvas(doc.data().dat);
-        PIXELARRAY=doc.data().dat;
+        PIXELARRAY = doc.data().dat;
     });
 </script>
