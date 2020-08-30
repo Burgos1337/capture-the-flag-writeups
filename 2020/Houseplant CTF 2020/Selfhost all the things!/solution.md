@@ -21,4 +21,4 @@ So we get `302` status code with redirection to the flag:
 
 ![Снимок экрана (616)](https://user-images.githubusercontent.com/57829161/80566271-44a9d980-89fb-11ea-91e9-ac6616947a2d.png)
 
-Flag: rtcp{rtcp-*is-s/ort-of-se1fh0st3d}
+Flag: `rtcp{rtcp-*is-s/ort-of-se1fh0st3d}`
