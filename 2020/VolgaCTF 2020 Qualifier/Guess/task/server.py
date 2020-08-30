@@ -33,7 +33,7 @@ def kronecker(x, p):
 def findQNR(p):
     r = Crypto.Random.random.randrange(2, p - 1)
     while kronecker(r, p) == 1:
-        r = Crypto.Random.random.randrange(2, p-1)
+       r = Crypto.Random.random.randrange(2, p-1)
     return r
 
 def findQR(p):
