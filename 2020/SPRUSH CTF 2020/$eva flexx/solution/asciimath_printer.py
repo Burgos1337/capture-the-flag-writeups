@@ -11,9 +11,9 @@ class AsciiMathPrinter(StrPrinter):
     def _print_Integral(self, expr):
         e, lims = expr.args
         if len(lims) > 1:
-            return "int_(%s)^(%s) %s d%s" % (self._print(lims[1]), self._print(lims[2]), self._print(e), self._print(lims[0]))
+           return "int_(%s)^(%s) %s d%s" % (self._print(lims[1]), self._print(lims[2]), self._print(e), self._print(lims[0]))
         else:
-            return "int %s d%s" % (self._print(e), self._print(lims))
+           return "int %s d%s" % (self._print(e), self._print(lims))
     
     def _print_Sum(self, expr):
         e, lims = expr.args
