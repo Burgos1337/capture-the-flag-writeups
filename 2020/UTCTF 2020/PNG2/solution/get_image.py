@@ -3,8 +3,8 @@ import sys
 from PIL import Image
 
 if len (sys.argv) != 2:
-       print("[+] Usage : ./{sys.argv[0]} <filename>")
-       exit(1)
+   print("[+] Usage : ./{sys.argv[0]} <filename>")
+   exit(1)
 
 with open(sys.argv[1] , "rb") as f:
      data = f.read()
