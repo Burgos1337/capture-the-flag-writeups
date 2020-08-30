@@ -18,4 +18,4 @@ And again we have a hint: now we need to decode the ROT cipher by bruteforcing t
 
 ![cr(5)](https://user-images.githubusercontent.com/57829161/79130333-77bf5c80-7daf-11ea-94f1-e624dd332605.jpg)
 
-Flag: DawgCTF{Lo0k_@t_M3_1_d0_Cr4p7o}
+Flag: `DawgCTF{Lo0k_@t_M3_1_d0_Cr4p7o}`
