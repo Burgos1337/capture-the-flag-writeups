@@ -16,4 +16,4 @@ The main idea is just to read the ```flag.txt``` file on the server, so let's ma
 
 ![lib(flag)](https://user-images.githubusercontent.com/57829161/78889921-525be700-7a6d-11ea-8886-0d3acddf3c06.png)
 
-Flag: SPR{G00D_H4CK3R_R3AD_G00D_B00KS}
+Flag: `SPR{G00D_H4CK3R_R3AD_G00D_B00KS}`
