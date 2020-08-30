@@ -22,4 +22,4 @@ the decoded payload looks like:
 
 ![who(flag)](https://user-images.githubusercontent.com/57829161/78892324-dca64a00-7a71-11ea-825b-4b4ea29c3be4.png)
 
-Flag: SPR{Y0U_JUST_H4CK3D_JSONPICKLE}
+Flag: `SPR{Y0U_JUST_H4CK3D_JSONPICKLE}`
