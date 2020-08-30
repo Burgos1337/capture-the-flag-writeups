@@ -1,6 +1,6 @@
 # Miyazaki Trivia writeup
 
-The first hint in this task point to `robots.txt` file, so let's try to check its content in browser:
+The first hint in this task points to `robots.txt` file, so let's try to check its content in browser:
 
 ![mt(0)](https://user-images.githubusercontent.com/57829161/78537182-bd9c8380-77f7-11ea-907d-0db6f7200a04.png)
 
@@ -12,4 +12,4 @@ All that we need to do is to google the answer for the question and change the G
 
 ![mt(flag)](https://user-images.githubusercontent.com/57829161/78537214-c8571880-77f7-11ea-95b7-ec0abe984c5b.png)
 
-Flag: auctf{f3ar_z_olD3_8l0oD}
+Flag: `auctf{f3ar_z_olD3_8l0oD}`
