@@ -31,4 +31,4 @@ So we should just decode that from hex:
 
 ![cyberchef](https://user-images.githubusercontent.com/57829161/78535887-90e76c80-77f5-11ea-9a37-6996a4705539.png)
 
-Flag: auctf{$h311_Sh0K_m3_z@ddY}
+Flag: `auctf{$h311_Sh0K_m3_z@ddY}`
