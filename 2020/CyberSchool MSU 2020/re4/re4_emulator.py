@@ -17,7 +17,6 @@ def hook_code(uc, address, size, user_data):
     if address == 0x27:
        uc.emu_stop()
 
-
 uc = Uc(UC_ARCH_X86, UC_MODE_32)
 
 base = 0
