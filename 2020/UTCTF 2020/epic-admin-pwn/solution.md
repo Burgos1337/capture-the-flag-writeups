@@ -18,4 +18,4 @@ dump the required table and get the flag:
 ![epic(flag)](https://user-images.githubusercontent.com/57829161/76209274-834cc000-6212-11ea-8912-4aed85bd3cad.png)
 
 
-Flag: utflag{dual1pa1sp3rf3ct}
+Flag: `utflag{dual1pa1sp3rf3ct}`
