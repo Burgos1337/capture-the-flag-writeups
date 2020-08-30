@@ -2,7 +2,6 @@
 from Crypto.PublicKey import RSA
 from secret import FLAG
 
-
 for i in range(1, 6):
     with open('{}.pub.pem'.format(i), 'rb') as f:
          key = RSA.importKey(f.read())
