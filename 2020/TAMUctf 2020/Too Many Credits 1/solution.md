@@ -13,4 +13,4 @@ send the required one to the server):
 
 ![too_many_credits(flag)](https://user-images.githubusercontent.com/57829161/78353790-55f5f680-75b3-11ea-95b2-9121af76df87.png)
 
-Flag: gigem{l0rdy_th15_1s_mAny_cr3d1ts}
+Flag: `gigem{l0rdy_th15_1s_mAny_cr3d1ts}`
