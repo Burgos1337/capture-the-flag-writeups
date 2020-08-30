@@ -3,7 +3,6 @@ from secret import flag
 import time
 from hashlib import md5
 
-
 key = md5(str(int(time.time()))).digest()
 padding = 16 - len(flag) % 16
 aes = AES.new(key, AES.MODE_ECB)
