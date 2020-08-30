@@ -12,4 +12,4 @@ The same way we are able to retrieve the table `accounts` in the `db` database a
 
 ![pe(flag)](https://user-images.githubusercontent.com/57829161/78357025-5b563f80-75b9-11ea-98d1-3330e10b26df.png)
 
-Flag: `gigem{h0peYouScr1ptedTh1s}`
+Flag: `gigem{h0peYouScr1ptedTh1s}`   
