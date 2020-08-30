@@ -8,7 +8,7 @@ def egcd(a, b):
 def modinv(a, m):
     g, x, y = egcd(a, m)
     if g != 1:
-       raise Exception("Modular inverse doesn't exist")
+       raise Exception("Modular inverse doesn't exist!")
     else:
        return x % m
 
