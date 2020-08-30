@@ -15,5 +15,5 @@ for i in f:
        dat += sor
 
 with open('data', 'wb') as out:
-    out.write(dat)
-    out.close()
+     out.write(dat)
+     out.close()
