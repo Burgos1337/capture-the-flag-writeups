@@ -1,6 +1,4 @@
 from flask import Flask, render_template, request
-#from flask_limiter import Limiter
-#from flask_limiter.util import get_remote_address
 
 from .secret import host, user, passwd, dbname
 
