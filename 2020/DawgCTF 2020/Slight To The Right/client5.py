@@ -22,7 +22,6 @@ from string import printable
 BLOCK_SIZE = 16
 pad = lambda s: s + ((BLOCK_SIZE - len(s) % BLOCK_SIZE) % BLOCK_SIZE) * b'\0'
 
-
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 server_address = ('crypto.ctf.umbccd.io', 13376)
@@ -70,18 +69,17 @@ nonce = ct[:16]
 encflag = ct[16:]
 
 for bbb in range(len(encflag) - len(flag)):
+    for i in printable:
+	guess = i
+	pt = flag + guess
 
-	for i in printable:
-		guess = i
-		pt = flag + guess
+        msg = b'enc:' + nonce + pt
+	sock.sendall(msg)
+	enc = sock.recv(1024)
+	enc = enc[16:]
 
-		msg = b'enc:' + nonce + pt
-		sock.sendall(msg)
-		enc = sock.recv(1024)
-		enc = enc[16:]
-
-		if (enc[len(flag)] == encflag[len(flag)]):
-		   print("FOUND!!")
-		   flag += guess
-		   print(flag)
-		   break
+	if (enc[len(flag)] == encflag[len(flag)]):
+	   print("FOUND!!")
+	   flag += guess
+	   print(flag)
+	   break
