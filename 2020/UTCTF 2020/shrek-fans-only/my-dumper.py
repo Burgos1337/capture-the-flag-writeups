@@ -42,7 +42,6 @@ tasks = [
     '.git/refs/remotes/origin/HEAD'
 ]
 
-
 for i in tasks:
     folder = i.split('/')
     if len(folder) > 1:
