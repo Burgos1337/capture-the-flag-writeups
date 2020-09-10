@@ -68,7 +68,7 @@ public class tough {
         else {
            for (int i = 0; i < input.length(); i++) {
                owo.put(therealflag[i], input.charAt(i));
-            }
+           }
         }
     }
 }
