@@ -1,7 +1,6 @@
 import java.util.*;
 
-public class tough
-{
+public class tough {
     public static int[] realflag = {9, 4, 23, 8, 17, 1, 18, 0, 13, 7, 2, 20, 16, 10, 22, 12, 19, 6, 15, 21, 3, 14, 5, 11};
     public static int[] therealflag = {20, 16, 12, 9, 6, 15, 21, 3, 18, 0, 13, 7, 1, 4, 23, 8, 17, 2, 10, 22, 19, 11, 14, 5};
     public static HashMap<Integer, Character> theflags = new HashMap<>();
@@ -18,7 +17,8 @@ public class tough
         String input = userInput.substring("rtcp{".length(), userInput.length() - 1);
         if (check(input)) {
            System.out.println("Access granted.");
-        } else {
+        } 
+        else {
            System.out.println("Access denied!");
         }
     }
@@ -64,9 +64,10 @@ public class tough
            for (int i = 0; i < input.length(); i++) {
                owo.put(realflag[i], input.charAt(i));
            }
-        } else {
+        } 
+        else {
            for (int i = 0; i < input.length(); i++) {
-                owo.put(therealflag[i], input.charAt(i));
+               owo.put(therealflag[i], input.charAt(i));
             }
         }
     }
