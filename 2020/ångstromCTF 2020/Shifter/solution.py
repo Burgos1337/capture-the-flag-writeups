@@ -20,7 +20,7 @@ for x in range(50):
     line = con.recvline().decode().split(' ')
     if (aa > 0):
        line = line[1:]
-    print (line)
+    print(line)
     txt = line[1]
     nbr = int(line[3].split('=')[1])
     res = encrypt(txt, fib(nbr))
