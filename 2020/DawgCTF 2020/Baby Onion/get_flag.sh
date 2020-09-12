@@ -1,1 +1,0 @@
-cat baby.onion | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | xxd -r -p | base64 -d | less
