@@ -20,7 +20,7 @@ def send_message(message):
     sys.stdout.flush()
 
 def eprint(*args, **kwargs):
-    print(*args, file=sys.stderr, **kwargs)
+    print(*args, file = sys.stderr, **kwargs)
 
 """
     Algebra
@@ -33,7 +33,7 @@ def kronecker(x, p):
 def findQNR(p):
     r = Crypto.Random.random.randrange(2, p - 1)
     while kronecker(r, p) == 1:
-       r = Crypto.Random.random.randrange(2, p-1)
+       r = Crypto.Random.random.randrange(2, p - 1)
     return r
 
 def findQR(p):
@@ -58,9 +58,9 @@ if __name__ == '__main__':
                plaintexts[0] = findQNR(key.p)
                plaintexts[1] = findQR(key.p)
 
-               challenge_bit = Crypto.Random.random.randrange(0,2)
+               challenge_bit = Crypto.Random.random.randrange(0, 2)
                eprint('[{0}][INFO] Bit {1} was generated.'.format(time.strftime("%Y-%m-%d. %H:%M:%S"), challenge_bit))
-               r = Crypto.Random.random.randrange(1,key.p-1) 
+               r = Crypto.Random.random.randrange(1, key.p - 1) 
                challenge = key.encrypt(plaintexts[challenge_bit], r)
 
                # Send challenge
