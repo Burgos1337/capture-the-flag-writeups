@@ -12,8 +12,8 @@ int main() {
     srand(1585599106); 
 
     f = fopen("key.txt", "w");
-    for ( i = 0 ; i < n ; i++ ) {
-    	  fprintf(f, "%d", rand() & 0xff);
+    for (i = 0 ; i < n ; i++) {
+    	fprintf(f, "%d", rand() & 0xff);
     }
     fclose(f);
     return(0);
