@@ -267,7 +267,7 @@ burgos1337@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/NACTF 2020/dROPit$ python
 burgos1337@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/NACTF 2020/dROPit$
 ```
 
-Готово! Теперь с помошью ресурса https://libc.rip/ устанавливаем, что требуемая версия библиотеки - `libc6_2.32-0ubuntu2_amd64`:
+Готово! Теперь с помошью ресурса [libc.rip](https://libc.rip/) устанавливаем, что требуемая версия библиотеки - `libc6_2.32-0ubuntu2_amd64`:
 
 ![Image alt](https://github.com/Burgos1337/capture-the-flag-writeups/blob/master/2020/NACTF%202020/dROPit/assets/libc-rip.jpg)
 
