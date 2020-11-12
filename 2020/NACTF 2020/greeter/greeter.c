@@ -6,8 +6,8 @@ void win() {
     char flagbuf[64];
     FILE* f = fopen("./flag.txt", "r");
     if (f == NULL) {
-	   puts("flag file not found!");
-	   exit(1);
+       puts("flag file not found!");
+       exit(1);
     }
     fgets(flagbuf, 64, f);
     fputs(flagbuf, stdout);
