@@ -77,4 +77,5 @@ congrats! here's your flag:
 nactf{n4v4r_us3_g3ts_5vlrDKJufaUOd8Ur}
 [*] Got EOF while reading in interactive
 $
+burgos1337@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/NACTF 2020/greeter
 ```
