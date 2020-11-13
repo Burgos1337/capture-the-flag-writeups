@@ -92,7 +92,7 @@ burgos1337@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/NACTF 2020/dROPit$
 
 ## Динамический анализ
 
-Запустим бинарный файл и убедимся в корректности проведенного статического анализа:
+Запустим бинарный файл и убедимся в корректности проведённого статического анализа:
 
 ```
 burgos1337@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/NACTF 2020/dROPit$ ./dropit
