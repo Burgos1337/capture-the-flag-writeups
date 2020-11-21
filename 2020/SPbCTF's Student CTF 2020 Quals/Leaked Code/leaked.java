@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class leaked {
-	public static void main(String args[]) {
+    public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter access code : ");
         String access_code = scanner.next();
