@@ -1,0 +1,321 @@
+Oct 29 00:00:00 debian-min rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="344" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
+Oct 29 00:00:00 debian-min systemd[1]: logrotate.service: Succeeded.
+Oct 29 00:00:00 debian-min systemd[1]: Started Rotate log files.
+Oct 29 00:00:00 debian-min systemd[1]: man-db.service: Succeeded.
+Oct 29 00:00:00 debian-min systemd[1]: Started Daily man-db regeneration.
+Oct 29 00:00:40 debian-min kernel: [68721.898548] perf: interrupt took too long (3180 > 3172), lowering kernel.perf_event_max_sample_rate to 62750
+Oct 29 00:09:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 00:09:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 00:09:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 00:09:01 debian-min CRON[128156]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 00:11:52 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 00:11:52 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 00:11:52 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1763 seconds.
+Oct 29 0:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 0:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 0:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 0:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 0:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 0:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 0:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 0:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 0:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 1:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 1:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 1:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 1:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 1:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 1:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 1:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 1:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 1:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 1:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 1:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 1:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 1:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 2:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 2:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 2:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 2:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 2:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 2:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 2:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 2:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 2:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 2:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 2:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 2:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 2:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 3:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 3:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 3:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 3:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 3:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 3:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 3:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 3:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 3:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 3:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 3:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 3:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 3:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 4:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 4:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 4:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 4:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 4:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 4:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 4:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 4:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 4:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 4:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 4:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 4:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 4:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 5:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 5:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 5:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 5:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 5:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 5:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 5:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 5:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 5:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 5:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 5:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 5:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 5:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 6:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 6:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 6:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 6:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 6:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 6:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 6:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 6:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 6:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 6:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 6:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 6:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 6:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 7:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 7:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 7:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 7:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 7:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 7:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 7:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 7:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 7:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 7:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 7:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 7:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 7:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 8:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 8:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 8:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 8:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 8:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 8:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 8:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 8:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 8:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 8:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 8:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 8:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 8:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 9:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 9:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 9:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 9:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 9:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 9:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 9:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 9:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 9:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 9:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 9:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 9:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 9:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 10:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 10:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 10:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 10:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 10:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 10:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 10:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 10:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 10:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 10:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 10:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 10:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 10:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 11:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 11:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 11:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 11:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 11:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 11:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 11:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 11:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 11:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 11:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 11:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 11:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 11:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 12:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 12:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 12:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 12:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 12:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 12:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 12:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 12:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 12:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 12:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 12:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 12:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 12:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 13:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 13:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 13:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 13:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 13:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 13:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 13:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 13:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 13:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 13:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 13:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 13:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 13:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 14:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 14:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 14:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 14:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 14:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 14:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 14:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 14:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 14:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 14:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 14:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 14:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 14:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 15:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 15:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 15:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 15:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 15:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 15:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 15:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 15:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 15:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 15:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 15:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 15:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 15:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 16:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 16:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 16:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 16:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 16:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 16:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 16:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 16:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 16:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 16:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 16:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 16:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 16:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 17:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 17:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 17:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 17:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 17:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 17:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 17:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 17:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 17:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 17:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 17:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 17:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 17:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 18:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 18:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 18:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 18:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 18:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 18:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 18:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 18:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 18:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 18:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 18:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 18:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 18:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 19:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 19:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 19:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 19:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 19:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 19:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 19:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 19:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 19:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 19:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 19:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 19:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 19:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 20:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 20:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 20:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 20:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 20:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 20:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 20:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 20:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 20:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 20:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 20:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 20:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 20:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 21:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 21:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 21:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 21:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 21:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 21:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 21:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 21:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 21:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 21:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 21:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 21:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 21:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 22:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 22:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 22:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 22:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 22:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 22:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 22:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 22:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 22:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 22:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 22:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 22:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 22:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 23:17:01 debian-min CRON[78381]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 23:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 23:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 23:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 29 23:26:54 debian-min CRON[5011]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 29 23:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+Oct 29 23:39:01 debian-min CRON[99275]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 29 23:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 23:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 23:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 23:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 23:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 23:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.

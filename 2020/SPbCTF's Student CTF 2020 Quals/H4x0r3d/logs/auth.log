@@ -1,0 +1,447 @@
+Mar 21 16:03:38 debian-min systemd-logind[439]: New seat seat0.
+Mar 21 16:03:38 debian-min systemd-logind[439]: Watching system buttons on /dev/input/event4 (Power Button)
+Mar 21 16:03:38 debian-min systemd-logind[439]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Mar 21 16:03:43 debian-min login[450]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=toor
+Mar 21 16:03:46 debian-min login[450]: FAILED LOGIN (1) on '/dev/tty1' FOR 'toor', Authentication failure
+Mar 21 16:03:51 debian-min login[450]: pam_unix(login:session): session opened for user toor by LOGIN(uid=0)
+Mar 21 16:03:51 debian-min systemd-logind[439]: New session 1 of user toor.
+Mar 21 16:03:51 debian-min systemd: pam_unix(systemd-user:session): session opened for user toor by (uid=0)
+Mar 21 16:04:13 debian-min su: (to root) toor on tty1
+Mar 21 16:04:13 debian-min su: pam_unix(su:session): session opened for user root by toor(uid=1000)
+Mar 21 16:07:25 debian-min systemd-logind[421]: New seat seat0.
+Mar 21 16:07:25 debian-min systemd-logind[421]: Watching system buttons on /dev/input/event4 (Power Button)
+Mar 21 16:07:25 debian-min systemd-logind[421]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Mar 21 16:07:32 debian-min login[425]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Mar 21 16:07:32 debian-min systemd-logind[421]: New session 1 of user root.
+Mar 21 16:07:32 debian-min systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Mar 21 16:07:32 debian-min login[437]: ROOT LOGIN  on '/dev/tty1'
+Oct 27 00:34:45 debian-min systemd-logind[356]: New seat seat0.
+Oct 27 00:34:45 debian-min systemd-logind[356]: Watching system buttons on /dev/input/event4 (Power Button)
+Oct 27 00:34:45 debian-min systemd-logind[356]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Oct 27 01:17:02 debian-min CRON[587]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 01:17:02 debian-min CRON[587]: pam_unix(cron:session): session closed for user root
+Oct 27 02:17:01 debian-min CRON[619]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 02:17:01 debian-min CRON[619]: pam_unix(cron:session): session closed for user root
+Oct 27 03:17:01 debian-min CRON[661]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 03:17:01 debian-min CRON[661]: pam_unix(cron:session): session closed for user root
+Oct 27 13:50:25 debian-min login[429]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=toor
+Oct 27 13:50:28 debian-min login[429]: FAILED LOGIN (1) on '/dev/tty1' FOR 'toor', Authentication failure
+Oct 27 13:50:32 debian-min login[429]: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Oct 27 13:50:32 debian-min systemd-logind[356]: New session 4 of user root.
+Oct 27 13:50:32 debian-min systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Oct 27 13:50:32 debian-min login[760]: ROOT LOGIN  on '/dev/tty1'
+Oct 27 14:17:01 debian-min CRON[777]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 14:17:01 debian-min CRON[777]: pam_unix(cron:session): session closed for user root
+Oct 27 15:17:01 debian-min CRON[810]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 15:17:01 debian-min CRON[810]: pam_unix(cron:session): session closed for user root
+Oct 27 16:17:01 debian-min CRON[843]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 16:17:01 debian-min CRON[843]: pam_unix(cron:session): session closed for user root
+Oct 27 17:17:01 debian-min CRON[875]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 17:17:01 debian-min CRON[875]: pam_unix(cron:session): session closed for user root
+Oct 27 18:17:01 debian-min CRON[956]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 18:17:01 debian-min CRON[956]: pam_unix(cron:session): session closed for user root
+Oct 27 19:17:01 debian-min CRON[997]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 19:17:01 debian-min CRON[997]: pam_unix(cron:session): session closed for user root
+Oct 27 20:17:01 debian-min CRON[1030]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 20:17:01 debian-min CRON[1030]: pam_unix(cron:session): session closed for user root
+Oct 27 20:38:21 debian-min groupadd[1831]: group added to /etc/group: name=ssl-cert, GID=112
+Oct 27 20:38:21 debian-min groupadd[1831]: group added to /etc/gshadow: name=ssl-cert
+Oct 27 20:38:21 debian-min groupadd[1831]: new group: name=ssl-cert, GID=112
+Oct 27 20:38:22 debian-min groupadd[1903]: group added to /etc/group: name=ftp, GID=113
+Oct 27 20:38:22 debian-min groupadd[1903]: group added to /etc/gshadow: name=ftp
+Oct 27 20:38:22 debian-min groupadd[1903]: new group: name=ftp, GID=113
+Oct 27 20:38:22 debian-min useradd[1907]: new user: name=ftp, UID=105, GID=113, home=/srv/ftp, shell=/usr/sbin/nologin
+Oct 27 20:38:22 debian-min usermod[1913]: change user 'ftp' password
+Oct 27 20:38:22 debian-min chage[1918]: changed password expiry for ftp
+Oct 27 20:38:22 debian-min chfn[1921]: changed user 'ftp' information
+Oct 27 21:17:01 debian-min CRON[29219]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 21:17:01 debian-min CRON[29219]: pam_unix(cron:session): session closed for user root
+Oct 27 21:20:45 debian-min passwd[29232]: pam_unix(passwd:chauthtok): password changed for www-data
+Oct 27 21:23:51 debian-min su: (to www-data) root on tty1
+Oct 27 21:23:51 debian-min su: pam_unix(su:session): session opened for user www-data by root(uid=0)
+Oct 27 21:23:51 debian-min nologin: Attempted login by root on /dev/tty1
+Oct 27 21:23:51 debian-min su: pam_unix(su:session): session closed for user www-data
+Oct 27 21:30:21 debian-min sudo:     root : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chown -R www-data:www-data /var/www/
+Oct 27 21:30:21 debian-min sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Oct 27 21:30:21 debian-min sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 21:37:44 debian-min sudo:     root : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/service php-fpm start
+Oct 27 21:37:44 debian-min sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Oct 27 21:37:44 debian-min sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 21:37:49 debian-min sudo:     root : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/service php start
+Oct 27 21:37:49 debian-min sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Oct 27 21:37:49 debian-min sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 21:38:07 debian-min sudo:     root : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/service fpm start
+Oct 27 21:38:07 debian-min sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Oct 27 21:38:07 debian-min sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 21:38:19 debian-min sudo:     root : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/service php-fmp7.3 start
+Oct 27 21:38:19 debian-min sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Oct 27 21:38:20 debian-min sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 21:38:26 debian-min sudo:     root : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/service php-fpm7.3 start
+Oct 27 21:38:26 debian-min sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Oct 27 21:38:26 debian-min sudo: pam_unix(sudo:session): session closed for user root
+Oct 27 21:39:01 debian-min CRON[29517]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 21:39:01 debian-min CRON[29517]: pam_unix(cron:session): session closed for user root
+Oct 27 21:47:28 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.138  user=www-data
+Oct 27 21:58:19 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 27 21:58:19 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 27 21:58:27 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 27 21:58:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 27 21:58:49 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 27 21:58:49 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 27 22:09:01 debian-min CRON[29726]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 22:09:01 debian-min CRON[29726]: pam_unix(cron:session): session closed for user root
+Oct 27 22:17:01 debian-min CRON[29779]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 22:17:01 debian-min CRON[29779]: pam_unix(cron:session): session closed for user root
+Oct 27 22:18:29 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 27 22:18:29 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:83.149.46.91 
+Oct 27 22:39:01 debian-min CRON[29797]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 22:39:01 debian-min CRON[29797]: pam_unix(cron:session): session closed for user root
+Oct 27 23:09:01 debian-min CRON[29859]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 23:09:01 debian-min CRON[29859]: pam_unix(cron:session): session closed for user root
+Oct 27 23:17:01 debian-min CRON[29918]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 27 23:17:01 debian-min CRON[29918]: pam_unix(cron:session): session closed for user root
+Oct 28 18:09:01 debian-min CRON[46428]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 18:09:01 debian-min CRON[46428]: pam_unix(cron:session): session closed for user root
+Oct 28 18:17:01 debian-min CRON[54099]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 18:17:01 debian-min CRON[54099]: pam_unix(cron:session): session closed for user root
+Oct 28 18:39:01 debian-min CRON[74998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 18:39:01 debian-min CRON[74998]: pam_unix(cron:session): session closed for user root
+Oct 28 19:09:01 debian-min CRON[103539]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 19:09:01 debian-min CRON[103539]: pam_unix(cron:session): session closed for user root
+Oct 28 19:17:01 debian-min CRON[111198]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 19:17:01 debian-min CRON[111198]: pam_unix(cron:session): session closed for user root
+Oct 28 19:39:01 debian-min CRON[1381]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 19:39:01 debian-min CRON[1381]: pam_unix(cron:session): session closed for user root
+Oct 28 20:09:01 debian-min CRON[30013]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 20:09:01 debian-min CRON[30013]: pam_unix(cron:session): session closed for user root
+Oct 28 20:17:01 debian-min CRON[37634]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 20:17:01 debian-min CRON[37634]: pam_unix(cron:session): session closed for user root
+Oct 28 20:39:01 debian-min CRON[58509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 20:39:01 debian-min CRON[58509]: pam_unix(cron:session): session closed for user root
+Oct 28 21:09:01 debian-min CRON[87050]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 21:09:01 debian-min CRON[87050]: pam_unix(cron:session): session closed for user root
+Oct 28 21:17:01 debian-min CRON[94692]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 21:17:01 debian-min CRON[94692]: pam_unix(cron:session): session closed for user root
+Oct 28 21:39:01 debian-min CRON[115591]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 21:39:01 debian-min CRON[115591]: pam_unix(cron:session): session closed for user root
+Oct 28 21:47:10 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 21:47:10 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=anonymous rhost=::ffff:178.140.251.197 
+Oct 28 22:09:01 debian-min CRON[13389]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 22:09:01 debian-min CRON[13389]: pam_unix(cron:session): session closed for user root
+Oct 28 22:17:01 debian-min CRON[21055]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 22:17:01 debian-min CRON[21055]: pam_unix(cron:session): session closed for user root
+Oct 28 22:39:01 debian-min CRON[41962]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 22:39:01 debian-min CRON[41962]: pam_unix(cron:session): session closed for user root
+Oct 28 23:09:01 debian-min CRON[70732]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 23:09:01 debian-min CRON[70732]: pam_unix(cron:session): session closed for user root
+Oct 28 23:17:01 debian-min CRON[78380]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 23:17:01 debian-min CRON[78380]: pam_unix(cron:session): session closed for user root
+Oct 28 23:39:01 debian-min CRON[99274]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 28 23:39:01 debian-min CRON[99274]: pam_unix(cron:session): session closed for user root
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:52 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:192.168.138.1  user=root
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:56:58 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:192.168.138.1 
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:57:02 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:192.168.138.1  user=www-data
+Oct 28 23:57:03 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:03 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:192.168.138.1 
+Oct 28 23:57:06 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:09 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:09 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:09 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:09 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:09 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:09 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:09 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:09 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:09 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:192.168.138.1  user=ftp
+Oct 28 23:57:55 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 28 23:57:55 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=anonymous rhost=::ffff:192.168.138.1 
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_listfile(vsftpd:auth): Refused user root for service vsftpd
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:13 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=root rhost=::ffff:217.66.158.36  user=root
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:17 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:19 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:19 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:19 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:19 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:19 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:19 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:19 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:19 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:19 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:19 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:19 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:19 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=test rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=admin rhost=::ffff:217.66.158.36 
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:22 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:27 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=www-data rhost=::ffff:217.66.158.36  user=www-data
+Oct 29 00:00:28 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:28 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=installer rhost=::ffff:217.66.158.36 
+Oct 29 00:00:31 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:34 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:34 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:34 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:34 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:34 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:34 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:34 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:34 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:00:34 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=ftp rhost=::ffff:217.66.158.36  user=ftp
+Oct 29 00:08:02 debian-min sudo:     root : TTY=unknown ; PWD=/var/www/html ; USER=root ; COMMAND=list
+Oct 29 00:09:01 debian-min CRON[128155]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 00:09:01 debian-min CRON[128155]: pam_unix(cron:session): session closed for user root
+Oct 29 00:17:01 debian-min CRON[5010]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 29 00:17:01 debian-min CRON[5010]: pam_unix(cron:session): session closed for user root
+Oct 29 00:18:33 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:18:33 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=anonymous rhost=::ffff:192.168.138.136 
+Oct 29 00:18:34 debian-min vsftpd: pam_unix(vsftpd:auth): check pass; user unknown
+Oct 29 00:18:34 debian-min vsftpd: pam_unix(vsftpd:auth): authentication failure; logname= uid=0 euid=0 tty=ftp ruser=anonymous rhost=::ffff:192.168.138.136 

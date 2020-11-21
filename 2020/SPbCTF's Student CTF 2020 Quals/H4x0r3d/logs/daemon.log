@@ -1,0 +1,788 @@
+Mar 21 16:03:38 debian-min systemd-sysusers[295]: Creating group systemd-coredump with gid 999.
+Mar 21 16:03:38 debian-min systemd-sysusers[295]: Creating user systemd-coredump (systemd Core Dumper) with uid 999 and gid 999.
+Mar 21 16:03:38 debian-min systemd-udevd[321]: Using default interface naming scheme 'v240'.
+Mar 21 16:03:38 debian-min systemd-udevd[321]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar 21 16:03:38 debian-min systemd-udevd[333]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar 21 16:03:38 debian-min systemd[1]: Starting Flush Journal to Persistent Storage...
+Mar 21 16:03:38 debian-min apparmor.systemd[329]: Restarting AppArmor
+Mar 21 16:03:38 debian-min apparmor.systemd[329]: Reloading AppArmor profiles
+Mar 21 16:03:38 debian-min systemd[1]: Started Raise network interfaces.
+Mar 21 16:03:38 debian-min systemd[1]: Reached target Network.
+Mar 21 16:03:38 debian-min systemd[1]: Started Flush Journal to Persistent Storage.
+Mar 21 16:03:38 debian-min systemd[1]: Starting Create Volatile Files and Directories...
+Mar 21 16:03:38 debian-min systemd[1]: Started Create Volatile Files and Directories.
+Mar 21 16:03:38 debian-min systemd[1]: Found device 82545EM Gigabit Ethernet Controller (Copper) (PRO/1000 MT Single Port Adapter).
+Mar 21 16:03:38 debian-min systemd[1]: Found device VMware_Virtual_S 5.
+Mar 21 16:03:38 debian-min systemd[1]: Activating swap /dev/disk/by-uuid/f4455846-cdf9-435b-9339-699c9e3a6698...
+Mar 21 16:03:38 debian-min systemd[1]: Started ifup for ens33.
+Mar 21 16:03:38 debian-min systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 21 16:03:38 debian-min systemd[1]: Starting Network Time Synchronization...
+Mar 21 16:03:38 debian-min systemd[1]: Activated swap /dev/disk/by-uuid/f4455846-cdf9-435b-9339-699c9e3a6698.
+Mar 21 16:03:38 debian-min systemd[1]: Reached target Swap.
+Mar 21 16:03:38 debian-min systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 21 16:03:38 debian-min dhclient[404]: Internet Systems Consortium DHCP Client 4.4.1
+Mar 21 16:03:38 debian-min sh[394]: Internet Systems Consortium DHCP Client 4.4.1
+Mar 21 16:03:38 debian-min sh[394]: Copyright 2004-2018 Internet Systems Consortium.
+Mar 21 16:03:38 debian-min sh[394]: All rights reserved.
+Mar 21 16:03:38 debian-min sh[394]: For info, please visit https://www.isc.org/software/dhcp/
+Mar 21 16:03:38 debian-min dhclient[404]: Copyright 2004-2018 Internet Systems Consortium.
+Mar 21 16:03:38 debian-min dhclient[404]: All rights reserved.
+Mar 21 16:03:38 debian-min dhclient[404]: For info, please visit https://www.isc.org/software/dhcp/
+Mar 21 16:03:38 debian-min dhclient[404]: 
+Mar 21 16:03:38 debian-min sh[394]: Listening on LPF/ens33/00:0c:29:ef:0a:da
+Mar 21 16:03:38 debian-min sh[394]: Sending on   LPF/ens33/00:0c:29:ef:0a:da
+Mar 21 16:03:38 debian-min sh[394]: Sending on   Socket/fallback
+Mar 21 16:03:38 debian-min sh[394]: Created duid "\000\001\000\001&\010\315)\000\014)\357\012\332".
+Mar 21 16:03:38 debian-min sh[394]: DHCPDISCOVER on ens33 to 255.255.255.255 port 67 interval 4
+Mar 21 16:03:38 debian-min dhclient[404]: Listening on LPF/ens33/00:0c:29:ef:0a:da
+Mar 21 16:03:38 debian-min dhclient[404]: Sending on   LPF/ens33/00:0c:29:ef:0a:da
+Mar 21 16:03:38 debian-min dhclient[404]: Sending on   Socket/fallback
+Mar 21 16:03:38 debian-min dhclient[404]: Created duid "\000\001\000\001&\010\315)\000\014)\357\012\332".
+Mar 21 16:03:38 debian-min dhclient[404]: DHCPDISCOVER on ens33 to 255.255.255.255 port 67 interval 4
+Mar 21 16:03:38 debian-min systemd[1]: Started Network Time Synchronization.
+Mar 21 16:03:38 debian-min systemd[1]: Reached target System Initialization.
+Mar 21 16:03:38 debian-min systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar 21 16:03:38 debian-min systemd[1]: Reached target Sockets.
+Mar 21 16:03:38 debian-min systemd[1]: Reached target Basic System.
+Mar 21 16:03:38 debian-min systemd[1]: Started Regular background program processing daemon.
+Mar 21 16:03:38 debian-min systemd[1]: Starting System Logging Service...
+Mar 21 16:03:38 debian-min systemd[1]: Starting Login Service...
+Mar 21 16:03:38 debian-min systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Mar 21 16:03:38 debian-min systemd[1]: Starting Permit User Sessions...
+Mar 21 16:03:38 debian-min systemd[1]: Started D-Bus System Message Bus.
+Mar 21 16:03:38 debian-min systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 21 16:03:38 debian-min systemd[1]: Reached target System Time Synchronized.
+Mar 21 16:03:38 debian-min systemd[1]: Started Daily rotation of log files.
+Mar 21 16:03:38 debian-min systemd[1]: Started Daily man-db regeneration.
+Mar 21 16:03:38 debian-min systemd[1]: Started Daily apt download activities.
+Mar 21 16:03:38 debian-min systemd[1]: Started Daily apt upgrade and clean activities.
+Mar 21 16:03:38 debian-min systemd[1]: Reached target Timers.
+Mar 21 16:03:38 debian-min systemd[1]: Started System Logging Service.
+Mar 21 16:03:38 debian-min systemd[1]: Started Permit User Sessions.
+Mar 21 16:03:38 debian-min systemd[1]: Started Getty on tty1.
+Mar 21 16:03:38 debian-min systemd[1]: Reached target Login Prompts.
+Mar 21 16:03:38 debian-min systemd[1]: Started Login Service.
+Mar 21 16:03:38 debian-min systemd[1]: Reached target Multi-User System.
+Mar 21 16:03:38 debian-min systemd[1]: Reached target Graphical Interface.
+Mar 21 16:03:38 debian-min systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 21 16:03:38 debian-min systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Mar 21 16:03:38 debian-min systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 21 16:03:38 debian-min systemd[1]: Startup finished in 1.821s (kernel) + 464ms (userspace) = 2.285s.
+Mar 21 16:03:38 debian-min systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Mar 21 16:03:38 debian-min systemd[1]: Starting Load/Save RF Kill Switch Status...
+Mar 21 16:03:38 debian-min systemd[1]: Reached target Bluetooth.
+Mar 21 16:03:38 debian-min systemd[1]: Started Load/Save RF Kill Switch Status.
+Mar 21 16:03:38 debian-min systemd[1]: Reached target Sound Card.
+Mar 21 16:03:38 debian-min dhclient[404]: DHCPOFFER of 192.168.174.129 from 192.168.174.254
+Mar 21 16:03:38 debian-min sh[394]: DHCPOFFER of 192.168.174.129 from 192.168.174.254
+Mar 21 16:03:38 debian-min sh[394]: DHCPREQUEST for 192.168.174.129 on ens33 to 255.255.255.255 port 67
+Mar 21 16:03:38 debian-min dhclient[404]: DHCPREQUEST for 192.168.174.129 on ens33 to 255.255.255.255 port 67
+Mar 21 16:03:38 debian-min dhclient[404]: DHCPACK of 192.168.174.129 from 192.168.174.254
+Mar 21 16:03:38 debian-min sh[394]: DHCPACK of 192.168.174.129 from 192.168.174.254
+Mar 21 16:03:38 debian-min dhclient[404]: bound to 192.168.174.129 -- renewal in 785 seconds.
+Mar 21 16:03:38 debian-min sh[394]: bound to 192.168.174.129 -- renewal in 785 seconds.
+Mar 21 16:03:38 debian-min sh[394]: ens33=ens33
+Mar 21 16:03:43 debian-min systemd[1]: systemd-rfkill.service: Succeeded.
+Mar 21 16:03:51 debian-min systemd[1]: Created slice User Slice of UID 1000.
+Mar 21 16:03:51 debian-min systemd[1]: Starting User Runtime Directory /run/user/1000...
+Mar 21 16:03:51 debian-min systemd[1]: Started User Runtime Directory /run/user/1000.
+Mar 21 16:03:51 debian-min systemd[1]: Starting User Manager for UID 1000...
+Mar 21 16:03:51 debian-min systemd[487]: Reached target Timers.
+Mar 21 16:03:51 debian-min systemd[487]: Reached target Sockets.
+Mar 21 16:03:51 debian-min systemd[487]: Reached target Paths.
+Mar 21 16:03:51 debian-min systemd[487]: Reached target Basic System.
+Mar 21 16:03:51 debian-min systemd[487]: Reached target Default.
+Mar 21 16:03:51 debian-min systemd[487]: Startup finished in 11ms.
+Mar 21 16:03:51 debian-min systemd[1]: Started User Manager for UID 1000.
+Mar 21 16:03:51 debian-min systemd[1]: Started Session 1 of user toor.
+Mar 21 16:07:25 debian-min dhclient[378]: Internet Systems Consortium DHCP Client 4.4.1
+Mar 21 16:07:25 debian-min systemd-udevd[277]: Using default interface naming scheme 'v240'.
+Mar 21 16:07:25 debian-min dhclient[378]: Copyright 2004-2018 Internet Systems Consortium.
+Mar 21 16:07:25 debian-min systemd-udevd[277]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar 21 16:07:25 debian-min dhclient[378]: All rights reserved.
+Mar 21 16:07:25 debian-min systemd-udevd[274]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar 21 16:07:25 debian-min dhclient[378]: For info, please visit https://www.isc.org/software/dhcp/
+Mar 21 16:07:25 debian-min systemd[1]: Starting Flush Journal to Persistent Storage...
+Mar 21 16:07:25 debian-min dhclient[378]: 
+Mar 21 16:07:25 debian-min apparmor.systemd[279]: Restarting AppArmor
+Mar 21 16:07:25 debian-min apparmor.systemd[279]: Reloading AppArmor profiles
+Mar 21 16:07:25 debian-min sh[352]: Internet Systems Consortium DHCP Client 4.4.1
+Mar 21 16:07:25 debian-min sh[352]: Copyright 2004-2018 Internet Systems Consortium.
+Mar 21 16:07:25 debian-min sh[352]: All rights reserved.
+Mar 21 16:07:25 debian-min sh[352]: For info, please visit https://www.isc.org/software/dhcp/
+Mar 21 16:07:25 debian-min dhclient[378]: Listening on LPF/ens33/00:0c:29:ef:0a:da
+Mar 21 16:07:25 debian-min sh[352]: Listening on LPF/ens33/00:0c:29:ef:0a:da
+Mar 21 16:07:25 debian-min sh[352]: Sending on   LPF/ens33/00:0c:29:ef:0a:da
+Mar 21 16:07:25 debian-min sh[352]: Sending on   Socket/fallback
+Mar 21 16:07:25 debian-min sh[352]: DHCPREQUEST for 192.168.174.129 on ens33 to 255.255.255.255 port 67
+Mar 21 16:07:25 debian-min dhclient[378]: Sending on   LPF/ens33/00:0c:29:ef:0a:da
+Mar 21 16:07:25 debian-min dhclient[378]: Sending on   Socket/fallback
+Mar 21 16:07:25 debian-min dhclient[378]: DHCPREQUEST for 192.168.174.129 on ens33 to 255.255.255.255 port 67
+Mar 21 16:07:25 debian-min dhclient[378]: DHCPACK of 192.168.174.129 from 192.168.174.254
+Mar 21 16:07:25 debian-min sh[352]: DHCPACK of 192.168.174.129 from 192.168.174.254
+Mar 21 16:07:25 debian-min dhclient[378]: bound to 192.168.174.129 -- renewal in 872 seconds.
+Mar 21 16:07:25 debian-min sh[352]: bound to 192.168.174.129 -- renewal in 872 seconds.
+Mar 21 16:07:25 debian-min systemd[1]: Started Flush Journal to Persistent Storage.
+Mar 21 16:07:25 debian-min systemd[1]: Starting Create Volatile Files and Directories...
+Mar 21 16:07:25 debian-min sh[352]: ens33=ens33
+Mar 21 16:07:25 debian-min systemd[1]: Started Create Volatile Files and Directories.
+Mar 21 16:07:25 debian-min systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Mar 21 16:07:25 debian-min systemd[1]: Starting Network Time Synchronization...
+Mar 21 16:07:25 debian-min systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Mar 21 16:07:25 debian-min systemd[1]: Started Network Time Synchronization.
+Mar 21 16:07:25 debian-min systemd[1]: Reached target System Time Synchronized.
+Mar 21 16:07:25 debian-min systemd[1]: Reached target System Initialization.
+Mar 21 16:07:25 debian-min systemd[1]: Started Daily apt download activities.
+Mar 21 16:07:25 debian-min systemd[1]: Started Daily apt upgrade and clean activities.
+Mar 21 16:07:25 debian-min systemd[1]: Started Daily rotation of log files.
+Mar 21 16:07:25 debian-min systemd[1]: Listening on D-Bus System Message Bus Socket.
+Mar 21 16:07:25 debian-min systemd[1]: Reached target Sockets.
+Mar 21 16:07:25 debian-min systemd[1]: Reached target Basic System.
+Mar 21 16:07:25 debian-min systemd[1]: Started Regular background program processing daemon.
+Mar 21 16:07:25 debian-min systemd[1]: Starting System Logging Service...
+Mar 21 16:07:25 debian-min systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Mar 21 16:07:25 debian-min systemd[1]: Starting Permit User Sessions...
+Mar 21 16:07:25 debian-min systemd[1]: Started D-Bus System Message Bus.
+Mar 21 16:07:25 debian-min systemd[1]: Starting Login Service...
+Mar 21 16:07:25 debian-min systemd[1]: Started Daily man-db regeneration.
+Mar 21 16:07:25 debian-min systemd[1]: Started Daily Cleanup of Temporary Directories.
+Mar 21 16:07:25 debian-min systemd[1]: Reached target Timers.
+Mar 21 16:07:25 debian-min systemd[1]: Started System Logging Service.
+Mar 21 16:07:25 debian-min systemd[1]: Started Permit User Sessions.
+Mar 21 16:07:25 debian-min systemd[1]: Started Getty on tty1.
+Mar 21 16:07:25 debian-min systemd[1]: Reached target Login Prompts.
+Mar 21 16:07:25 debian-min systemd[1]: Started Login Service.
+Mar 21 16:07:25 debian-min systemd[1]: Reached target Multi-User System.
+Mar 21 16:07:25 debian-min systemd[1]: Reached target Graphical Interface.
+Mar 21 16:07:25 debian-min systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Mar 21 16:07:25 debian-min systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Mar 21 16:07:25 debian-min systemd[1]: Started Update UTMP about System Runlevel Changes.
+Mar 21 16:07:25 debian-min systemd[1]: Startup finished in 1.907s (kernel) + 1.042s (userspace) = 2.949s.
+Mar 21 16:07:25 debian-min systemd[1]: Reached target Sound Card.
+Mar 21 16:07:30 debian-min systemd[1]: systemd-rfkill.service: Succeeded.
+Mar 21 16:07:32 debian-min systemd[1]: Created slice User Slice of UID 0.
+Mar 21 16:07:32 debian-min systemd[1]: Starting User Runtime Directory /run/user/0...
+Mar 21 16:07:32 debian-min systemd[1]: Started User Runtime Directory /run/user/0.
+Mar 21 16:07:32 debian-min systemd[1]: Starting User Manager for UID 0...
+Mar 21 16:07:32 debian-min systemd[432]: Reached target Paths.
+Mar 21 16:07:32 debian-min systemd[432]: Reached target Timers.
+Mar 21 16:07:32 debian-min systemd[432]: Reached target Sockets.
+Mar 21 16:07:32 debian-min systemd[432]: Reached target Basic System.
+Mar 21 16:07:32 debian-min systemd[1]: Started User Manager for UID 0.
+Mar 21 16:07:32 debian-min systemd[1]: Started Session 1 of user root.
+Mar 21 16:07:32 debian-min systemd[432]: Reached target Default.
+Mar 21 16:07:32 debian-min systemd[432]: Startup finished in 12ms.
+Oct 27 00:34:45 debian-min systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct 27 00:34:45 debian-min systemd[1]: Started Create System Users.
+Oct 27 00:34:45 debian-min systemd[1]: Starting Create Static Device Nodes in /dev...
+Oct 27 00:34:45 debian-min systemd[1]: Started Create Static Device Nodes in /dev.
+Oct 27 00:34:45 debian-min systemd[1]: Starting udev Kernel Device Manager...
+Oct 27 00:34:45 debian-min systemd[1]: Started Flush Journal to Persistent Storage.
+Oct 27 00:34:45 debian-min systemd[1]: Started Set the console keyboard layout.
+Oct 27 00:34:45 debian-min systemd[1]: Reached target Local File Systems (Pre).
+Oct 27 00:34:45 debian-min systemd[1]: Reached target Local File Systems.
+Oct 27 00:34:45 debian-min systemd[1]: Starting Set console font and keymap...
+Oct 27 00:34:45 debian-min systemd[1]: Starting Load AppArmor profiles...
+Oct 27 00:34:45 debian-min systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Oct 27 00:34:45 debian-min systemd[1]: Starting Create Volatile Files and Directories...
+Oct 27 00:34:45 debian-min systemd[1]: Started Create Volatile Files and Directories.
+Oct 27 00:34:45 debian-min systemd[1]: Starting Network Time Synchronization...
+Oct 27 00:34:45 debian-min systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Oct 27 00:34:45 debian-min systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Oct 27 00:34:45 debian-min systemd[1]: Started Network Time Synchronization.
+Oct 27 00:34:45 debian-min systemd[1]: Reached target System Time Synchronized.
+Oct 27 00:34:45 debian-min systemd[1]: Started Set console font and keymap.
+Oct 27 00:34:45 debian-min systemd[1]: Started udev Kernel Device Manager.
+Oct 27 00:34:45 debian-min apparmor.systemd[274]: Restarting AppArmor
+Oct 27 00:34:45 debian-min apparmor.systemd[274]: Reloading AppArmor profiles
+Oct 27 00:34:45 debian-min systemd-udevd[288]: Using default interface naming scheme 'v240'.
+Oct 27 00:34:45 debian-min systemd-udevd[288]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct 27 00:34:45 debian-min systemd[1]: Found device VMware_Virtual_S 5.
+Oct 27 00:34:45 debian-min systemd[1]: Found device 82545EM Gigabit Ethernet Controller (Copper) (PRO/1000 MT Single Port Adapter).
+Oct 27 00:34:45 debian-min systemd[1]: Activating swap /dev/disk/by-uuid/f4455846-cdf9-435b-9339-699c9e3a6698...
+Oct 27 00:34:45 debian-min systemd[1]: Started Load AppArmor profiles.
+Oct 27 00:34:45 debian-min systemd[1]: Starting Raise network interfaces...
+Oct 27 00:34:45 debian-min systemd[1]: Started ifup for ens33.
+Oct 27 00:34:45 debian-min systemd[1]: Activated swap /dev/disk/by-uuid/f4455846-cdf9-435b-9339-699c9e3a6698.
+Oct 27 00:34:45 debian-min systemd[1]: Reached target Swap.
+Oct 27 00:34:45 debian-min systemd[1]: Reached target System Initialization.
+Oct 27 00:34:45 debian-min systemd[1]: Started Daily apt download activities.
+Oct 27 00:34:45 debian-min systemd[1]: Listening on D-Bus System Message Bus Socket.
+Oct 27 00:34:45 debian-min systemd[1]: Reached target Sockets.
+Oct 27 00:34:45 debian-min systemd[1]: Started Daily man-db regeneration.
+Oct 27 00:34:45 debian-min systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 27 00:34:45 debian-min systemd[1]: Started Daily rotation of log files.
+Oct 27 00:34:45 debian-min systemd[1]: Reached target Basic System.
+Oct 27 00:34:45 debian-min systemd[1]: Starting System Logging Service...
+Oct 27 00:34:45 debian-min systemd[1]: Started D-Bus System Message Bus.
+Oct 27 00:34:45 debian-min systemd[1]: Started Regular background program processing daemon.
+Oct 27 00:34:45 debian-min systemd[1]: Started Daily Cleanup of Temporary Directories.
+Oct 27 00:34:45 debian-min systemd[1]: Reached target Timers.
+Oct 27 00:34:45 debian-min systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Oct 27 00:34:45 debian-min systemd[1]: Starting Login Service...
+Oct 27 00:34:45 debian-min systemd-udevd[285]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct 27 00:34:45 debian-min systemd[1]: Starting Rotate log files...
+Oct 27 00:34:45 debian-min systemd[1]: Starting Daily man-db regeneration...
+Oct 27 00:34:45 debian-min systemd[1]: Started Login Service.
+Oct 27 00:34:45 debian-min systemd[1]: Started Raise network interfaces.
+Oct 27 00:34:45 debian-min systemd[1]: Started System Logging Service.
+Oct 27 00:34:45 debian-min systemd[1]: Reached target Bluetooth.
+Oct 27 00:34:45 debian-min systemd[1]: Listening on Load/Save RF Kill Switch Status /dev/rfkill Watch.
+Oct 27 00:34:45 debian-min systemd[1]: Reached target Network.
+Oct 27 00:34:45 debian-min systemd[1]: Starting Permit User Sessions...
+Oct 27 00:34:45 debian-min systemd[1]: Starting Daily apt download activities...
+Oct 27 00:34:45 debian-min systemd[1]: Starting Load/Save RF Kill Switch Status...
+Oct 27 00:34:45 debian-min systemd[1]: Started Permit User Sessions.
+Oct 27 00:34:45 debian-min systemd[1]: Started Getty on tty1.
+Oct 27 00:34:45 debian-min systemd[1]: Reached target Login Prompts.
+Oct 27 00:34:45 debian-min systemd[1]: Reached target Multi-User System.
+Oct 27 00:34:45 debian-min systemd[1]: Reached target Graphical Interface.
+Oct 27 00:34:45 debian-min systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Oct 27 00:34:45 debian-min dhclient[378]: Internet Systems Consortium DHCP Client 4.4.1
+Oct 27 00:34:45 debian-min sh[336]: Internet Systems Consortium DHCP Client 4.4.1
+Oct 27 00:34:45 debian-min sh[336]: Copyright 2004-2018 Internet Systems Consortium.
+Oct 27 00:34:45 debian-min sh[336]: All rights reserved.
+Oct 27 00:34:45 debian-min sh[336]: For info, please visit https://www.isc.org/software/dhcp/
+Oct 27 00:34:45 debian-min dhclient[378]: Copyright 2004-2018 Internet Systems Consortium.
+Oct 27 00:34:45 debian-min dhclient[378]: All rights reserved.
+Oct 27 00:34:45 debian-min dhclient[378]: For info, please visit https://www.isc.org/software/dhcp/
+Oct 27 00:34:45 debian-min dhclient[378]: 
+Oct 27 00:34:45 debian-min systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Oct 27 00:34:45 debian-min systemd[1]: Started Update UTMP about System Runlevel Changes.
+Oct 27 00:34:45 debian-min systemd[1]: logrotate.service: Succeeded.
+Oct 27 00:34:45 debian-min systemd[1]: Started Rotate log files.
+Oct 27 00:34:45 debian-min systemd[1]: Started Load/Save RF Kill Switch Status.
+Oct 27 00:34:45 debian-min dhclient[378]: Listening on LPF/ens33/00:0c:29:df:7b:94
+Oct 27 00:34:45 debian-min sh[336]: Listening on LPF/ens33/00:0c:29:df:7b:94
+Oct 27 00:34:45 debian-min sh[336]: Sending on   LPF/ens33/00:0c:29:df:7b:94
+Oct 27 00:34:45 debian-min sh[336]: Sending on   Socket/fallback
+Oct 27 00:34:45 debian-min sh[336]: DHCPDISCOVER on ens33 to 255.255.255.255 port 67 interval 7
+Oct 27 00:34:45 debian-min dhclient[378]: Sending on   LPF/ens33/00:0c:29:df:7b:94
+Oct 27 00:34:45 debian-min dhclient[378]: Sending on   Socket/fallback
+Oct 27 00:34:45 debian-min dhclient[378]: DHCPDISCOVER on ens33 to 255.255.255.255 port 67 interval 7
+Oct 27 00:34:45 debian-min systemd[1]: Reached target Sound Card.
+Oct 27 00:34:46 debian-min dhclient[378]: DHCPOFFER of 192.168.138.125 from 192.168.138.1
+Oct 27 00:34:46 debian-min sh[336]: DHCPOFFER of 192.168.138.125 from 192.168.138.1
+Oct 27 00:34:46 debian-min sh[336]: DHCPREQUEST for 192.168.138.125 on ens33 to 255.255.255.255 port 67
+Oct 27 00:34:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 255.255.255.255 port 67
+Oct 27 00:34:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 00:34:46 debian-min sh[336]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 00:34:46 debian-min systemd[1]: Stopping Network Time Synchronization...
+Oct 27 00:34:46 debian-min systemd[1]: systemd-timesyncd.service: Succeeded.
+Oct 27 00:34:46 debian-min systemd[1]: Stopped Network Time Synchronization.
+Oct 27 00:34:46 debian-min systemd[1]: Starting Network Time Synchronization...
+Oct 27 00:34:46 debian-min systemd[1]: Started Network Time Synchronization.
+Oct 27 00:34:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1524 seconds.
+Oct 27 00:34:46 debian-min sh[336]: bound to 192.168.138.125 -- renewal in 1524 seconds.
+Oct 27 00:34:46 debian-min sh[336]: ens33=ens33
+Oct 27 00:34:45 debian-min systemd[1]: man-db.service: Succeeded.
+Oct 27 00:34:45 debian-min systemd[1]: Started Daily man-db regeneration.
+Oct 27 00:34:47 debian-min systemd[1]: apt-daily.service: Succeeded.
+Oct 27 00:34:47 debian-min systemd[1]: Started Daily apt download activities.
+Oct 27 00:34:47 debian-min systemd[1]: Starting Daily apt upgrade and clean activities...
+Oct 27 00:34:47 debian-min systemd[1]: apt-daily-upgrade.service: Succeeded.
+Oct 27 00:34:47 debian-min systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 27 00:34:47 debian-min systemd[1]: Startup finished in 2.732s (kernel) + 4.839s (userspace) = 7.571s.
+Oct 27 00:34:49 debian-min systemd[1]: systemd-rfkill.service: Succeeded.
+Oct 27 00:49:47 debian-min systemd[1]: Starting Cleanup of Temporary Directories...
+Oct 27 00:49:47 debian-min systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Oct 27 00:49:47 debian-min systemd[1]: Started Cleanup of Temporary Directories.
+Oct 27 01:00:10 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 01:00:10 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 01:00:10 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1435 seconds.
+Oct 27 01:24:05 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 01:24:05 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 01:24:05 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1593 seconds.
+Oct 27 01:50:39 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 01:50:39 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 01:50:39 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1730 seconds.
+Oct 27 02:19:29 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 02:19:29 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 02:19:29 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1504 seconds.
+Oct 27 02:44:33 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 02:44:33 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 02:44:33 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1505 seconds.
+Oct 27 03:09:39 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 03:09:39 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 03:09:39 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1764 seconds.
+Oct 27 13:34:28 debian-min systemd[1]: Starting Daily apt upgrade and clean activities...
+Oct 27 13:34:29 debian-min systemd[1]: apt-daily-upgrade.service: Succeeded.
+Oct 27 13:34:29 debian-min systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 27 13:48:36 debian-min systemd[1]: Stopping Network Time Synchronization...
+Oct 27 13:48:36 debian-min systemd[1]: systemd-timesyncd.service: Succeeded.
+Oct 27 13:48:36 debian-min systemd[1]: Stopped Network Time Synchronization.
+Oct 27 13:48:36 debian-min systemd[1]: Starting Network Time Synchronization...
+Oct 27 13:48:36 debian-min systemd[1]: Started Network Time Synchronization.
+Oct 27 13:48:36 debian-min dhclient[378]: DHCPDISCOVER on ens33 to 255.255.255.255 port 67 interval 6
+Oct 27 13:48:36 debian-min dhclient[378]: DHCPOFFER of 192.168.138.125 from 192.168.138.1
+Oct 27 13:48:36 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 255.255.255.255 port 67
+Oct 27 13:48:36 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 13:48:36 debian-min systemd[1]: Stopping Network Time Synchronization...
+Oct 27 13:48:36 debian-min systemd[1]: systemd-timesyncd.service: Succeeded.
+Oct 27 13:48:36 debian-min systemd[1]: Stopped Network Time Synchronization.
+Oct 27 13:48:36 debian-min systemd[1]: Starting Network Time Synchronization...
+Oct 27 13:48:36 debian-min systemd[1]: Started Network Time Synchronization.
+Oct 27 13:48:36 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1582 seconds.
+Oct 27 13:50:32 debian-min systemd[1]: Created slice User Slice of UID 0.
+Oct 27 13:50:32 debian-min systemd[1]: Starting User Runtime Directory /run/user/0...
+Oct 27 13:50:32 debian-min systemd[1]: Started User Runtime Directory /run/user/0.
+Oct 27 13:50:32 debian-min systemd[1]: Starting User Manager for UID 0...
+Oct 27 13:50:32 debian-min systemd[755]: Reached target Paths.
+Oct 27 13:50:32 debian-min systemd[755]: Reached target Sockets.
+Oct 27 13:50:32 debian-min systemd[755]: Reached target Timers.
+Oct 27 13:50:32 debian-min systemd[755]: Reached target Basic System.
+Oct 27 13:50:32 debian-min systemd[1]: Started User Manager for UID 0.
+Oct 27 13:50:32 debian-min systemd[1]: Started Session 4 of user root.
+Oct 27 13:50:32 debian-min systemd[755]: Reached target Default.
+Oct 27 13:50:32 debian-min systemd[755]: Startup finished in 29ms.
+Oct 27 14:14:58 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 14:14:58 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 14:14:58 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1797 seconds.
+Oct 27 14:44:55 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 14:44:55 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 14:44:55 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1796 seconds.
+Oct 27 15:14:51 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 15:14:51 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 15:14:51 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1456 seconds.
+Oct 27 15:39:07 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 15:39:07 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 15:39:07 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1660 seconds.
+Oct 27 16:06:47 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 16:06:47 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 16:06:47 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1737 seconds.
+Oct 27 16:35:44 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 16:35:44 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 16:35:44 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1537 seconds.
+Oct 27 17:01:21 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 17:01:21 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 17:01:21 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1368 seconds.
+Oct 27 17:24:09 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 17:24:09 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 17:24:09 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1767 seconds.
+Oct 27 17:46:07 debian-min systemd[1]: Starting Daily apt download activities...
+Oct 27 17:46:08 debian-min systemd[1]: apt-daily.service: Succeeded.
+Oct 27 17:46:08 debian-min systemd[1]: Started Daily apt download activities.
+Oct 27 17:53:36 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 17:53:36 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 17:53:36 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1455 seconds.
+Oct 27 18:17:51 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 18:17:51 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 18:17:51 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1447 seconds.
+Oct 27 18:41:59 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 18:41:59 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 18:41:59 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1779 seconds.
+Oct 27 19:11:38 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 19:11:38 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 19:11:38 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1570 seconds.
+Oct 27 19:37:48 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 19:37:48 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 19:37:48 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1753 seconds.
+Oct 27 20:07:01 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 20:07:01 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 20:07:01 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1748 seconds.
+Oct 27 20:20:07 debian-min systemd[1]: Starting Daily apt download activities...
+Oct 27 20:20:08 debian-min systemd[1]: apt-daily.service: Succeeded.
+Oct 27 20:20:08 debian-min systemd[1]: Started Daily apt download activities.
+Oct 27 20:36:09 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 20:36:09 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 20:36:09 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1752 seconds.
+Oct 27 20:38:21 debian-min systemd[1]: Reloading.
+Oct 27 20:38:21 debian-min systemd[1]: getty@tty1.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+Oct 27 20:38:21 debian-min systemd[1]: Reloading.
+Oct 27 20:38:22 debian-min systemd[1]: Reloading.
+Oct 27 20:38:22 debian-min systemd[1]: Reloading.
+Oct 27 20:38:22 debian-min systemd[1]: Reloading.
+Oct 27 20:38:22 debian-min systemd[1]: Reloading.
+Oct 27 20:38:22 debian-min systemd[1]: Reloading.
+Oct 27 20:38:22 debian-min systemd[1]: Starting vsftpd FTP server...
+Oct 27 20:38:22 debian-min systemd[1]: Started vsftpd FTP server.
+Oct 27 20:38:23 debian-min systemd[1]: Reloading.
+Oct 27 20:38:23 debian-min systemd[1]: Starting A high performance web server and a reverse proxy server...
+Oct 27 20:38:23 debian-min systemd[1]: nginx.service: Failed to parse PID from file /run/nginx.pid: Invalid argument
+Oct 27 20:38:23 debian-min systemd[1]: Started A high performance web server and a reverse proxy server.
+Oct 27 20:38:23 debian-min systemd[1]: Reloading.
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:02 debian-min systemd[1]: Reexecuting.
+Oct 27 20:39:02 debian-min systemd[1]: Stopping Network Time Synchronization...
+Oct 27 20:39:02 debian-min systemd[1]: systemd-timesyncd.service: Succeeded.
+Oct 27 20:39:02 debian-min systemd[1]: Stopped Network Time Synchronization.
+Oct 27 20:39:02 debian-min systemd[1]: Starting Network Time Synchronization...
+Oct 27 20:39:02 debian-min systemd[1]: Started Network Time Synchronization.
+Oct 27 20:39:02 debian-min systemd[1]: systemd-journal-flush.service: Succeeded.
+Oct 27 20:39:02 debian-min systemd[1]: Stopped Flush Journal to Persistent Storage.
+Oct 27 20:39:02 debian-min systemd[1]: Stopping Flush Journal to Persistent Storage...
+Oct 27 20:39:02 debian-min systemd[1]: Starting Flush Journal to Persistent Storage...
+Oct 27 20:39:02 debian-min systemd[1]: Started Flush Journal to Persistent Storage.
+Oct 27 20:39:03 debian-min systemd[1]: Reloading.
+Oct 27 20:39:03 debian-min systemd[1]: Reloading.
+Oct 27 20:39:04 debian-min systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Oct 27 20:39:04 debian-min systemd[1]: Stopped Daily apt upgrade and clean activities.
+Oct 27 20:39:04 debian-min systemd[1]: Stopping Daily apt upgrade and clean activities.
+Oct 27 20:39:04 debian-min systemd[1]: apt-daily.timer: Succeeded.
+Oct 27 20:39:04 debian-min systemd[1]: Stopped Daily apt download activities.
+Oct 27 20:39:04 debian-min systemd[1]: Stopping Daily apt download activities.
+Oct 27 20:39:04 debian-min systemd[1]: Started Daily apt download activities.
+Oct 27 20:39:04 debian-min systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 27 20:39:17 debian-min systemd[1]: Reloading.
+Oct 27 20:39:17 debian-min systemd[1]: Reloading.
+Oct 27 20:39:17 debian-min dbus-daemon[345]: [system] Reloaded configuration
+Oct 27 20:39:27 debian-min systemd[1]: Condition check resulted in FUSE Control File System being skipped.
+Oct 27 20:39:28 debian-min systemd[1]: Reloading.
+Oct 27 20:39:28 debian-min systemd[1]: Reloading.
+Oct 27 20:39:28 debian-min systemd[1]: Stopping udev Kernel Device Manager...
+Oct 27 20:39:28 debian-min systemd[1]: systemd-udevd.service: Succeeded.
+Oct 27 20:39:28 debian-min systemd[1]: Stopped udev Kernel Device Manager.
+Oct 27 20:39:28 debian-min systemd[1]: Starting udev Kernel Device Manager...
+Oct 27 20:39:28 debian-min systemd[1]: Started udev Kernel Device Manager.
+Oct 27 20:39:28 debian-min systemd[1]: Reloading.
+Oct 27 20:39:38 debian-min systemd[1]: Reloading.
+Oct 27 21:05:21 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 21:05:21 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 21:05:21 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1428 seconds.
+Oct 27 21:11:35 debian-min systemd[1]: Reloading.
+Oct 27 21:11:36 debian-min systemd[1]: Reloading.
+Oct 27 21:11:36 debian-min systemd[1]: Started Clean PHP session files every 30 mins.
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke calendar: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke calendar: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke ctype: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke ctype: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke exif: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke exif: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke fileinfo: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke fileinfo: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke ftp: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke ftp: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke gettext: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke gettext: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke iconv: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke iconv: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke pdo: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke pdo: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke phar: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke phar: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke posix: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke posix: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke shmop: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke shmop: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sockets: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sockets: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sysvmsg: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sysvmsg: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sysvsem: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sysvsem: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sysvshm: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sysvshm: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke tokenizer: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke tokenizer: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:38 debian-min php7.3-opcache: php_invoke opcache: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:38 debian-min php7.3-opcache: php_invoke opcache: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-json: php_invoke json: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-json: php_invoke json: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-readline: php_invoke readline: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-readline: php_invoke readline: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke ctype: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke tokenizer: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke sysvmsg: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke shmop: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke readline: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke posix: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke exif: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke pdo: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke iconv: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke fileinfo: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke json: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke calendar: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke ftp: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke gettext: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke opcache: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke sockets: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke sysvsem: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke sysvshm: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke phar: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke ctype: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke tokenizer: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke sysvmsg: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke shmop: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke readline: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke posix: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke exif: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke pdo: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke iconv: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke fileinfo: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke json: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke calendar: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke ftp: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke gettext: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke opcache: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke sockets: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke sysvsem: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke sysvshm: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke phar: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min systemd[1]: Reloading.
+Oct 27 21:11:40 debian-min systemd[1]: Reloading.
+Oct 27 21:11:40 debian-min systemd[1]: Reloading.
+Oct 27 21:11:40 debian-min systemd[1]: Starting The PHP 7.3 FastCGI Process Manager...
+Oct 27 21:11:40 debian-min systemd[1]: Started The PHP 7.3 FastCGI Process Manager.
+Oct 27 21:11:40 debian-min systemd[1]: Reloading.
+Oct 27 21:21:53 debian-min systemd[1]: Reloading.
+Oct 27 21:21:53 debian-min systemd[1]: Reloading.
+Oct 27 21:21:53 debian-min systemd[1]: Reloading.
+Oct 27 21:29:09 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 21:29:09 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 21:29:09 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1765 seconds.
+Oct 27 21:32:21 debian-min systemd[1]: Stopping vsftpd FTP server...
+Oct 27 21:32:21 debian-min systemd[1]: vsftpd.service: Main process exited, code=killed, status=15/TERM
+Oct 27 21:32:21 debian-min systemd[1]: vsftpd.service: Succeeded.
+Oct 27 21:32:21 debian-min systemd[1]: Stopped vsftpd FTP server.
+Oct 27 21:32:21 debian-min systemd[1]: Starting vsftpd FTP server...
+Oct 27 21:32:21 debian-min systemd[1]: Started vsftpd FTP server.
+Oct 27 21:33:04 debian-min systemd[1]: Stopping vsftpd FTP server...
+Oct 27 21:33:04 debian-min systemd[1]: vsftpd.service: Main process exited, code=killed, status=15/TERM
+Oct 27 21:33:04 debian-min systemd[1]: vsftpd.service: Succeeded.
+Oct 27 21:33:04 debian-min systemd[1]: Stopped vsftpd FTP server.
+Oct 27 21:33:04 debian-min systemd[1]: Starting vsftpd FTP server...
+Oct 27 21:33:04 debian-min systemd[1]: Started vsftpd FTP server.
+Oct 27 21:37:28 debian-min systemd[1]: Reloading A high performance web server and a reverse proxy server.
+Oct 27 21:37:28 debian-min nginx[29407]: nginx: [emerg] "fastcgi_pass" directive is duplicate in /etc/nginx/sites-enabled/default:62
+Oct 27 21:37:28 debian-min systemd[1]: nginx.service: Control process exited, code=exited, status=1/FAILURE
+Oct 27 21:37:28 debian-min systemd[1]: Reload failed for A high performance web server and a reverse proxy server.
+Oct 27 21:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 27 21:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 27 21:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 27 21:41:20 debian-min systemd[1]: Reloading A high performance web server and a reverse proxy server.
+Oct 27 21:41:20 debian-min systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Oct 27 21:43:35 debian-min systemd[1]: Reloading A high performance web server and a reverse proxy server.
+Oct 27 21:43:36 debian-min systemd[1]: Reloaded A high performance web server and a reverse proxy server.
+Oct 27 21:58:34 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 21:58:34 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 21:58:34 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1418 seconds.
+Oct 27 22:09:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 27 22:09:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 27 22:09:01 debian-min systemd[1]: Started Clean php session files.
+Oct 27 22:22:12 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 22:22:12 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 22:22:12 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1568 seconds.
+Oct 27 22:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 27 22:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 27 22:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 27 22:48:20 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 22:48:20 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 22:48:20 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1691 seconds.
+Oct 27 23:09:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 27 23:09:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 27 23:09:01 debian-min systemd[1]: Started Clean php session files.
+Oct 27 23:16:31 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 27 23:16:31 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 27 23:16:31 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1759 seconds.
+Oct 28 17:39:47 debian-min systemd[1]: Starting Rotate log files...
+Oct 28 17:39:47 debian-min systemd[1]: Starting Daily apt download activities...
+Oct 28 17:39:47 debian-min systemd[1]: Starting Daily man-db regeneration...
+Oct 28 17:39:47 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 17:39:47 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 17:39:47 debian-min systemd[1]: Started Clean php session files.
+Oct 28 17:39:47 debian-min systemd[1]: apt-daily.service: Succeeded.
+Oct 28 17:39:47 debian-min systemd[1]: Started Daily apt download activities.
+Oct 28 17:39:47 debian-min systemd[1]: Starting Daily apt upgrade and clean activities...
+Oct 28 17:39:47 debian-min systemd[1]: apt-daily-upgrade.service: Succeeded.
+Oct 28 17:39:47 debian-min systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 28 17:39:47 debian-min systemd[1]: man-db.service: Succeeded.
+Oct 28 17:39:47 debian-min systemd[1]: Started Daily man-db regeneration.
+Oct 28 17:39:47 debian-min systemd[1]: logrotate.service: Succeeded.
+Oct 28 17:39:47 debian-min systemd[1]: Started Rotate log files.
+Oct 28 17:52:27 debian-min systemd[1]: Reloading.
+Oct 28 17:52:27 debian-min systemd[1]: Reloading.
+Oct 28 17:56:56 debian-min systemd[1]: Stopping Network Time Synchronization...
+Oct 28 17:56:56 debian-min systemd[1]: systemd-timesyncd.service: Succeeded.
+Oct 28 17:56:56 debian-min systemd[1]: Stopped Network Time Synchronization.
+Oct 28 17:56:56 debian-min systemd[1]: Starting Network Time Synchronization...
+Oct 28 17:56:56 debian-min systemd[1]: Started Network Time Synchronization.
+Oct 28 17:56:56 debian-min dhclient[378]: DHCPDISCOVER on ens33 to 255.255.255.255 port 67 interval 7
+Oct 28 17:56:57 debian-min dhclient[378]: DHCPOFFER of 192.168.138.125 from 192.168.138.1
+Oct 28 17:56:57 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 255.255.255.255 port 67
+Oct 28 17:56:57 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 17:56:57 debian-min systemd[1]: Stopping Network Time Synchronization...
+Oct 28 17:56:57 debian-min systemd[1]: systemd-timesyncd.service: Succeeded.
+Oct 28 17:56:57 debian-min systemd[1]: Stopped Network Time Synchronization.
+Oct 28 17:56:57 debian-min systemd[1]: Starting Network Time Synchronization...
+Oct 28 17:56:57 debian-min systemd[1]: Started Network Time Synchronization.
+Oct 28 17:56:57 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1728 seconds.
+Oct 28 18:09:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 18:09:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 18:09:01 debian-min systemd[1]: Started Clean php session files.
+Oct 28 18:25:45 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 18:25:45 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 18:25:45 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1578 seconds.
+Oct 28 18:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 18:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 18:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 28 18:52:03 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 18:52:03 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 18:52:03 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1789 seconds.
+Oct 28 19:09:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 19:09:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 19:09:01 debian-min systemd[1]: Started Clean php session files.
+Oct 28 19:21:53 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 19:21:53 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 19:21:53 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1799 seconds.
+Oct 28 19:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 19:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 19:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 28 19:51:52 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 19:51:52 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 19:51:52 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1520 seconds.
+Oct 28 20:09:00 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 20:09:00 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 20:09:00 debian-min systemd[1]: Started Clean php session files.
+Oct 28 20:17:12 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 20:17:12 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 20:17:12 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1678 seconds.
+Oct 28 20:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 20:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 20:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 28 20:45:10 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 20:45:10 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 20:45:10 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1571 seconds.
+Oct 28 21:09:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 21:09:02 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 21:09:02 debian-min systemd[1]: Started Clean php session files.
+Oct 28 21:11:21 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 21:11:21 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 21:11:21 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1636 seconds.
+Oct 28 21:38:37 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 21:38:37 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 21:38:37 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1557 seconds.
+Oct 28 21:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 21:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 21:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 28 22:04:34 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 22:04:34 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 22:04:34 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1699 seconds.
+Oct 28 22:09:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 22:09:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 22:09:01 debian-min systemd[1]: Started Clean php session files.
+Oct 28 22:32:53 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 22:32:53 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 22:32:53 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1472 seconds.
+Oct 28 22:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 22:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 22:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 28 22:57:26 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 22:57:26 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 22:57:26 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1400 seconds.
+Oct 28 23:06:18 debian-min systemd[1]: Stopping The PHP 7.3 FastCGI Process Manager...
+Oct 28 23:06:18 debian-min systemd[1]: php7.3-fpm.service: Succeeded.
+Oct 28 23:06:18 debian-min systemd[1]: Stopped The PHP 7.3 FastCGI Process Manager.
+Oct 28 23:06:18 debian-min systemd[1]: Starting The PHP 7.3 FastCGI Process Manager...
+Oct 28 23:06:18 debian-min php-fpm7.3[68022]: [28-Oct-2020 23:06:18] ERROR: [pool www] please specify user and group other than root
+Oct 28 23:06:18 debian-min php-fpm7.3[68022]: [28-Oct-2020 23:06:18] ERROR: FPM initialization failed
+Oct 28 23:06:18 debian-min systemd[1]: php7.3-fpm.service: Main process exited, code=exited, status=78/CONFIG
+Oct 28 23:06:18 debian-min systemd[1]: php7.3-fpm.service: Failed with result 'exit-code'.
+Oct 28 23:06:18 debian-min systemd[1]: Failed to start The PHP 7.3 FastCGI Process Manager.
+Oct 28 23:07:31 debian-min systemd[1]: Starting The PHP 7.3 FastCGI Process Manager...
+Oct 28 23:07:31 debian-min php-fpm7.3[69184]: [28-Oct-2020 23:07:31] ERROR: [pool www] please specify user and group other than root
+Oct 28 23:07:31 debian-min php-fpm7.3[69184]: [28-Oct-2020 23:07:31] ERROR: FPM initialization failed
+Oct 28 23:07:31 debian-min systemd[1]: php7.3-fpm.service: Main process exited, code=exited, status=78/CONFIG
+Oct 28 23:07:31 debian-min systemd[1]: php7.3-fpm.service: Failed with result 'exit-code'.
+Oct 28 23:07:31 debian-min systemd[1]: Failed to start The PHP 7.3 FastCGI Process Manager.
+Oct 28 23:07:44 debian-min systemd[1]: Reloading.
+Oct 28 23:07:45 debian-min systemd[1]: Starting Daily apt download activities...
+Oct 28 23:07:45 debian-min systemd[1]: apt-daily.service: Succeeded.
+Oct 28 23:07:45 debian-min systemd[1]: Started Daily apt download activities.
+Oct 28 23:07:46 debian-min systemd[1]: Starting The PHP 7.3 FastCGI Process Manager...
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]: Usage: php-fpm7.3 [-n] [-e] [-h] [-i] [-m] [-v] [-t] [-p <prefix>] [-g <pid>] [-c <file>] [-d foo[=bar]] [-y <file>] [-D] [-F [-O]]
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -c <path>|<file> Look for php.ini file in this directory
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -n               No php.ini file will be used
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -d foo[=bar]     Define INI entry foo with value 'bar'
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -e               Generate extended information for debugger/profiler
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -h               This help
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -i               PHP information
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -m               Show compiled in modules
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -v               Version number
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -p, --prefix <dir>
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:                    Specify alternative prefix path to FastCGI process manager (default: /usr).
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -g, --pid <file>
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:                    Specify the PID file location.
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -y, --fpm-config <file>
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:                    Specify alternative path to FastCGI process manager config file.
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -t, --test       Test FPM configuration and exit
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -D, --daemonize  force to run in background, and ignore daemonize option from config file
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -F, --nodaemonize
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:                    force to stay in foreground, and ignore daemonize option from config file
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -O, --force-stderr
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:                    force output to stderr in nodaemonize even if stderr is not a TTY
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:   -R, --allow-to-run-as-root
+Oct 28 23:07:46 debian-min php-fpm7.3[69501]:                    Allow pool to run as root (disabled by default)
+Oct 28 23:07:46 debian-min systemd[1]: php7.3-fpm.service: Main process exited, code=exited, status=64/USAGE
+Oct 28 23:07:46 debian-min systemd[1]: php7.3-fpm.service: Failed with result 'exit-code'.
+Oct 28 23:07:46 debian-min systemd[1]: Failed to start The PHP 7.3 FastCGI Process Manager.
+Oct 28 23:08:17 debian-min systemd[1]: Starting The PHP 7.3 FastCGI Process Manager...
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]: Usage: php-fpm7.3 [-n] [-e] [-h] [-i] [-m] [-v] [-t] [-p <prefix>] [-g <pid>] [-c <file>] [-d foo[=bar]] [-y <file>] [-D] [-F [-O]]
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -c <path>|<file> Look for php.ini file in this directory
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -n               No php.ini file will be used
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -d foo[=bar]     Define INI entry foo with value 'bar'
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -e               Generate extended information for debugger/profiler
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -h               This help
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -i               PHP information
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -m               Show compiled in modules
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -v               Version number
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -p, --prefix <dir>
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:                    Specify alternative prefix path to FastCGI process manager (default: /usr).
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -g, --pid <file>
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:                    Specify the PID file location.
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -y, --fpm-config <file>
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:                    Specify alternative path to FastCGI process manager config file.
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -t, --test       Test FPM configuration and exit
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -D, --daemonize  force to run in background, and ignore daemonize option from config file
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -F, --nodaemonize
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:                    force to stay in foreground, and ignore daemonize option from config file
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -O, --force-stderr
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:                    force output to stderr in nodaemonize even if stderr is not a TTY
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:   -R, --allow-to-run-as-root
+Oct 28 23:08:17 debian-min php-fpm7.3[70005]:                    Allow pool to run as root (disabled by default)
+Oct 28 23:08:17 debian-min systemd[1]: php7.3-fpm.service: Main process exited, code=exited, status=64/USAGE
+Oct 28 23:08:17 debian-min systemd[1]: php7.3-fpm.service: Failed with result 'exit-code'.
+Oct 28 23:08:17 debian-min systemd[1]: Failed to start The PHP 7.3 FastCGI Process Manager.
+Oct 28 23:08:22 debian-min systemd[1]: Reloading.
+Oct 28 23:08:28 debian-min systemd[1]: Starting The PHP 7.3 FastCGI Process Manager...
+Oct 28 23:08:28 debian-min systemd[1]: Started The PHP 7.3 FastCGI Process Manager.
+Oct 28 23:09:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 23:09:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 23:09:01 debian-min systemd[1]: Started Clean php session files.
+Oct 28 23:20:46 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 23:20:46 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 23:20:46 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1516 seconds.
+Oct 28 23:39:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 28 23:39:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 28 23:39:01 debian-min systemd[1]: Started Clean php session files.
+Oct 28 23:46:02 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 28 23:46:02 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 28 23:46:02 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1550 seconds.
+Oct 29 00:00:00 debian-min systemd[1]: Starting Daily man-db regeneration...
+Oct 29 00:00:00 debian-min systemd[1]: Starting Rotate log files...
+Oct 29 00:00:00 debian-min systemd[1]: logrotate.service: Succeeded.
+Oct 29 00:00:00 debian-min systemd[1]: Started Rotate log files.
+Oct 29 00:00:00 debian-min systemd[1]: man-db.service: Succeeded.
+Oct 29 00:00:00 debian-min systemd[1]: Started Daily man-db regeneration.
+Oct 29 00:09:01 debian-min systemd[1]: Starting Clean php session files...
+Oct 29 00:09:01 debian-min systemd[1]: phpsessionclean.service: Succeeded.
+Oct 29 00:09:01 debian-min systemd[1]: Started Clean php session files.
+Oct 29 00:11:52 debian-min dhclient[378]: DHCPREQUEST for 192.168.138.125 on ens33 to 192.168.138.1 port 67
+Oct 29 00:11:52 debian-min dhclient[378]: DHCPACK of 192.168.138.125 from 192.168.138.1
+Oct 29 00:11:52 debian-min dhclient[378]: bound to 192.168.138.125 -- renewal in 1763 seconds.

@@ -1,0 +1,12 @@
+[27-Oct-2020 21:11:40] NOTICE: fpm is running, pid 29071
+[27-Oct-2020 21:11:40] NOTICE: ready to handle connections
+[27-Oct-2020 21:11:40] NOTICE: systemd monitor interval set to 10000ms
+[28-Oct-2020 23:06:18] NOTICE: Terminating ...
+[28-Oct-2020 23:06:18] NOTICE: exiting, bye-bye!
+[28-Oct-2020 23:06:18] ERROR: [pool www] please specify user and group other than root
+[28-Oct-2020 23:06:18] ERROR: FPM initialization failed
+[28-Oct-2020 23:07:31] ERROR: [pool www] please specify user and group other than root
+[28-Oct-2020 23:07:31] ERROR: FPM initialization failed
+[28-Oct-2020 23:08:28] NOTICE: fpm is running, pid 70199
+[28-Oct-2020 23:08:28] NOTICE: ready to handle connections
+[28-Oct-2020 23:08:28] NOTICE: systemd monitor interval set to 10000ms

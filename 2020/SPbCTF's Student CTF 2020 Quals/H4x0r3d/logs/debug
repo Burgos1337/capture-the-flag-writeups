@@ -1,0 +1,1185 @@
+Mar 21 16:03:38 debian-min kernel: [    0.001850] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Mar 21 16:03:38 debian-min kernel: [    0.001851] e820: remove [mem 0x000a0000-0x000fffff] usable
+Mar 21 16:03:38 debian-min kernel: [    0.001867] MTRR default type: uncachable
+Mar 21 16:03:38 debian-min kernel: [    0.001867] MTRR fixed ranges enabled:
+Mar 21 16:03:38 debian-min kernel: [    0.001868]   00000-9FFFF write-back
+Mar 21 16:03:38 debian-min kernel: [    0.001868]   A0000-BFFFF uncachable
+Mar 21 16:03:38 debian-min kernel: [    0.001869]   C0000-CBFFF write-protect
+Mar 21 16:03:38 debian-min kernel: [    0.001869]   CC000-EFFFF uncachable
+Mar 21 16:03:38 debian-min kernel: [    0.001870]   F0000-FFFFF write-protect
+Mar 21 16:03:38 debian-min kernel: [    0.001870] MTRR variable ranges enabled:
+Mar 21 16:03:38 debian-min kernel: [    0.001871]   0 base 00000000000 mask 7FE00000000 write-back
+Mar 21 16:03:38 debian-min kernel: [    0.001871]   1 base 000C0000000 mask 7FFC0000000 uncachable
+Mar 21 16:03:38 debian-min kernel: [    0.001872]   2 disabled
+Mar 21 16:03:38 debian-min kernel: [    0.001872]   3 disabled
+Mar 21 16:03:38 debian-min kernel: [    0.001872]   4 disabled
+Mar 21 16:03:38 debian-min kernel: [    0.001873]   5 disabled
+Mar 21 16:03:38 debian-min kernel: [    0.001873]   6 disabled
+Mar 21 16:03:38 debian-min kernel: [    0.001873]   7 disabled
+Mar 21 16:03:38 debian-min kernel: [    0.001895] e820: update [mem 0xc0000000-0xffffffff] usable ==> reserved
+Mar 21 16:03:38 debian-min kernel: [    0.003960] BRK [0x6ba02000, 0x6ba02fff] PGTABLE
+Mar 21 16:03:38 debian-min kernel: [    0.003961] BRK [0x6ba03000, 0x6ba03fff] PGTABLE
+Mar 21 16:03:38 debian-min kernel: [    0.003961] BRK [0x6ba04000, 0x6ba04fff] PGTABLE
+Mar 21 16:03:38 debian-min kernel: [    0.003980] BRK [0x6ba05000, 0x6ba05fff] PGTABLE
+Mar 21 16:03:38 debian-min kernel: [    0.004181] ACPI: Local APIC address 0xfee00000
+Mar 21 16:03:38 debian-min kernel: [    0.004183] system APIC only can use physical flat
+Mar 21 16:03:38 debian-min kernel: [    0.004298] On node 0 totalpages: 1048445
+Mar 21 16:03:38 debian-min kernel: [    0.004299]   DMA zone: 64 pages used for memmap
+Mar 21 16:03:38 debian-min kernel: [    0.004299]   DMA zone: 21 pages reserved
+Mar 21 16:03:38 debian-min kernel: [    0.004300]   DMA zone: 3997 pages, LIFO batch:0
+Mar 21 16:03:38 debian-min kernel: [    0.004403]   DMA32 zone: 12224 pages used for memmap
+Mar 21 16:03:38 debian-min kernel: [    0.004404]   DMA32 zone: 782304 pages, LIFO batch:63
+Mar 21 16:03:38 debian-min kernel: [    0.022898]   Normal zone: 4096 pages used for memmap
+Mar 21 16:03:38 debian-min kernel: [    0.022899]   Normal zone: 262144 pages, LIFO batch:63
+Mar 21 16:03:38 debian-min kernel: [    0.031317] ACPI: Local APIC address 0xfee00000
+Mar 21 16:03:38 debian-min kernel: [    0.031320] system APIC only can use physical flat
+Mar 21 16:03:38 debian-min kernel: [    0.031402] ACPI: IRQ0 used by override.
+Mar 21 16:03:38 debian-min kernel: [    0.031403] ACPI: IRQ9 used by override.
+Mar 21 16:03:38 debian-min kernel: [    0.099930] pcpu-alloc: s144408 r8192 d31720 u262144 alloc=1*2097152
+Mar 21 16:03:38 debian-min kernel: [    0.099931] pcpu-alloc: [0] 000 001 002 003 004 005 006 007 
+Mar 21 16:03:38 debian-min kernel: [    0.099932] pcpu-alloc: [0] 008 009 010 011 012 013 014 015 
+Mar 21 16:03:38 debian-min kernel: [    0.099934] pcpu-alloc: [0] 016 017 018 019 020 021 022 023 
+Mar 21 16:03:38 debian-min kernel: [    0.099935] pcpu-alloc: [0] 024 025 026 027 028 029 030 031 
+Mar 21 16:03:38 debian-min kernel: [    0.099936] pcpu-alloc: [0] 032 033 034 035 036 037 038 039 
+Mar 21 16:03:38 debian-min kernel: [    0.099937] pcpu-alloc: [0] 040 041 042 043 044 045 046 047 
+Mar 21 16:03:38 debian-min kernel: [    0.099938] pcpu-alloc: [0] 048 049 050 051 052 053 054 055 
+Mar 21 16:03:38 debian-min kernel: [    0.099939] pcpu-alloc: [0] 056 057 058 059 060 061 062 063 
+Mar 21 16:03:38 debian-min kernel: [    0.099940] pcpu-alloc: [0] 064 065 066 067 068 069 070 071 
+Mar 21 16:03:38 debian-min kernel: [    0.099941] pcpu-alloc: [0] 072 073 074 075 076 077 078 079 
+Mar 21 16:03:38 debian-min kernel: [    0.099942] pcpu-alloc: [0] 080 081 082 083 084 085 086 087 
+Mar 21 16:03:38 debian-min kernel: [    0.099944] pcpu-alloc: [0] 088 089 090 091 092 093 094 095 
+Mar 21 16:03:38 debian-min kernel: [    0.099945] pcpu-alloc: [0] 096 097 098 099 100 101 102 103 
+Mar 21 16:03:38 debian-min kernel: [    0.099946] pcpu-alloc: [0] 104 105 106 107 108 109 110 111 
+Mar 21 16:03:38 debian-min kernel: [    0.099947] pcpu-alloc: [0] 112 113 114 115 116 117 118 119 
+Mar 21 16:03:38 debian-min kernel: [    0.099948] pcpu-alloc: [0] 120 121 122 123 124 125 126 127 
+Mar 21 16:03:38 debian-min kernel: [    0.111218] Calgary: detecting Calgary via BIOS EBDA area
+Mar 21 16:03:38 debian-min kernel: [    0.111220] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Mar 21 16:03:38 debian-min kernel: [    0.129661] hpet clockevent registered
+Mar 21 16:03:38 debian-min kernel: [    0.204766] pci 0000:00:00.0: [8086:7190] type 00 class 0x060000
+Mar 21 16:03:38 debian-min kernel: [    0.205232] pci 0000:00:01.0: [8086:7191] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.205610] pci 0000:00:07.0: [8086:7110] type 00 class 0x060100
+Mar 21 16:03:38 debian-min kernel: [    0.206134] pci 0000:00:07.1: [8086:7111] type 00 class 0x01018a
+Mar 21 16:03:38 debian-min kernel: [    0.207043] pci 0000:00:07.1: reg 0x20: [io  0x1060-0x106f]
+Mar 21 16:03:38 debian-min kernel: [    0.207585] pci 0000:00:07.3: [8086:7113] type 00 class 0x068000
+Mar 21 16:03:38 debian-min kernel: [    0.209025] pci 0000:00:07.7: [15ad:0740] type 00 class 0x088000
+Mar 21 16:03:38 debian-min kernel: [    0.209453] pci 0000:00:07.7: reg 0x10: [io  0x1080-0x10bf]
+Mar 21 16:03:38 debian-min kernel: [    0.209823] pci 0000:00:07.7: reg 0x14: [mem 0xfebfe000-0xfebfffff 64bit]
+Mar 21 16:03:38 debian-min kernel: [    0.211542] pci 0000:00:0f.0: [15ad:0405] type 00 class 0x030000
+Mar 21 16:03:38 debian-min kernel: [    0.212620] pci 0000:00:0f.0: reg 0x10: [io  0x1070-0x107f]
+Mar 21 16:03:38 debian-min kernel: [    0.213571] pci 0000:00:0f.0: reg 0x14: [mem 0xe8000000-0xefffffff pref]
+Mar 21 16:03:38 debian-min kernel: [    0.214476] pci 0000:00:0f.0: reg 0x18: [mem 0xfe000000-0xfe7fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.217815] pci 0000:00:0f.0: reg 0x30: [mem 0x00000000-0x00007fff pref]
+Mar 21 16:03:38 debian-min kernel: [    0.218218] pci 0000:00:10.0: [1000:0030] type 00 class 0x010000
+Mar 21 16:03:38 debian-min kernel: [    0.218962] pci 0000:00:10.0: reg 0x10: [io  0x1400-0x14ff]
+Mar 21 16:03:38 debian-min kernel: [    0.219482] pci 0000:00:10.0: reg 0x14: [mem 0xfeba0000-0xfebbffff 64bit]
+Mar 21 16:03:38 debian-min kernel: [    0.219984] pci 0000:00:10.0: reg 0x1c: [mem 0xfebc0000-0xfebdffff 64bit]
+Mar 21 16:03:38 debian-min kernel: [    0.220940] pci 0000:00:10.0: reg 0x30: [mem 0x00000000-0x00003fff pref]
+Mar 21 16:03:38 debian-min kernel: [    0.221264] pci 0000:00:11.0: [15ad:0790] type 01 class 0x060401
+Mar 21 16:03:38 debian-min kernel: [    0.221846] pci 0000:00:15.0: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.222424] pci 0000:00:15.0: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.222861] pci 0000:00:15.1: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.223438] pci 0000:00:15.1: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.223756] pci 0000:00:15.2: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.224334] pci 0000:00:15.2: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.224643] pci 0000:00:15.3: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.225209] pci 0000:00:15.3: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.225481] pci 0000:00:15.4: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.226052] pci 0000:00:15.4: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.226322] pci 0000:00:15.5: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.226890] pci 0000:00:15.5: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.227160] pci 0000:00:15.6: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.227717] pci 0000:00:15.6: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.227973] pci 0000:00:15.7: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.228519] pci 0000:00:15.7: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.228793] pci 0000:00:16.0: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.229354] pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.229628] pci 0000:00:16.1: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.230162] pci 0000:00:16.1: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.230417] pci 0000:00:16.2: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.230957] pci 0000:00:16.2: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.231215] pci 0000:00:16.3: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.231751] pci 0000:00:16.3: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.232005] pci 0000:00:16.4: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.232554] pci 0000:00:16.4: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.232818] pci 0000:00:16.5: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.233380] pci 0000:00:16.5: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.233648] pci 0000:00:16.6: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.234185] pci 0000:00:16.6: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.234444] pci 0000:00:16.7: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.235016] pci 0000:00:16.7: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.235297] pci 0000:00:17.0: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.235852] pci 0000:00:17.0: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.236115] pci 0000:00:17.1: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.236671] pci 0000:00:17.1: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.236938] pci 0000:00:17.2: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.237499] pci 0000:00:17.2: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.237756] pci 0000:00:17.3: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.238293] pci 0000:00:17.3: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.238555] pci 0000:00:17.4: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.239097] pci 0000:00:17.4: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.239350] pci 0000:00:17.5: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.239909] pci 0000:00:17.5: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.240166] pci 0000:00:17.6: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.240730] pci 0000:00:17.6: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.240998] pci 0000:00:17.7: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.241561] pci 0000:00:17.7: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.241829] pci 0000:00:18.0: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.242391] pci 0000:00:18.0: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.242672] pci 0000:00:18.1: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.243241] pci 0000:00:18.1: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.243510] pci 0000:00:18.2: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.244074] pci 0000:00:18.2: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.244342] pci 0000:00:18.3: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.244896] pci 0000:00:18.3: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.245153] pci 0000:00:18.4: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.245695] pci 0000:00:18.4: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.245951] pci 0000:00:18.5: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.246497] pci 0000:00:18.5: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.246764] pci 0000:00:18.6: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.247326] pci 0000:00:18.6: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.247604] pci 0000:00:18.7: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:03:38 debian-min kernel: [    0.248140] pci 0000:00:18.7: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.249611] pci 0000:02:00.0: [15ad:0774] type 00 class 0x0c0300
+Mar 21 16:03:38 debian-min kernel: [    0.250498] pci 0000:02:00.0: reg 0x20: [io  0x2080-0x209f]
+Mar 21 16:03:38 debian-min kernel: [    0.251141] pci 0000:02:01.0: [8086:100f] type 00 class 0x020000
+Mar 21 16:03:38 debian-min kernel: [    0.251724] pci 0000:02:01.0: reg 0x10: [mem 0xfd5c0000-0xfd5dffff 64bit]
+Mar 21 16:03:38 debian-min kernel: [    0.252244] pci 0000:02:01.0: reg 0x18: [mem 0xfdff0000-0xfdffffff 64bit]
+Mar 21 16:03:38 debian-min kernel: [    0.252726] pci 0000:02:01.0: reg 0x20: [io  0x2000-0x203f]
+Mar 21 16:03:38 debian-min kernel: [    0.253706] pci 0000:02:01.0: reg 0x30: [mem 0x00000000-0x0000ffff pref]
+Mar 21 16:03:38 debian-min kernel: [    0.253927] pci 0000:02:01.0: PME# supported from D0 D3hot D3cold
+Mar 21 16:03:38 debian-min kernel: [    0.254107] pci 0000:02:02.0: [1274:1371] type 00 class 0x040100
+Mar 21 16:03:38 debian-min kernel: [    0.254349] pci 0000:02:02.0: reg 0x10: [io  0x2040-0x207f]
+Mar 21 16:03:38 debian-min kernel: [    0.255876] pci 0000:02:03.0: [15ad:0770] type 00 class 0x0c0320
+Mar 21 16:03:38 debian-min kernel: [    0.256159] pci 0000:02:03.0: reg 0x10: [mem 0xfd5ef000-0xfd5effff]
+Mar 21 16:03:38 debian-min kernel: [    0.258161] pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+Mar 21 16:03:38 debian-min kernel: [    0.258176] pci 0000:00:11.0:   bridge window [mem 0xfd500000-0xfdffffff]
+Mar 21 16:03:38 debian-min kernel: [    0.258205] pci 0000:00:11.0:   bridge window [mem 0xe7b00000-0xe7ffffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.258206] pci 0000:00:11.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+Mar 21 16:03:38 debian-min kernel: [    0.258207] pci 0000:00:11.0:   bridge window [mem 0x000cc000-0x000cffff window] (subtractive decode)
+Mar 21 16:03:38 debian-min kernel: [    0.258207] pci 0000:00:11.0:   bridge window [mem 0x000d0000-0x000d3fff window] (subtractive decode)
+Mar 21 16:03:38 debian-min kernel: [    0.258208] pci 0000:00:11.0:   bridge window [mem 0x000d4000-0x000d7fff window] (subtractive decode)
+Mar 21 16:03:38 debian-min kernel: [    0.258209] pci 0000:00:11.0:   bridge window [mem 0x000d8000-0x000dbfff window] (subtractive decode)
+Mar 21 16:03:38 debian-min kernel: [    0.258209] pci 0000:00:11.0:   bridge window [mem 0xc0000000-0xfebfffff window] (subtractive decode)
+Mar 21 16:03:38 debian-min kernel: [    0.258210] pci 0000:00:11.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+Mar 21 16:03:38 debian-min kernel: [    0.258210] pci 0000:00:11.0:   bridge window [io  0x0d00-0xfeff window] (subtractive decode)
+Mar 21 16:03:38 debian-min kernel: [    0.258455] pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+Mar 21 16:03:38 debian-min kernel: [    0.258470] pci 0000:00:15.0:   bridge window [mem 0xfd400000-0xfd4fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.258498] pci 0000:00:15.0:   bridge window [mem 0xe7a00000-0xe7afffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.258781] pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+Mar 21 16:03:38 debian-min kernel: [    0.258796] pci 0000:00:15.1:   bridge window [mem 0xfd000000-0xfd0fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.258825] pci 0000:00:15.1:   bridge window [mem 0xe7600000-0xe76fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.259058] pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+Mar 21 16:03:38 debian-min kernel: [    0.259073] pci 0000:00:15.2:   bridge window [mem 0xfcc00000-0xfccfffff]
+Mar 21 16:03:38 debian-min kernel: [    0.259102] pci 0000:00:15.2:   bridge window [mem 0xe7200000-0xe72fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.259345] pci 0000:00:15.3:   bridge window [mem 0xfc800000-0xfc8fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.259373] pci 0000:00:15.3:   bridge window [mem 0xe6e00000-0xe6efffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.259632] pci 0000:00:15.4:   bridge window [mem 0xfc400000-0xfc4fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.259661] pci 0000:00:15.4:   bridge window [mem 0xe6a00000-0xe6afffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.259911] pci 0000:00:15.5:   bridge window [mem 0xfc000000-0xfc0fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.259939] pci 0000:00:15.5:   bridge window [mem 0xe6600000-0xe66fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.260182] pci 0000:00:15.6:   bridge window [mem 0xfbc00000-0xfbcfffff]
+Mar 21 16:03:38 debian-min kernel: [    0.260211] pci 0000:00:15.6:   bridge window [mem 0xe6200000-0xe62fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.260460] pci 0000:00:15.7:   bridge window [mem 0xfb800000-0xfb8fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.260489] pci 0000:00:15.7:   bridge window [mem 0xe5e00000-0xe5efffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.260720] pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+Mar 21 16:03:38 debian-min kernel: [    0.260735] pci 0000:00:16.0:   bridge window [mem 0xfd300000-0xfd3fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.260763] pci 0000:00:16.0:   bridge window [mem 0xe7900000-0xe79fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.260999] pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+Mar 21 16:03:38 debian-min kernel: [    0.261014] pci 0000:00:16.1:   bridge window [mem 0xfcf00000-0xfcffffff]
+Mar 21 16:03:38 debian-min kernel: [    0.261042] pci 0000:00:16.1:   bridge window [mem 0xe7500000-0xe75fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.261271] pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+Mar 21 16:03:38 debian-min kernel: [    0.261286] pci 0000:00:16.2:   bridge window [mem 0xfcb00000-0xfcbfffff]
+Mar 21 16:03:38 debian-min kernel: [    0.261315] pci 0000:00:16.2:   bridge window [mem 0xe7100000-0xe71fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.261566] pci 0000:00:16.3:   bridge window [mem 0xfc700000-0xfc7fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.261595] pci 0000:00:16.3:   bridge window [mem 0xe6d00000-0xe6dfffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.261843] pci 0000:00:16.4:   bridge window [mem 0xfc300000-0xfc3fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.261871] pci 0000:00:16.4:   bridge window [mem 0xe6900000-0xe69fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.262114] pci 0000:00:16.5:   bridge window [mem 0xfbf00000-0xfbffffff]
+Mar 21 16:03:38 debian-min kernel: [    0.262143] pci 0000:00:16.5:   bridge window [mem 0xe6500000-0xe65fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.262385] pci 0000:00:16.6:   bridge window [mem 0xfbb00000-0xfbbfffff]
+Mar 21 16:03:38 debian-min kernel: [    0.262414] pci 0000:00:16.6:   bridge window [mem 0xe6100000-0xe61fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.262718] pci 0000:00:16.7:   bridge window [mem 0xfb700000-0xfb7fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.262750] pci 0000:00:16.7:   bridge window [mem 0xe5d00000-0xe5dfffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.263039] pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+Mar 21 16:03:38 debian-min kernel: [    0.263056] pci 0000:00:17.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.263088] pci 0000:00:17.0:   bridge window [mem 0xe7800000-0xe78fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.263351] pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+Mar 21 16:03:38 debian-min kernel: [    0.263368] pci 0000:00:17.1:   bridge window [mem 0xfce00000-0xfcefffff]
+Mar 21 16:03:38 debian-min kernel: [    0.263400] pci 0000:00:17.1:   bridge window [mem 0xe7400000-0xe74fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.263642] pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+Mar 21 16:03:38 debian-min kernel: [    0.263656] pci 0000:00:17.2:   bridge window [mem 0xfca00000-0xfcafffff]
+Mar 21 16:03:38 debian-min kernel: [    0.263685] pci 0000:00:17.2:   bridge window [mem 0xe7000000-0xe70fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.263927] pci 0000:00:17.3:   bridge window [mem 0xfc600000-0xfc6fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.263956] pci 0000:00:17.3:   bridge window [mem 0xe6c00000-0xe6cfffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.264201] pci 0000:00:17.4:   bridge window [mem 0xfc200000-0xfc2fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.264230] pci 0000:00:17.4:   bridge window [mem 0xe6800000-0xe68fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.264472] pci 0000:00:17.5:   bridge window [mem 0xfbe00000-0xfbefffff]
+Mar 21 16:03:38 debian-min kernel: [    0.264501] pci 0000:00:17.5:   bridge window [mem 0xe6400000-0xe64fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.264748] pci 0000:00:17.6:   bridge window [mem 0xfba00000-0xfbafffff]
+Mar 21 16:03:38 debian-min kernel: [    0.264776] pci 0000:00:17.6:   bridge window [mem 0xe6000000-0xe60fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.265021] pci 0000:00:17.7:   bridge window [mem 0xfb600000-0xfb6fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.265049] pci 0000:00:17.7:   bridge window [mem 0xe5c00000-0xe5cfffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.265277] pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+Mar 21 16:03:38 debian-min kernel: [    0.265292] pci 0000:00:18.0:   bridge window [mem 0xfd100000-0xfd1fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.265320] pci 0000:00:18.0:   bridge window [mem 0xe7700000-0xe77fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.265557] pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+Mar 21 16:03:38 debian-min kernel: [    0.265571] pci 0000:00:18.1:   bridge window [mem 0xfcd00000-0xfcdfffff]
+Mar 21 16:03:38 debian-min kernel: [    0.265598] pci 0000:00:18.1:   bridge window [mem 0xe7300000-0xe73fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.265834] pci 0000:00:18.2:   bridge window [mem 0xfc900000-0xfc9fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.265861] pci 0000:00:18.2:   bridge window [mem 0xe6f00000-0xe6ffffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.266091] pci 0000:00:18.3:   bridge window [mem 0xfc500000-0xfc5fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.266118] pci 0000:00:18.3:   bridge window [mem 0xe6b00000-0xe6bfffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.266352] pci 0000:00:18.4:   bridge window [mem 0xfc100000-0xfc1fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.266380] pci 0000:00:18.4:   bridge window [mem 0xe6700000-0xe67fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.266626] pci 0000:00:18.5:   bridge window [mem 0xfbd00000-0xfbdfffff]
+Mar 21 16:03:38 debian-min kernel: [    0.266655] pci 0000:00:18.5:   bridge window [mem 0xe6300000-0xe63fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.266905] pci 0000:00:18.6:   bridge window [mem 0xfb900000-0xfb9fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.266934] pci 0000:00:18.6:   bridge window [mem 0xe5f00000-0xe5ffffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.267179] pci 0000:00:18.7:   bridge window [mem 0xfb500000-0xfb5fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.267208] pci 0000:00:18.7:   bridge window [mem 0xe5b00000-0xe5bfffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.276430] PCI: pci_cache_line_size set to 64 bytes
+Mar 21 16:03:38 debian-min kernel: [    0.279347] e820: reserve RAM buffer [mem 0x0009ec00-0x0009ffff]
+Mar 21 16:03:38 debian-min kernel: [    0.279348] e820: reserve RAM buffer [mem 0xbfee0000-0xbfffffff]
+Mar 21 16:03:38 debian-min kernel: [    0.286237] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+Mar 21 16:03:38 debian-min kernel: [    0.286259] pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+Mar 21 16:03:38 debian-min kernel: [    0.286267] pnp 00:02: Plug and Play ACPI device, IDs PNP0303 (active)
+Mar 21 16:03:38 debian-min kernel: [    0.286275] pnp 00:03: Plug and Play ACPI device, IDs VMW0003 PNP0f13 (active)
+Mar 21 16:03:38 debian-min kernel: [    0.286393] system 00:04: Plug and Play ACPI device, IDs PNP0103 PNP0c01 (active)
+Mar 21 16:03:38 debian-min kernel: [    0.287231] pnp 00:05: Plug and Play ACPI device, IDs PNP0501 (active)
+Mar 21 16:03:38 debian-min kernel: [    0.287499] system 00:06: Plug and Play ACPI device, IDs PNP0c02 (active)
+Mar 21 16:03:38 debian-min kernel: [    0.298220] pci 0000:00:15.3: bridge window [io  0x1000-0x0fff] to [bus 06] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.298271] pci 0000:00:15.4: bridge window [io  0x1000-0x0fff] to [bus 07] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.298315] pci 0000:00:15.5: bridge window [io  0x1000-0x0fff] to [bus 08] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.298359] pci 0000:00:15.6: bridge window [io  0x1000-0x0fff] to [bus 09] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.298403] pci 0000:00:15.7: bridge window [io  0x1000-0x0fff] to [bus 0a] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.298578] pci 0000:00:16.3: bridge window [io  0x1000-0x0fff] to [bus 0e] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.298622] pci 0000:00:16.4: bridge window [io  0x1000-0x0fff] to [bus 0f] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.298666] pci 0000:00:16.5: bridge window [io  0x1000-0x0fff] to [bus 10] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.298710] pci 0000:00:16.6: bridge window [io  0x1000-0x0fff] to [bus 11] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.298754] pci 0000:00:16.7: bridge window [io  0x1000-0x0fff] to [bus 12] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.298925] pci 0000:00:17.3: bridge window [io  0x1000-0x0fff] to [bus 16] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.298969] pci 0000:00:17.4: bridge window [io  0x1000-0x0fff] to [bus 17] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.299013] pci 0000:00:17.5: bridge window [io  0x1000-0x0fff] to [bus 18] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.299057] pci 0000:00:17.6: bridge window [io  0x1000-0x0fff] to [bus 19] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.299101] pci 0000:00:17.7: bridge window [io  0x1000-0x0fff] to [bus 1a] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.299230] pci 0000:00:18.2: bridge window [io  0x1000-0x0fff] to [bus 1d] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.299296] pci 0000:00:18.3: bridge window [io  0x1000-0x0fff] to [bus 1e] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.299346] pci 0000:00:18.4: bridge window [io  0x1000-0x0fff] to [bus 1f] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.299404] pci 0000:00:18.5: bridge window [io  0x1000-0x0fff] to [bus 20] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.299453] pci 0000:00:18.6: bridge window [io  0x1000-0x0fff] to [bus 21] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.299502] pci 0000:00:18.7: bridge window [io  0x1000-0x0fff] to [bus 22] add_size 1000
+Mar 21 16:03:38 debian-min kernel: [    0.302253] pci_bus 0000:00: resource 4 [mem 0x000a0000-0x000bffff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302254] pci_bus 0000:00: resource 5 [mem 0x000cc000-0x000cffff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302254] pci_bus 0000:00: resource 6 [mem 0x000d0000-0x000d3fff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302255] pci_bus 0000:00: resource 7 [mem 0x000d4000-0x000d7fff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302255] pci_bus 0000:00: resource 8 [mem 0x000d8000-0x000dbfff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302256] pci_bus 0000:00: resource 9 [mem 0xc0000000-0xfebfffff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302256] pci_bus 0000:00: resource 10 [io  0x0000-0x0cf7 window]
+Mar 21 16:03:38 debian-min kernel: [    0.302257] pci_bus 0000:00: resource 11 [io  0x0d00-0xfeff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302258] pci_bus 0000:02: resource 0 [io  0x2000-0x3fff]
+Mar 21 16:03:38 debian-min kernel: [    0.302259] pci_bus 0000:02: resource 1 [mem 0xfd500000-0xfdffffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302260] pci_bus 0000:02: resource 2 [mem 0xe7b00000-0xe7ffffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302260] pci_bus 0000:02: resource 4 [mem 0x000a0000-0x000bffff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302261] pci_bus 0000:02: resource 5 [mem 0x000cc000-0x000cffff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302261] pci_bus 0000:02: resource 6 [mem 0x000d0000-0x000d3fff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302262] pci_bus 0000:02: resource 7 [mem 0x000d4000-0x000d7fff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302263] pci_bus 0000:02: resource 8 [mem 0x000d8000-0x000dbfff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302263] pci_bus 0000:02: resource 9 [mem 0xc0000000-0xfebfffff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302264] pci_bus 0000:02: resource 10 [io  0x0000-0x0cf7 window]
+Mar 21 16:03:38 debian-min kernel: [    0.302265] pci_bus 0000:02: resource 11 [io  0x0d00-0xfeff window]
+Mar 21 16:03:38 debian-min kernel: [    0.302265] pci_bus 0000:03: resource 0 [io  0x4000-0x4fff]
+Mar 21 16:03:38 debian-min kernel: [    0.302266] pci_bus 0000:03: resource 1 [mem 0xfd400000-0xfd4fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302267] pci_bus 0000:03: resource 2 [mem 0xe7a00000-0xe7afffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302267] pci_bus 0000:04: resource 0 [io  0x8000-0x8fff]
+Mar 21 16:03:38 debian-min kernel: [    0.302268] pci_bus 0000:04: resource 1 [mem 0xfd000000-0xfd0fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302268] pci_bus 0000:04: resource 2 [mem 0xe7600000-0xe76fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302269] pci_bus 0000:05: resource 0 [io  0xc000-0xcfff]
+Mar 21 16:03:38 debian-min kernel: [    0.302270] pci_bus 0000:05: resource 1 [mem 0xfcc00000-0xfccfffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302270] pci_bus 0000:05: resource 2 [mem 0xe7200000-0xe72fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302271] pci_bus 0000:06: resource 1 [mem 0xfc800000-0xfc8fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302271] pci_bus 0000:06: resource 2 [mem 0xe6e00000-0xe6efffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302272] pci_bus 0000:07: resource 1 [mem 0xfc400000-0xfc4fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302272] pci_bus 0000:07: resource 2 [mem 0xe6a00000-0xe6afffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302273] pci_bus 0000:08: resource 1 [mem 0xfc000000-0xfc0fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302273] pci_bus 0000:08: resource 2 [mem 0xe6600000-0xe66fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302274] pci_bus 0000:09: resource 1 [mem 0xfbc00000-0xfbcfffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302274] pci_bus 0000:09: resource 2 [mem 0xe6200000-0xe62fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302275] pci_bus 0000:0a: resource 1 [mem 0xfb800000-0xfb8fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302275] pci_bus 0000:0a: resource 2 [mem 0xe5e00000-0xe5efffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302276] pci_bus 0000:0b: resource 0 [io  0x5000-0x5fff]
+Mar 21 16:03:38 debian-min kernel: [    0.302277] pci_bus 0000:0b: resource 1 [mem 0xfd300000-0xfd3fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302277] pci_bus 0000:0b: resource 2 [mem 0xe7900000-0xe79fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302278] pci_bus 0000:0c: resource 0 [io  0x9000-0x9fff]
+Mar 21 16:03:38 debian-min kernel: [    0.302278] pci_bus 0000:0c: resource 1 [mem 0xfcf00000-0xfcffffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302279] pci_bus 0000:0c: resource 2 [mem 0xe7500000-0xe75fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302279] pci_bus 0000:0d: resource 0 [io  0xd000-0xdfff]
+Mar 21 16:03:38 debian-min kernel: [    0.302280] pci_bus 0000:0d: resource 1 [mem 0xfcb00000-0xfcbfffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302280] pci_bus 0000:0d: resource 2 [mem 0xe7100000-0xe71fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302281] pci_bus 0000:0e: resource 1 [mem 0xfc700000-0xfc7fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302281] pci_bus 0000:0e: resource 2 [mem 0xe6d00000-0xe6dfffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302282] pci_bus 0000:0f: resource 1 [mem 0xfc300000-0xfc3fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302282] pci_bus 0000:0f: resource 2 [mem 0xe6900000-0xe69fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302283] pci_bus 0000:10: resource 1 [mem 0xfbf00000-0xfbffffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302283] pci_bus 0000:10: resource 2 [mem 0xe6500000-0xe65fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302284] pci_bus 0000:11: resource 1 [mem 0xfbb00000-0xfbbfffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302284] pci_bus 0000:11: resource 2 [mem 0xe6100000-0xe61fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302285] pci_bus 0000:12: resource 1 [mem 0xfb700000-0xfb7fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302285] pci_bus 0000:12: resource 2 [mem 0xe5d00000-0xe5dfffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302286] pci_bus 0000:13: resource 0 [io  0x6000-0x6fff]
+Mar 21 16:03:38 debian-min kernel: [    0.302287] pci_bus 0000:13: resource 1 [mem 0xfd200000-0xfd2fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302287] pci_bus 0000:13: resource 2 [mem 0xe7800000-0xe78fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302288] pci_bus 0000:14: resource 0 [io  0xa000-0xafff]
+Mar 21 16:03:38 debian-min kernel: [    0.302288] pci_bus 0000:14: resource 1 [mem 0xfce00000-0xfcefffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302289] pci_bus 0000:14: resource 2 [mem 0xe7400000-0xe74fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302289] pci_bus 0000:15: resource 0 [io  0xe000-0xefff]
+Mar 21 16:03:38 debian-min kernel: [    0.302290] pci_bus 0000:15: resource 1 [mem 0xfca00000-0xfcafffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302290] pci_bus 0000:15: resource 2 [mem 0xe7000000-0xe70fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302291] pci_bus 0000:16: resource 1 [mem 0xfc600000-0xfc6fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302291] pci_bus 0000:16: resource 2 [mem 0xe6c00000-0xe6cfffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302292] pci_bus 0000:17: resource 1 [mem 0xfc200000-0xfc2fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302292] pci_bus 0000:17: resource 2 [mem 0xe6800000-0xe68fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302293] pci_bus 0000:18: resource 1 [mem 0xfbe00000-0xfbefffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302293] pci_bus 0000:18: resource 2 [mem 0xe6400000-0xe64fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302294] pci_bus 0000:19: resource 1 [mem 0xfba00000-0xfbafffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302294] pci_bus 0000:19: resource 2 [mem 0xe6000000-0xe60fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302295] pci_bus 0000:1a: resource 1 [mem 0xfb600000-0xfb6fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302295] pci_bus 0000:1a: resource 2 [mem 0xe5c00000-0xe5cfffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302296] pci_bus 0000:1b: resource 0 [io  0x7000-0x7fff]
+Mar 21 16:03:38 debian-min kernel: [    0.302296] pci_bus 0000:1b: resource 1 [mem 0xfd100000-0xfd1fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302297] pci_bus 0000:1b: resource 2 [mem 0xe7700000-0xe77fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302297] pci_bus 0000:1c: resource 0 [io  0xb000-0xbfff]
+Mar 21 16:03:38 debian-min kernel: [    0.302298] pci_bus 0000:1c: resource 1 [mem 0xfcd00000-0xfcdfffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302298] pci_bus 0000:1c: resource 2 [mem 0xe7300000-0xe73fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302299] pci_bus 0000:1d: resource 1 [mem 0xfc900000-0xfc9fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302299] pci_bus 0000:1d: resource 2 [mem 0xe6f00000-0xe6ffffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302300] pci_bus 0000:1e: resource 1 [mem 0xfc500000-0xfc5fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302300] pci_bus 0000:1e: resource 2 [mem 0xe6b00000-0xe6bfffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302301] pci_bus 0000:1f: resource 1 [mem 0xfc100000-0xfc1fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302302] pci_bus 0000:1f: resource 2 [mem 0xe6700000-0xe67fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302302] pci_bus 0000:20: resource 1 [mem 0xfbd00000-0xfbdfffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302303] pci_bus 0000:20: resource 2 [mem 0xe6300000-0xe63fffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302303] pci_bus 0000:21: resource 1 [mem 0xfb900000-0xfb9fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302304] pci_bus 0000:21: resource 2 [mem 0xe5f00000-0xe5ffffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.302304] pci_bus 0000:22: resource 1 [mem 0xfb500000-0xfb5fffff]
+Mar 21 16:03:38 debian-min kernel: [    0.302305] pci_bus 0000:22: resource 2 [mem 0xe5b00000-0xe5bfffff 64bit pref]
+Mar 21 16:03:38 debian-min kernel: [    0.303979] PCI: CLS mismatch (32 != 64), using 64 bytes
+Mar 21 16:03:38 debian-min kernel: [    1.051780] ehci-pci 0000:02:03.0: cache line size of 64 is not supported
+Mar 21 16:03:38 debian-min kernel: [    1.063032] libata version 3.00 loaded.
+Mar 21 16:03:38 debian-min kernel: [    1.064173] ata_piix 0000:00:07.1: version 2.13
+Mar 21 16:03:38 debian-min kernel: [    1.376713] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Mar 21 16:03:38 debian-min kernel: [    1.637749] sd 2:0:0:0: [sda] Mode Sense: 61 00 00 00
+Mar 21 16:03:38 debian-min kernel: [    1.682564] PM: Image not found (code -22)
+Mar 21 16:07:25 debian-min kernel: [    0.001923] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Mar 21 16:07:25 debian-min kernel: [    0.001924] e820: remove [mem 0x000a0000-0x000fffff] usable
+Mar 21 16:07:25 debian-min kernel: [    0.001941] MTRR default type: uncachable
+Mar 21 16:07:25 debian-min kernel: [    0.001941] MTRR fixed ranges enabled:
+Mar 21 16:07:25 debian-min kernel: [    0.001942]   00000-9FFFF write-back
+Mar 21 16:07:25 debian-min kernel: [    0.001942]   A0000-BFFFF uncachable
+Mar 21 16:07:25 debian-min kernel: [    0.001943]   C0000-CBFFF write-protect
+Mar 21 16:07:25 debian-min kernel: [    0.001943]   CC000-EFFFF uncachable
+Mar 21 16:07:25 debian-min kernel: [    0.001944]   F0000-FFFFF write-protect
+Mar 21 16:07:25 debian-min kernel: [    0.001944] MTRR variable ranges enabled:
+Mar 21 16:07:25 debian-min kernel: [    0.001945]   0 base 00000000000 mask 7FFE0000000 write-back
+Mar 21 16:07:25 debian-min kernel: [    0.001945]   1 base 00080000000 mask 7FF80000000 uncachable
+Mar 21 16:07:25 debian-min kernel: [    0.001946]   2 base 00040000000 mask 7FFC0000000 uncachable
+Mar 21 16:07:25 debian-min kernel: [    0.001946]   3 base 00020000000 mask 7FFE0000000 uncachable
+Mar 21 16:07:25 debian-min kernel: [    0.001947]   4 disabled
+Mar 21 16:07:25 debian-min kernel: [    0.001947]   5 disabled
+Mar 21 16:07:25 debian-min kernel: [    0.001947]   6 disabled
+Mar 21 16:07:25 debian-min kernel: [    0.001947]   7 disabled
+Mar 21 16:07:25 debian-min kernel: [    0.004027] BRK [0x05e02000, 0x05e02fff] PGTABLE
+Mar 21 16:07:25 debian-min kernel: [    0.004028] BRK [0x05e03000, 0x05e03fff] PGTABLE
+Mar 21 16:07:25 debian-min kernel: [    0.004028] BRK [0x05e04000, 0x05e04fff] PGTABLE
+Mar 21 16:07:25 debian-min kernel: [    0.004047] BRK [0x05e05000, 0x05e05fff] PGTABLE
+Mar 21 16:07:25 debian-min kernel: [    0.004094] BRK [0x05e06000, 0x05e06fff] PGTABLE
+Mar 21 16:07:25 debian-min kernel: [    0.004198] ACPI: Local APIC address 0xfee00000
+Mar 21 16:07:25 debian-min kernel: [    0.004199] system APIC only can use physical flat
+Mar 21 16:07:25 debian-min kernel: [    0.004306] On node 0 totalpages: 130941
+Mar 21 16:07:25 debian-min kernel: [    0.004306]   DMA zone: 64 pages used for memmap
+Mar 21 16:07:25 debian-min kernel: [    0.004306]   DMA zone: 21 pages reserved
+Mar 21 16:07:25 debian-min kernel: [    0.004307]   DMA zone: 3997 pages, LIFO batch:0
+Mar 21 16:07:25 debian-min kernel: [    0.004366]   DMA32 zone: 1984 pages used for memmap
+Mar 21 16:07:25 debian-min kernel: [    0.004366]   DMA32 zone: 126944 pages, LIFO batch:31
+Mar 21 16:07:25 debian-min kernel: [    0.008292] ACPI: Local APIC address 0xfee00000
+Mar 21 16:07:25 debian-min kernel: [    0.008293] system APIC only can use physical flat
+Mar 21 16:07:25 debian-min kernel: [    0.008365] ACPI: IRQ0 used by override.
+Mar 21 16:07:25 debian-min kernel: [    0.008365] ACPI: IRQ9 used by override.
+Mar 21 16:07:25 debian-min kernel: [    0.118478] pcpu-alloc: s144408 r8192 d31720 u262144 alloc=1*2097152
+Mar 21 16:07:25 debian-min kernel: [    0.118479] pcpu-alloc: [0] 000 001 002 003 004 005 006 007 
+Mar 21 16:07:25 debian-min kernel: [    0.118480] pcpu-alloc: [0] 008 009 010 011 012 013 014 015 
+Mar 21 16:07:25 debian-min kernel: [    0.118481] pcpu-alloc: [0] 016 017 018 019 020 021 022 023 
+Mar 21 16:07:25 debian-min kernel: [    0.118483] pcpu-alloc: [0] 024 025 026 027 028 029 030 031 
+Mar 21 16:07:25 debian-min kernel: [    0.118484] pcpu-alloc: [0] 032 033 034 035 036 037 038 039 
+Mar 21 16:07:25 debian-min kernel: [    0.118485] pcpu-alloc: [0] 040 041 042 043 044 045 046 047 
+Mar 21 16:07:25 debian-min kernel: [    0.118486] pcpu-alloc: [0] 048 049 050 051 052 053 054 055 
+Mar 21 16:07:25 debian-min kernel: [    0.118487] pcpu-alloc: [0] 056 057 058 059 060 061 062 063 
+Mar 21 16:07:25 debian-min kernel: [    0.118488] pcpu-alloc: [0] 064 065 066 067 068 069 070 071 
+Mar 21 16:07:25 debian-min kernel: [    0.118489] pcpu-alloc: [0] 072 073 074 075 076 077 078 079 
+Mar 21 16:07:25 debian-min kernel: [    0.118490] pcpu-alloc: [0] 080 081 082 083 084 085 086 087 
+Mar 21 16:07:25 debian-min kernel: [    0.118491] pcpu-alloc: [0] 088 089 090 091 092 093 094 095 
+Mar 21 16:07:25 debian-min kernel: [    0.118492] pcpu-alloc: [0] 096 097 098 099 100 101 102 103 
+Mar 21 16:07:25 debian-min kernel: [    0.118494] pcpu-alloc: [0] 104 105 106 107 108 109 110 111 
+Mar 21 16:07:25 debian-min kernel: [    0.118495] pcpu-alloc: [0] 112 113 114 115 116 117 118 119 
+Mar 21 16:07:25 debian-min kernel: [    0.118496] pcpu-alloc: [0] 120 121 122 123 124 125 126 127 
+Mar 21 16:07:25 debian-min kernel: [    0.119110] Calgary: detecting Calgary via BIOS EBDA area
+Mar 21 16:07:25 debian-min kernel: [    0.119111] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Mar 21 16:07:25 debian-min kernel: [    0.134941] hpet clockevent registered
+Mar 21 16:07:25 debian-min kernel: [    0.222139] pci 0000:00:00.0: [8086:7190] type 00 class 0x060000
+Mar 21 16:07:25 debian-min kernel: [    0.222634] pci 0000:00:01.0: [8086:7191] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.223024] pci 0000:00:07.0: [8086:7110] type 00 class 0x060100
+Mar 21 16:07:25 debian-min kernel: [    0.223712] pci 0000:00:07.1: [8086:7111] type 00 class 0x01018a
+Mar 21 16:07:25 debian-min kernel: [    0.224353] pci 0000:00:07.1: reg 0x20: [io  0x1060-0x106f]
+Mar 21 16:07:25 debian-min kernel: [    0.224790] pci 0000:00:07.3: [8086:7113] type 00 class 0x068000
+Mar 21 16:07:25 debian-min kernel: [    0.225845] pci 0000:00:07.7: [15ad:0740] type 00 class 0x088000
+Mar 21 16:07:25 debian-min kernel: [    0.226115] pci 0000:00:07.7: reg 0x10: [io  0x1080-0x10bf]
+Mar 21 16:07:25 debian-min kernel: [    0.226323] pci 0000:00:07.7: reg 0x14: [mem 0xfebfe000-0xfebfffff 64bit]
+Mar 21 16:07:25 debian-min kernel: [    0.227478] pci 0000:00:0f.0: [15ad:0405] type 00 class 0x030000
+Mar 21 16:07:25 debian-min kernel: [    0.228066] pci 0000:00:0f.0: reg 0x10: [io  0x1070-0x107f]
+Mar 21 16:07:25 debian-min kernel: [    0.228548] pci 0000:00:0f.0: reg 0x14: [mem 0xe8000000-0xefffffff pref]
+Mar 21 16:07:25 debian-min kernel: [    0.229031] pci 0000:00:0f.0: reg 0x18: [mem 0xfe000000-0xfe7fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.230950] pci 0000:00:0f.0: reg 0x30: [mem 0x00000000-0x00007fff pref]
+Mar 21 16:07:25 debian-min kernel: [    0.231320] pci 0000:00:10.0: [1000:0030] type 00 class 0x010000
+Mar 21 16:07:25 debian-min kernel: [    0.231637] pci 0000:00:10.0: reg 0x10: [io  0x1400-0x14ff]
+Mar 21 16:07:25 debian-min kernel: [    0.231918] pci 0000:00:10.0: reg 0x14: [mem 0xfeba0000-0xfebbffff 64bit]
+Mar 21 16:07:25 debian-min kernel: [    0.232200] pci 0000:00:10.0: reg 0x1c: [mem 0xfebc0000-0xfebdffff 64bit]
+Mar 21 16:07:25 debian-min kernel: [    0.232694] pci 0000:00:10.0: reg 0x30: [mem 0x00000000-0x00003fff pref]
+Mar 21 16:07:25 debian-min kernel: [    0.232981] pci 0000:00:11.0: [15ad:0790] type 01 class 0x060401
+Mar 21 16:07:25 debian-min kernel: [    0.233573] pci 0000:00:15.0: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.234136] pci 0000:00:15.0: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.234425] pci 0000:00:15.1: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.234994] pci 0000:00:15.1: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.235393] pci 0000:00:15.2: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.235959] pci 0000:00:15.2: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.236249] pci 0000:00:15.3: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.236812] pci 0000:00:15.3: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.237111] pci 0000:00:15.4: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.237666] pci 0000:00:15.4: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.238047] pci 0000:00:15.5: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.238605] pci 0000:00:15.5: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.238900] pci 0000:00:15.6: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.239461] pci 0000:00:15.6: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.239756] pci 0000:00:15.7: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.240320] pci 0000:00:15.7: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.240608] pci 0000:00:16.0: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.241189] pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.241475] pci 0000:00:16.1: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.242043] pci 0000:00:16.1: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.242438] pci 0000:00:16.2: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.243002] pci 0000:00:16.2: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.243291] pci 0000:00:16.3: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.243866] pci 0000:00:16.3: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.244181] pci 0000:00:16.4: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.244736] pci 0000:00:16.4: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.245001] pci 0000:00:16.5: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.245560] pci 0000:00:16.5: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.245860] pci 0000:00:16.6: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.246417] pci 0000:00:16.6: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.246710] pci 0000:00:16.7: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.247273] pci 0000:00:16.7: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.247563] pci 0000:00:17.0: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.248124] pci 0000:00:17.0: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.248410] pci 0000:00:17.1: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.248971] pci 0000:00:17.1: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.249373] pci 0000:00:17.2: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.249932] pci 0000:00:17.2: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.250223] pci 0000:00:17.3: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.250783] pci 0000:00:17.3: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.251078] pci 0000:00:17.4: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.251640] pci 0000:00:17.4: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.251935] pci 0000:00:17.5: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.252492] pci 0000:00:17.5: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.252758] pci 0000:00:17.6: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.253320] pci 0000:00:17.6: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.253633] pci 0000:00:17.7: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.254198] pci 0000:00:17.7: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.254484] pci 0000:00:18.0: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.255046] pci 0000:00:18.0: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.255348] pci 0000:00:18.1: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.255916] pci 0000:00:18.1: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.256307] pci 0000:00:18.2: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.256872] pci 0000:00:18.2: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.257176] pci 0000:00:18.3: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.257734] pci 0000:00:18.3: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.258039] pci 0000:00:18.4: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.258593] pci 0000:00:18.4: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.258881] pci 0000:00:18.5: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.259455] pci 0000:00:18.5: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.259744] pci 0000:00:18.6: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.260302] pci 0000:00:18.6: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.260562] pci 0000:00:18.7: [15ad:07a0] type 01 class 0x060400
+Mar 21 16:07:25 debian-min kernel: [    0.261125] pci 0000:00:18.7: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.262982] pci 0000:02:00.0: [15ad:0774] type 00 class 0x0c0300
+Mar 21 16:07:25 debian-min kernel: [    0.263574] pci 0000:02:00.0: reg 0x20: [io  0x2080-0x209f]
+Mar 21 16:07:25 debian-min kernel: [    0.264137] pci 0000:02:01.0: [8086:100f] type 00 class 0x020000
+Mar 21 16:07:25 debian-min kernel: [    0.264461] pci 0000:02:01.0: reg 0x10: [mem 0xfd5c0000-0xfd5dffff 64bit]
+Mar 21 16:07:25 debian-min kernel: [    0.264738] pci 0000:02:01.0: reg 0x18: [mem 0xfdff0000-0xfdffffff 64bit]
+Mar 21 16:07:25 debian-min kernel: [    0.264983] pci 0000:02:01.0: reg 0x20: [io  0x2000-0x203f]
+Mar 21 16:07:25 debian-min kernel: [    0.265459] pci 0000:02:01.0: reg 0x30: [mem 0x00000000-0x0000ffff pref]
+Mar 21 16:07:25 debian-min kernel: [    0.265677] pci 0000:02:01.0: PME# supported from D0 D3hot D3cold
+Mar 21 16:07:25 debian-min kernel: [    0.265988] pci 0000:02:02.0: [1274:1371] type 00 class 0x040100
+Mar 21 16:07:25 debian-min kernel: [    0.266177] pci 0000:02:02.0: reg 0x10: [io  0x2040-0x207f]
+Mar 21 16:07:25 debian-min kernel: [    0.267320] pci 0000:02:03.0: [15ad:0770] type 00 class 0x0c0320
+Mar 21 16:07:25 debian-min kernel: [    0.267519] pci 0000:02:03.0: reg 0x10: [mem 0xfd5ef000-0xfd5effff]
+Mar 21 16:07:25 debian-min kernel: [    0.268762] pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+Mar 21 16:07:25 debian-min kernel: [    0.268777] pci 0000:00:11.0:   bridge window [mem 0xfd500000-0xfdffffff]
+Mar 21 16:07:25 debian-min kernel: [    0.268805] pci 0000:00:11.0:   bridge window [mem 0xe7b00000-0xe7ffffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.268806] pci 0000:00:11.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+Mar 21 16:07:25 debian-min kernel: [    0.268807] pci 0000:00:11.0:   bridge window [mem 0x000cc000-0x000cffff window] (subtractive decode)
+Mar 21 16:07:25 debian-min kernel: [    0.268807] pci 0000:00:11.0:   bridge window [mem 0x000d0000-0x000d3fff window] (subtractive decode)
+Mar 21 16:07:25 debian-min kernel: [    0.268808] pci 0000:00:11.0:   bridge window [mem 0x000d4000-0x000d7fff window] (subtractive decode)
+Mar 21 16:07:25 debian-min kernel: [    0.268808] pci 0000:00:11.0:   bridge window [mem 0x000d8000-0x000dbfff window] (subtractive decode)
+Mar 21 16:07:25 debian-min kernel: [    0.268809] pci 0000:00:11.0:   bridge window [mem 0x20000000-0xfebfffff window] (subtractive decode)
+Mar 21 16:07:25 debian-min kernel: [    0.268809] pci 0000:00:11.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+Mar 21 16:07:25 debian-min kernel: [    0.268810] pci 0000:00:11.0:   bridge window [io  0x0d00-0xfeff window] (subtractive decode)
+Mar 21 16:07:25 debian-min kernel: [    0.269038] pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+Mar 21 16:07:25 debian-min kernel: [    0.269053] pci 0000:00:15.0:   bridge window [mem 0xfd400000-0xfd4fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.269081] pci 0000:00:15.0:   bridge window [mem 0xe7a00000-0xe7afffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.269349] pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+Mar 21 16:07:25 debian-min kernel: [    0.269363] pci 0000:00:15.1:   bridge window [mem 0xfd000000-0xfd0fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.269392] pci 0000:00:15.1:   bridge window [mem 0xe7600000-0xe76fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.269616] pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+Mar 21 16:07:25 debian-min kernel: [    0.269631] pci 0000:00:15.2:   bridge window [mem 0xfcc00000-0xfccfffff]
+Mar 21 16:07:25 debian-min kernel: [    0.269659] pci 0000:00:15.2:   bridge window [mem 0xe7200000-0xe72fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.269897] pci 0000:00:15.3:   bridge window [mem 0xfc800000-0xfc8fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.269925] pci 0000:00:15.3:   bridge window [mem 0xe6e00000-0xe6efffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.270211] pci 0000:00:15.4:   bridge window [mem 0xfc400000-0xfc4fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.270240] pci 0000:00:15.4:   bridge window [mem 0xe6a00000-0xe6afffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.270479] pci 0000:00:15.5:   bridge window [mem 0xfc000000-0xfc0fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.270508] pci 0000:00:15.5:   bridge window [mem 0xe6600000-0xe66fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.270794] pci 0000:00:15.6:   bridge window [mem 0xfbc00000-0xfbcfffff]
+Mar 21 16:07:25 debian-min kernel: [    0.270822] pci 0000:00:15.6:   bridge window [mem 0xe6200000-0xe62fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.271065] pci 0000:00:15.7:   bridge window [mem 0xfb800000-0xfb8fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.271093] pci 0000:00:15.7:   bridge window [mem 0xe5e00000-0xe5efffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.271317] pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+Mar 21 16:07:25 debian-min kernel: [    0.271331] pci 0000:00:16.0:   bridge window [mem 0xfd300000-0xfd3fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.271359] pci 0000:00:16.0:   bridge window [mem 0xe7900000-0xe79fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.271616] pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+Mar 21 16:07:25 debian-min kernel: [    0.271630] pci 0000:00:16.1:   bridge window [mem 0xfcf00000-0xfcffffff]
+Mar 21 16:07:25 debian-min kernel: [    0.271659] pci 0000:00:16.1:   bridge window [mem 0xe7500000-0xe75fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.271884] pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+Mar 21 16:07:25 debian-min kernel: [    0.271899] pci 0000:00:16.2:   bridge window [mem 0xfcb00000-0xfcbfffff]
+Mar 21 16:07:25 debian-min kernel: [    0.271927] pci 0000:00:16.2:   bridge window [mem 0xe7100000-0xe71fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.272167] pci 0000:00:16.3:   bridge window [mem 0xfc700000-0xfc7fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.272196] pci 0000:00:16.3:   bridge window [mem 0xe6d00000-0xe6dfffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.272461] pci 0000:00:16.4:   bridge window [mem 0xfc300000-0xfc3fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.272489] pci 0000:00:16.4:   bridge window [mem 0xe6900000-0xe69fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.272736] pci 0000:00:16.5:   bridge window [mem 0xfbf00000-0xfbffffff]
+Mar 21 16:07:25 debian-min kernel: [    0.272764] pci 0000:00:16.5:   bridge window [mem 0xe6500000-0xe65fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.273144] pci 0000:00:16.6:   bridge window [mem 0xfbb00000-0xfbbfffff]
+Mar 21 16:07:25 debian-min kernel: [    0.273173] pci 0000:00:16.6:   bridge window [mem 0xe6100000-0xe61fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.273429] pci 0000:00:16.7:   bridge window [mem 0xfb700000-0xfb7fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.273457] pci 0000:00:16.7:   bridge window [mem 0xe5d00000-0xe5dfffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.273691] pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+Mar 21 16:07:25 debian-min kernel: [    0.273706] pci 0000:00:17.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.273734] pci 0000:00:17.0:   bridge window [mem 0xe7800000-0xe78fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.273988] pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+Mar 21 16:07:25 debian-min kernel: [    0.274002] pci 0000:00:17.1:   bridge window [mem 0xfce00000-0xfcefffff]
+Mar 21 16:07:25 debian-min kernel: [    0.274031] pci 0000:00:17.1:   bridge window [mem 0xe7400000-0xe74fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.274257] pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+Mar 21 16:07:25 debian-min kernel: [    0.274272] pci 0000:00:17.2:   bridge window [mem 0xfca00000-0xfcafffff]
+Mar 21 16:07:25 debian-min kernel: [    0.274300] pci 0000:00:17.2:   bridge window [mem 0xe7000000-0xe70fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.274577] pci 0000:00:17.3:   bridge window [mem 0xfc600000-0xfc6fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.274606] pci 0000:00:17.3:   bridge window [mem 0xe6c00000-0xe6cfffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.274853] pci 0000:00:17.4:   bridge window [mem 0xfc200000-0xfc2fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.274881] pci 0000:00:17.4:   bridge window [mem 0xe6800000-0xe68fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.275120] pci 0000:00:17.5:   bridge window [mem 0xfbe00000-0xfbefffff]
+Mar 21 16:07:25 debian-min kernel: [    0.275149] pci 0000:00:17.5:   bridge window [mem 0xe6400000-0xe64fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.275414] pci 0000:00:17.6:   bridge window [mem 0xfba00000-0xfbafffff]
+Mar 21 16:07:25 debian-min kernel: [    0.275442] pci 0000:00:17.6:   bridge window [mem 0xe6000000-0xe60fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.275684] pci 0000:00:17.7:   bridge window [mem 0xfb600000-0xfb6fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.275712] pci 0000:00:17.7:   bridge window [mem 0xe5c00000-0xe5cfffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.275938] pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+Mar 21 16:07:25 debian-min kernel: [    0.275953] pci 0000:00:18.0:   bridge window [mem 0xfd100000-0xfd1fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.275981] pci 0000:00:18.0:   bridge window [mem 0xe7700000-0xe77fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.276237] pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+Mar 21 16:07:25 debian-min kernel: [    0.276251] pci 0000:00:18.1:   bridge window [mem 0xfcd00000-0xfcdfffff]
+Mar 21 16:07:25 debian-min kernel: [    0.276280] pci 0000:00:18.1:   bridge window [mem 0xe7300000-0xe73fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.276519] pci 0000:00:18.2:   bridge window [mem 0xfc900000-0xfc9fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.276547] pci 0000:00:18.2:   bridge window [mem 0xe6f00000-0xe6ffffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.276819] pci 0000:00:18.3:   bridge window [mem 0xfc500000-0xfc5fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.276847] pci 0000:00:18.3:   bridge window [mem 0xe6b00000-0xe6bfffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.277095] pci 0000:00:18.4:   bridge window [mem 0xfc100000-0xfc1fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.277123] pci 0000:00:18.4:   bridge window [mem 0xe6700000-0xe67fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.277390] pci 0000:00:18.5:   bridge window [mem 0xfbd00000-0xfbdfffff]
+Mar 21 16:07:25 debian-min kernel: [    0.277419] pci 0000:00:18.5:   bridge window [mem 0xe6300000-0xe63fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.277792] pci 0000:00:18.6:   bridge window [mem 0xfb900000-0xfb9fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.277820] pci 0000:00:18.6:   bridge window [mem 0xe5f00000-0xe5ffffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.278064] pci 0000:00:18.7:   bridge window [mem 0xfb500000-0xfb5fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.278093] pci 0000:00:18.7:   bridge window [mem 0xe5b00000-0xe5bfffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.289942] PCI: pci_cache_line_size set to 64 bytes
+Mar 21 16:07:25 debian-min kernel: [    0.290587] e820: reserve RAM buffer [mem 0x0009ec00-0x0009ffff]
+Mar 21 16:07:25 debian-min kernel: [    0.290588] e820: reserve RAM buffer [mem 0x1fee0000-0x1fffffff]
+Mar 21 16:07:25 debian-min kernel: [    0.318104] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+Mar 21 16:07:25 debian-min kernel: [    0.318118] pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+Mar 21 16:07:25 debian-min kernel: [    0.318127] pnp 00:02: Plug and Play ACPI device, IDs PNP0303 (active)
+Mar 21 16:07:25 debian-min kernel: [    0.318135] pnp 00:03: Plug and Play ACPI device, IDs VMW0003 PNP0f13 (active)
+Mar 21 16:07:25 debian-min kernel: [    0.318285] system 00:04: Plug and Play ACPI device, IDs PNP0103 PNP0c01 (active)
+Mar 21 16:07:25 debian-min kernel: [    0.319171] pnp 00:05: Plug and Play ACPI device, IDs PNP0501 (active)
+Mar 21 16:07:25 debian-min kernel: [    0.319440] system 00:06: Plug and Play ACPI device, IDs PNP0c02 (active)
+Mar 21 16:07:25 debian-min kernel: [    0.328522] pci 0000:00:15.3: bridge window [io  0x1000-0x0fff] to [bus 06] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.328565] pci 0000:00:15.4: bridge window [io  0x1000-0x0fff] to [bus 07] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.328608] pci 0000:00:15.5: bridge window [io  0x1000-0x0fff] to [bus 08] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.328653] pci 0000:00:15.6: bridge window [io  0x1000-0x0fff] to [bus 09] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.328696] pci 0000:00:15.7: bridge window [io  0x1000-0x0fff] to [bus 0a] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.328869] pci 0000:00:16.3: bridge window [io  0x1000-0x0fff] to [bus 0e] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.328912] pci 0000:00:16.4: bridge window [io  0x1000-0x0fff] to [bus 0f] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.328955] pci 0000:00:16.5: bridge window [io  0x1000-0x0fff] to [bus 10] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.328998] pci 0000:00:16.6: bridge window [io  0x1000-0x0fff] to [bus 11] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.329041] pci 0000:00:16.7: bridge window [io  0x1000-0x0fff] to [bus 12] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.329208] pci 0000:00:17.3: bridge window [io  0x1000-0x0fff] to [bus 16] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.329251] pci 0000:00:17.4: bridge window [io  0x1000-0x0fff] to [bus 17] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.329293] pci 0000:00:17.5: bridge window [io  0x1000-0x0fff] to [bus 18] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.329336] pci 0000:00:17.6: bridge window [io  0x1000-0x0fff] to [bus 19] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.329378] pci 0000:00:17.7: bridge window [io  0x1000-0x0fff] to [bus 1a] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.329504] pci 0000:00:18.2: bridge window [io  0x1000-0x0fff] to [bus 1d] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.329547] pci 0000:00:18.3: bridge window [io  0x1000-0x0fff] to [bus 1e] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.329590] pci 0000:00:18.4: bridge window [io  0x1000-0x0fff] to [bus 1f] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.329632] pci 0000:00:18.5: bridge window [io  0x1000-0x0fff] to [bus 20] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.329682] pci 0000:00:18.6: bridge window [io  0x1000-0x0fff] to [bus 21] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.329749] pci 0000:00:18.7: bridge window [io  0x1000-0x0fff] to [bus 22] add_size 1000
+Mar 21 16:07:25 debian-min kernel: [    0.332402] pci_bus 0000:00: resource 4 [mem 0x000a0000-0x000bffff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332402] pci_bus 0000:00: resource 5 [mem 0x000cc000-0x000cffff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332403] pci_bus 0000:00: resource 6 [mem 0x000d0000-0x000d3fff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332403] pci_bus 0000:00: resource 7 [mem 0x000d4000-0x000d7fff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332404] pci_bus 0000:00: resource 8 [mem 0x000d8000-0x000dbfff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332404] pci_bus 0000:00: resource 9 [mem 0x20000000-0xfebfffff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332405] pci_bus 0000:00: resource 10 [io  0x0000-0x0cf7 window]
+Mar 21 16:07:25 debian-min kernel: [    0.332405] pci_bus 0000:00: resource 11 [io  0x0d00-0xfeff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332406] pci_bus 0000:02: resource 0 [io  0x2000-0x3fff]
+Mar 21 16:07:25 debian-min kernel: [    0.332407] pci_bus 0000:02: resource 1 [mem 0xfd500000-0xfdffffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332407] pci_bus 0000:02: resource 2 [mem 0xe7b00000-0xe7ffffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332408] pci_bus 0000:02: resource 4 [mem 0x000a0000-0x000bffff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332408] pci_bus 0000:02: resource 5 [mem 0x000cc000-0x000cffff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332409] pci_bus 0000:02: resource 6 [mem 0x000d0000-0x000d3fff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332409] pci_bus 0000:02: resource 7 [mem 0x000d4000-0x000d7fff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332410] pci_bus 0000:02: resource 8 [mem 0x000d8000-0x000dbfff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332410] pci_bus 0000:02: resource 9 [mem 0x20000000-0xfebfffff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332411] pci_bus 0000:02: resource 10 [io  0x0000-0x0cf7 window]
+Mar 21 16:07:25 debian-min kernel: [    0.332411] pci_bus 0000:02: resource 11 [io  0x0d00-0xfeff window]
+Mar 21 16:07:25 debian-min kernel: [    0.332412] pci_bus 0000:03: resource 0 [io  0x4000-0x4fff]
+Mar 21 16:07:25 debian-min kernel: [    0.332412] pci_bus 0000:03: resource 1 [mem 0xfd400000-0xfd4fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332413] pci_bus 0000:03: resource 2 [mem 0xe7a00000-0xe7afffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332413] pci_bus 0000:04: resource 0 [io  0x8000-0x8fff]
+Mar 21 16:07:25 debian-min kernel: [    0.332414] pci_bus 0000:04: resource 1 [mem 0xfd000000-0xfd0fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332414] pci_bus 0000:04: resource 2 [mem 0xe7600000-0xe76fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332415] pci_bus 0000:05: resource 0 [io  0xc000-0xcfff]
+Mar 21 16:07:25 debian-min kernel: [    0.332415] pci_bus 0000:05: resource 1 [mem 0xfcc00000-0xfccfffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332416] pci_bus 0000:05: resource 2 [mem 0xe7200000-0xe72fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332416] pci_bus 0000:06: resource 1 [mem 0xfc800000-0xfc8fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332417] pci_bus 0000:06: resource 2 [mem 0xe6e00000-0xe6efffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332417] pci_bus 0000:07: resource 1 [mem 0xfc400000-0xfc4fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332418] pci_bus 0000:07: resource 2 [mem 0xe6a00000-0xe6afffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332419] pci_bus 0000:08: resource 1 [mem 0xfc000000-0xfc0fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332419] pci_bus 0000:08: resource 2 [mem 0xe6600000-0xe66fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332420] pci_bus 0000:09: resource 1 [mem 0xfbc00000-0xfbcfffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332420] pci_bus 0000:09: resource 2 [mem 0xe6200000-0xe62fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332421] pci_bus 0000:0a: resource 1 [mem 0xfb800000-0xfb8fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332421] pci_bus 0000:0a: resource 2 [mem 0xe5e00000-0xe5efffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332422] pci_bus 0000:0b: resource 0 [io  0x5000-0x5fff]
+Mar 21 16:07:25 debian-min kernel: [    0.332422] pci_bus 0000:0b: resource 1 [mem 0xfd300000-0xfd3fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332423] pci_bus 0000:0b: resource 2 [mem 0xe7900000-0xe79fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332423] pci_bus 0000:0c: resource 0 [io  0x9000-0x9fff]
+Mar 21 16:07:25 debian-min kernel: [    0.332424] pci_bus 0000:0c: resource 1 [mem 0xfcf00000-0xfcffffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332424] pci_bus 0000:0c: resource 2 [mem 0xe7500000-0xe75fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332425] pci_bus 0000:0d: resource 0 [io  0xd000-0xdfff]
+Mar 21 16:07:25 debian-min kernel: [    0.332425] pci_bus 0000:0d: resource 1 [mem 0xfcb00000-0xfcbfffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332426] pci_bus 0000:0d: resource 2 [mem 0xe7100000-0xe71fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332426] pci_bus 0000:0e: resource 1 [mem 0xfc700000-0xfc7fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332427] pci_bus 0000:0e: resource 2 [mem 0xe6d00000-0xe6dfffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332427] pci_bus 0000:0f: resource 1 [mem 0xfc300000-0xfc3fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332428] pci_bus 0000:0f: resource 2 [mem 0xe6900000-0xe69fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332428] pci_bus 0000:10: resource 1 [mem 0xfbf00000-0xfbffffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332429] pci_bus 0000:10: resource 2 [mem 0xe6500000-0xe65fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332429] pci_bus 0000:11: resource 1 [mem 0xfbb00000-0xfbbfffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332430] pci_bus 0000:11: resource 2 [mem 0xe6100000-0xe61fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332430] pci_bus 0000:12: resource 1 [mem 0xfb700000-0xfb7fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332431] pci_bus 0000:12: resource 2 [mem 0xe5d00000-0xe5dfffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332431] pci_bus 0000:13: resource 0 [io  0x6000-0x6fff]
+Mar 21 16:07:25 debian-min kernel: [    0.332432] pci_bus 0000:13: resource 1 [mem 0xfd200000-0xfd2fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332432] pci_bus 0000:13: resource 2 [mem 0xe7800000-0xe78fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332433] pci_bus 0000:14: resource 0 [io  0xa000-0xafff]
+Mar 21 16:07:25 debian-min kernel: [    0.332433] pci_bus 0000:14: resource 1 [mem 0xfce00000-0xfcefffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332434] pci_bus 0000:14: resource 2 [mem 0xe7400000-0xe74fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332434] pci_bus 0000:15: resource 0 [io  0xe000-0xefff]
+Mar 21 16:07:25 debian-min kernel: [    0.332435] pci_bus 0000:15: resource 1 [mem 0xfca00000-0xfcafffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332435] pci_bus 0000:15: resource 2 [mem 0xe7000000-0xe70fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332436] pci_bus 0000:16: resource 1 [mem 0xfc600000-0xfc6fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332437] pci_bus 0000:16: resource 2 [mem 0xe6c00000-0xe6cfffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332437] pci_bus 0000:17: resource 1 [mem 0xfc200000-0xfc2fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332438] pci_bus 0000:17: resource 2 [mem 0xe6800000-0xe68fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332438] pci_bus 0000:18: resource 1 [mem 0xfbe00000-0xfbefffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332439] pci_bus 0000:18: resource 2 [mem 0xe6400000-0xe64fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332439] pci_bus 0000:19: resource 1 [mem 0xfba00000-0xfbafffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332440] pci_bus 0000:19: resource 2 [mem 0xe6000000-0xe60fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332441] pci_bus 0000:1a: resource 1 [mem 0xfb600000-0xfb6fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332441] pci_bus 0000:1a: resource 2 [mem 0xe5c00000-0xe5cfffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332442] pci_bus 0000:1b: resource 0 [io  0x7000-0x7fff]
+Mar 21 16:07:25 debian-min kernel: [    0.332442] pci_bus 0000:1b: resource 1 [mem 0xfd100000-0xfd1fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332442] pci_bus 0000:1b: resource 2 [mem 0xe7700000-0xe77fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332443] pci_bus 0000:1c: resource 0 [io  0xb000-0xbfff]
+Mar 21 16:07:25 debian-min kernel: [    0.332443] pci_bus 0000:1c: resource 1 [mem 0xfcd00000-0xfcdfffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332444] pci_bus 0000:1c: resource 2 [mem 0xe7300000-0xe73fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332444] pci_bus 0000:1d: resource 1 [mem 0xfc900000-0xfc9fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332445] pci_bus 0000:1d: resource 2 [mem 0xe6f00000-0xe6ffffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332446] pci_bus 0000:1e: resource 1 [mem 0xfc500000-0xfc5fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332446] pci_bus 0000:1e: resource 2 [mem 0xe6b00000-0xe6bfffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332447] pci_bus 0000:1f: resource 1 [mem 0xfc100000-0xfc1fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332447] pci_bus 0000:1f: resource 2 [mem 0xe6700000-0xe67fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332448] pci_bus 0000:20: resource 1 [mem 0xfbd00000-0xfbdfffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332448] pci_bus 0000:20: resource 2 [mem 0xe6300000-0xe63fffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332449] pci_bus 0000:21: resource 1 [mem 0xfb900000-0xfb9fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332449] pci_bus 0000:21: resource 2 [mem 0xe5f00000-0xe5ffffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.332450] pci_bus 0000:22: resource 1 [mem 0xfb500000-0xfb5fffff]
+Mar 21 16:07:25 debian-min kernel: [    0.332450] pci_bus 0000:22: resource 2 [mem 0xe5b00000-0xe5bfffff 64bit pref]
+Mar 21 16:07:25 debian-min kernel: [    0.336117] PCI: CLS mismatch (32 != 64), using 64 bytes
+Mar 21 16:07:25 debian-min kernel: [    1.171443] ehci-pci 0000:02:03.0: cache line size of 64 is not supported
+Mar 21 16:07:25 debian-min kernel: [    1.204577] libata version 3.00 loaded.
+Mar 21 16:07:25 debian-min kernel: [    1.205318] ata_piix 0000:00:07.1: version 2.13
+Mar 21 16:07:25 debian-min kernel: [    1.433491] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Mar 21 16:07:25 debian-min kernel: [    1.761286] sd 2:0:0:0: [sda] Mode Sense: 61 00 00 00
+Mar 21 16:07:25 debian-min kernel: [    1.802735] PM: Image not found (code -22)
+Oct 27 00:34:45 debian-min kernel: [    0.001938] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Oct 27 00:34:45 debian-min kernel: [    0.001939] e820: remove [mem 0x000a0000-0x000fffff] usable
+Oct 27 00:34:45 debian-min kernel: [    0.001956] MTRR default type: uncachable
+Oct 27 00:34:45 debian-min kernel: [    0.001956] MTRR fixed ranges enabled:
+Oct 27 00:34:45 debian-min kernel: [    0.001957]   00000-9FFFF write-back
+Oct 27 00:34:45 debian-min kernel: [    0.001957]   A0000-BFFFF uncachable
+Oct 27 00:34:45 debian-min kernel: [    0.001958]   C0000-CBFFF write-protect
+Oct 27 00:34:45 debian-min kernel: [    0.001958]   CC000-EFFFF uncachable
+Oct 27 00:34:45 debian-min kernel: [    0.001958]   F0000-FFFFF write-protect
+Oct 27 00:34:45 debian-min kernel: [    0.001959] MTRR variable ranges enabled:
+Oct 27 00:34:45 debian-min kernel: [    0.001959]   0 base 00000000000 mask 7FFE0000000 write-back
+Oct 27 00:34:45 debian-min kernel: [    0.001960]   1 base 00080000000 mask 7FF80000000 uncachable
+Oct 27 00:34:45 debian-min kernel: [    0.001960]   2 base 00040000000 mask 7FFC0000000 uncachable
+Oct 27 00:34:45 debian-min kernel: [    0.001961]   3 base 00020000000 mask 7FFE0000000 uncachable
+Oct 27 00:34:45 debian-min kernel: [    0.001961]   4 disabled
+Oct 27 00:34:45 debian-min kernel: [    0.001962]   5 disabled
+Oct 27 00:34:45 debian-min kernel: [    0.001962]   6 disabled
+Oct 27 00:34:45 debian-min kernel: [    0.001962]   7 disabled
+Oct 27 00:34:45 debian-min kernel: [    0.004048] BRK [0x14202000, 0x14202fff] PGTABLE
+Oct 27 00:34:45 debian-min kernel: [    0.004049] BRK [0x14203000, 0x14203fff] PGTABLE
+Oct 27 00:34:45 debian-min kernel: [    0.004049] BRK [0x14204000, 0x14204fff] PGTABLE
+Oct 27 00:34:45 debian-min kernel: [    0.004070] BRK [0x14205000, 0x14205fff] PGTABLE
+Oct 27 00:34:45 debian-min kernel: [    0.004121] BRK [0x14206000, 0x14206fff] PGTABLE
+Oct 27 00:34:45 debian-min kernel: [    0.004232] ACPI: Local APIC address 0xfee00000
+Oct 27 00:34:45 debian-min kernel: [    0.004233] system APIC only can use physical flat
+Oct 27 00:34:45 debian-min kernel: [    0.004334] On node 0 totalpages: 130941
+Oct 27 00:34:45 debian-min kernel: [    0.004335]   DMA zone: 64 pages used for memmap
+Oct 27 00:34:45 debian-min kernel: [    0.004335]   DMA zone: 21 pages reserved
+Oct 27 00:34:45 debian-min kernel: [    0.004336]   DMA zone: 3997 pages, LIFO batch:0
+Oct 27 00:34:45 debian-min kernel: [    0.004393]   DMA32 zone: 1984 pages used for memmap
+Oct 27 00:34:45 debian-min kernel: [    0.004393]   DMA32 zone: 126944 pages, LIFO batch:31
+Oct 27 00:34:45 debian-min kernel: [    0.008350] ACPI: Local APIC address 0xfee00000
+Oct 27 00:34:45 debian-min kernel: [    0.008351] system APIC only can use physical flat
+Oct 27 00:34:45 debian-min kernel: [    0.008422] ACPI: IRQ0 used by override.
+Oct 27 00:34:45 debian-min kernel: [    0.008423] ACPI: IRQ9 used by override.
+Oct 27 00:34:45 debian-min kernel: [    0.116551] pcpu-alloc: s144408 r8192 d31720 u262144 alloc=1*2097152
+Oct 27 00:34:45 debian-min kernel: [    0.116552] pcpu-alloc: [0] 000 001 002 003 004 005 006 007 
+Oct 27 00:34:45 debian-min kernel: [    0.116553] pcpu-alloc: [0] 008 009 010 011 012 013 014 015 
+Oct 27 00:34:45 debian-min kernel: [    0.116555] pcpu-alloc: [0] 016 017 018 019 020 021 022 023 
+Oct 27 00:34:45 debian-min kernel: [    0.116556] pcpu-alloc: [0] 024 025 026 027 028 029 030 031 
+Oct 27 00:34:45 debian-min kernel: [    0.116557] pcpu-alloc: [0] 032 033 034 035 036 037 038 039 
+Oct 27 00:34:45 debian-min kernel: [    0.116558] pcpu-alloc: [0] 040 041 042 043 044 045 046 047 
+Oct 27 00:34:45 debian-min kernel: [    0.116559] pcpu-alloc: [0] 048 049 050 051 052 053 054 055 
+Oct 27 00:34:45 debian-min kernel: [    0.116560] pcpu-alloc: [0] 056 057 058 059 060 061 062 063 
+Oct 27 00:34:45 debian-min kernel: [    0.116561] pcpu-alloc: [0] 064 065 066 067 068 069 070 071 
+Oct 27 00:34:45 debian-min kernel: [    0.116562] pcpu-alloc: [0] 072 073 074 075 076 077 078 079 
+Oct 27 00:34:45 debian-min kernel: [    0.116564] pcpu-alloc: [0] 080 081 082 083 084 085 086 087 
+Oct 27 00:34:45 debian-min kernel: [    0.116565] pcpu-alloc: [0] 088 089 090 091 092 093 094 095 
+Oct 27 00:34:45 debian-min kernel: [    0.116566] pcpu-alloc: [0] 096 097 098 099 100 101 102 103 
+Oct 27 00:34:45 debian-min kernel: [    0.116567] pcpu-alloc: [0] 104 105 106 107 108 109 110 111 
+Oct 27 00:34:45 debian-min kernel: [    0.116568] pcpu-alloc: [0] 112 113 114 115 116 117 118 119 
+Oct 27 00:34:45 debian-min kernel: [    0.116569] pcpu-alloc: [0] 120 121 122 123 124 125 126 127 
+Oct 27 00:34:45 debian-min kernel: [    0.120147] Calgary: detecting Calgary via BIOS EBDA area
+Oct 27 00:34:45 debian-min kernel: [    0.120147] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Oct 27 00:34:45 debian-min kernel: [    0.136948] hpet clockevent registered
+Oct 27 00:34:45 debian-min kernel: [    0.230728] pci 0000:00:00.0: [8086:7190] type 00 class 0x060000
+Oct 27 00:34:45 debian-min kernel: [    0.231255] pci 0000:00:01.0: [8086:7191] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.231665] pci 0000:00:07.0: [8086:7110] type 00 class 0x060100
+Oct 27 00:34:45 debian-min kernel: [    0.232395] pci 0000:00:07.1: [8086:7111] type 00 class 0x01018a
+Oct 27 00:34:45 debian-min kernel: [    0.233033] pci 0000:00:07.1: reg 0x20: [io  0x1060-0x106f]
+Oct 27 00:34:45 debian-min kernel: [    0.233480] pci 0000:00:07.3: [8086:7113] type 00 class 0x068000
+Oct 27 00:34:45 debian-min kernel: [    0.234510] pci 0000:00:07.7: [15ad:0740] type 00 class 0x088000
+Oct 27 00:34:45 debian-min kernel: [    0.234770] pci 0000:00:07.7: reg 0x10: [io  0x1080-0x10bf]
+Oct 27 00:34:45 debian-min kernel: [    0.234969] pci 0000:00:07.7: reg 0x14: [mem 0xfebfe000-0xfebfffff 64bit]
+Oct 27 00:34:45 debian-min kernel: [    0.236129] pci 0000:00:0f.0: [15ad:0405] type 00 class 0x030000
+Oct 27 00:34:45 debian-min kernel: [    0.236699] pci 0000:00:0f.0: reg 0x10: [io  0x1070-0x107f]
+Oct 27 00:34:45 debian-min kernel: [    0.237152] pci 0000:00:0f.0: reg 0x14: [mem 0xe8000000-0xefffffff pref]
+Oct 27 00:34:45 debian-min kernel: [    0.237664] pci 0000:00:0f.0: reg 0x18: [mem 0xfe000000-0xfe7fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.239482] pci 0000:00:0f.0: reg 0x30: [mem 0x00000000-0x00007fff pref]
+Oct 27 00:34:45 debian-min kernel: [    0.239872] pci 0000:00:10.0: [1000:0030] type 00 class 0x010000
+Oct 27 00:34:45 debian-min kernel: [    0.240172] pci 0000:00:10.0: reg 0x10: [io  0x1400-0x14ff]
+Oct 27 00:34:45 debian-min kernel: [    0.240438] pci 0000:00:10.0: reg 0x14: [mem 0xfeba0000-0xfebbffff 64bit]
+Oct 27 00:34:45 debian-min kernel: [    0.240693] pci 0000:00:10.0: reg 0x1c: [mem 0xfebc0000-0xfebdffff 64bit]
+Oct 27 00:34:45 debian-min kernel: [    0.241141] pci 0000:00:10.0: reg 0x30: [mem 0x00000000-0x00003fff pref]
+Oct 27 00:34:45 debian-min kernel: [    0.241457] pci 0000:00:11.0: [15ad:0790] type 01 class 0x060401
+Oct 27 00:34:45 debian-min kernel: [    0.242069] pci 0000:00:15.0: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.242659] pci 0000:00:15.0: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.242972] pci 0000:00:15.1: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.243564] pci 0000:00:15.1: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.243969] pci 0000:00:15.2: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.244555] pci 0000:00:15.2: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.244854] pci 0000:00:15.3: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.245502] pci 0000:00:15.3: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.245794] pci 0000:00:15.4: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.246370] pci 0000:00:15.4: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.246762] pci 0000:00:15.5: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.247343] pci 0000:00:15.5: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.247647] pci 0000:00:15.6: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.248212] pci 0000:00:15.6: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.248529] pci 0000:00:15.7: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.249109] pci 0000:00:15.7: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.249405] pci 0000:00:16.0: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.249982] pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.250273] pci 0000:00:16.1: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.250879] pci 0000:00:16.1: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.251278] pci 0000:00:16.2: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.251882] pci 0000:00:16.2: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.252193] pci 0000:00:16.3: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.252801] pci 0000:00:16.3: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.253125] pci 0000:00:16.4: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.253728] pci 0000:00:16.4: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.254000] pci 0000:00:16.5: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.254590] pci 0000:00:16.5: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.254890] pci 0000:00:16.6: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.255487] pci 0000:00:16.6: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.255803] pci 0000:00:16.7: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.256388] pci 0000:00:16.7: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.256698] pci 0000:00:17.0: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.257281] pci 0000:00:17.0: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.257598] pci 0000:00:17.1: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.258182] pci 0000:00:17.1: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.258592] pci 0000:00:17.2: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.259177] pci 0000:00:17.2: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.259504] pci 0000:00:17.3: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.260088] pci 0000:00:17.3: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.260389] pci 0000:00:17.4: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.260959] pci 0000:00:17.4: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.261250] pci 0000:00:17.5: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.261860] pci 0000:00:17.5: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.262132] pci 0000:00:17.6: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.262718] pci 0000:00:17.6: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.263032] pci 0000:00:17.7: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.263653] pci 0000:00:17.7: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.263969] pci 0000:00:18.0: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.264565] pci 0000:00:18.0: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.264883] pci 0000:00:18.1: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.265482] pci 0000:00:18.1: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.265878] pci 0000:00:18.2: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.266467] pci 0000:00:18.2: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.266773] pci 0000:00:18.3: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.267360] pci 0000:00:18.3: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.267684] pci 0000:00:18.4: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.268269] pci 0000:00:18.4: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.268579] pci 0000:00:18.5: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.269163] pci 0000:00:18.5: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.269477] pci 0000:00:18.6: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.270041] pci 0000:00:18.6: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.270305] pci 0000:00:18.7: [15ad:07a0] type 01 class 0x060400
+Oct 27 00:34:45 debian-min kernel: [    0.270876] pci 0000:00:18.7: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.272833] pci 0000:02:00.0: [15ad:0774] type 00 class 0x0c0300
+Oct 27 00:34:45 debian-min kernel: [    0.273410] pci 0000:02:00.0: reg 0x20: [io  0x2080-0x209f]
+Oct 27 00:34:45 debian-min kernel: [    0.273965] pci 0000:02:01.0: [8086:100f] type 00 class 0x020000
+Oct 27 00:34:45 debian-min kernel: [    0.274265] pci 0000:02:01.0: reg 0x10: [mem 0xfd5c0000-0xfd5dffff 64bit]
+Oct 27 00:34:45 debian-min kernel: [    0.274513] pci 0000:02:01.0: reg 0x18: [mem 0xfdff0000-0xfdffffff 64bit]
+Oct 27 00:34:45 debian-min kernel: [    0.274727] pci 0000:02:01.0: reg 0x20: [io  0x2000-0x203f]
+Oct 27 00:34:45 debian-min kernel: [    0.275153] pci 0000:02:01.0: reg 0x30: [mem 0x00000000-0x0000ffff pref]
+Oct 27 00:34:45 debian-min kernel: [    0.275374] pci 0000:02:01.0: PME# supported from D0 D3hot D3cold
+Oct 27 00:34:45 debian-min kernel: [    0.275750] pci 0000:02:02.0: [1274:1371] type 00 class 0x040100
+Oct 27 00:34:45 debian-min kernel: [    0.275923] pci 0000:02:02.0: reg 0x10: [io  0x2040-0x207f]
+Oct 27 00:34:45 debian-min kernel: [    0.277059] pci 0000:02:03.0: [15ad:0770] type 00 class 0x0c0320
+Oct 27 00:34:45 debian-min kernel: [    0.277227] pci 0000:02:03.0: reg 0x10: [mem 0xfd5ef000-0xfd5effff]
+Oct 27 00:34:45 debian-min kernel: [    0.278453] pci 0000:00:11.0:   bridge window [io  0x2000-0x3fff]
+Oct 27 00:34:45 debian-min kernel: [    0.278468] pci 0000:00:11.0:   bridge window [mem 0xfd500000-0xfdffffff]
+Oct 27 00:34:45 debian-min kernel: [    0.278497] pci 0000:00:11.0:   bridge window [mem 0xe7b00000-0xe7ffffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.278498] pci 0000:00:11.0:   bridge window [mem 0x000a0000-0x000bffff window] (subtractive decode)
+Oct 27 00:34:45 debian-min kernel: [    0.278498] pci 0000:00:11.0:   bridge window [mem 0x000cc000-0x000cffff window] (subtractive decode)
+Oct 27 00:34:45 debian-min kernel: [    0.278499] pci 0000:00:11.0:   bridge window [mem 0x000d0000-0x000d3fff window] (subtractive decode)
+Oct 27 00:34:45 debian-min kernel: [    0.278499] pci 0000:00:11.0:   bridge window [mem 0x000d4000-0x000d7fff window] (subtractive decode)
+Oct 27 00:34:45 debian-min kernel: [    0.278500] pci 0000:00:11.0:   bridge window [mem 0x000d8000-0x000dbfff window] (subtractive decode)
+Oct 27 00:34:45 debian-min kernel: [    0.278500] pci 0000:00:11.0:   bridge window [mem 0x20000000-0xfebfffff window] (subtractive decode)
+Oct 27 00:34:45 debian-min kernel: [    0.278501] pci 0000:00:11.0:   bridge window [io  0x0000-0x0cf7 window] (subtractive decode)
+Oct 27 00:34:45 debian-min kernel: [    0.278502] pci 0000:00:11.0:   bridge window [io  0x0d00-0xfeff window] (subtractive decode)
+Oct 27 00:34:45 debian-min kernel: [    0.278736] pci 0000:00:15.0:   bridge window [io  0x4000-0x4fff]
+Oct 27 00:34:45 debian-min kernel: [    0.278751] pci 0000:00:15.0:   bridge window [mem 0xfd400000-0xfd4fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.278780] pci 0000:00:15.0:   bridge window [mem 0xe7a00000-0xe7afffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.279049] pci 0000:00:15.1:   bridge window [io  0x8000-0x8fff]
+Oct 27 00:34:45 debian-min kernel: [    0.279064] pci 0000:00:15.1:   bridge window [mem 0xfd000000-0xfd0fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.279093] pci 0000:00:15.1:   bridge window [mem 0xe7600000-0xe76fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.279321] pci 0000:00:15.2:   bridge window [io  0xc000-0xcfff]
+Oct 27 00:34:45 debian-min kernel: [    0.279337] pci 0000:00:15.2:   bridge window [mem 0xfcc00000-0xfccfffff]
+Oct 27 00:34:45 debian-min kernel: [    0.279371] pci 0000:00:15.2:   bridge window [mem 0xe7200000-0xe72fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.279638] pci 0000:00:15.3:   bridge window [mem 0xfc800000-0xfc8fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.279668] pci 0000:00:15.3:   bridge window [mem 0xe6e00000-0xe6efffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.279947] pci 0000:00:15.4:   bridge window [mem 0xfc400000-0xfc4fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.279977] pci 0000:00:15.4:   bridge window [mem 0xe6a00000-0xe6afffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.280226] pci 0000:00:15.5:   bridge window [mem 0xfc000000-0xfc0fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.280256] pci 0000:00:15.5:   bridge window [mem 0xe6600000-0xe66fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.280550] pci 0000:00:15.6:   bridge window [mem 0xfbc00000-0xfbcfffff]
+Oct 27 00:34:45 debian-min kernel: [    0.280580] pci 0000:00:15.6:   bridge window [mem 0xe6200000-0xe62fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.280831] pci 0000:00:15.7:   bridge window [mem 0xfb800000-0xfb8fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.280861] pci 0000:00:15.7:   bridge window [mem 0xe5e00000-0xe5efffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.281095] pci 0000:00:16.0:   bridge window [io  0x5000-0x5fff]
+Oct 27 00:34:45 debian-min kernel: [    0.281110] pci 0000:00:16.0:   bridge window [mem 0xfd300000-0xfd3fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.281140] pci 0000:00:16.0:   bridge window [mem 0xe7900000-0xe79fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.281417] pci 0000:00:16.1:   bridge window [io  0x9000-0x9fff]
+Oct 27 00:34:45 debian-min kernel: [    0.281433] pci 0000:00:16.1:   bridge window [mem 0xfcf00000-0xfcffffff]
+Oct 27 00:34:45 debian-min kernel: [    0.281469] pci 0000:00:16.1:   bridge window [mem 0xe7500000-0xe75fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.281706] pci 0000:00:16.2:   bridge window [io  0xd000-0xdfff]
+Oct 27 00:34:45 debian-min kernel: [    0.281721] pci 0000:00:16.2:   bridge window [mem 0xfcb00000-0xfcbfffff]
+Oct 27 00:34:45 debian-min kernel: [    0.281751] pci 0000:00:16.2:   bridge window [mem 0xe7100000-0xe71fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.282000] pci 0000:00:16.3:   bridge window [mem 0xfc700000-0xfc7fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.282030] pci 0000:00:16.3:   bridge window [mem 0xe6d00000-0xe6dfffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.282325] pci 0000:00:16.4:   bridge window [mem 0xfc300000-0xfc3fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.282355] pci 0000:00:16.4:   bridge window [mem 0xe6900000-0xe69fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.282615] pci 0000:00:16.5:   bridge window [mem 0xfbf00000-0xfbffffff]
+Oct 27 00:34:45 debian-min kernel: [    0.282644] pci 0000:00:16.5:   bridge window [mem 0xe6500000-0xe65fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.283038] pci 0000:00:16.6:   bridge window [mem 0xfbb00000-0xfbbfffff]
+Oct 27 00:34:45 debian-min kernel: [    0.283068] pci 0000:00:16.6:   bridge window [mem 0xe6100000-0xe61fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.283340] pci 0000:00:16.7:   bridge window [mem 0xfb700000-0xfb7fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.283369] pci 0000:00:16.7:   bridge window [mem 0xe5d00000-0xe5dfffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.283639] pci 0000:00:17.0:   bridge window [io  0x6000-0x6fff]
+Oct 27 00:34:45 debian-min kernel: [    0.283654] pci 0000:00:17.0:   bridge window [mem 0xfd200000-0xfd2fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.283683] pci 0000:00:17.0:   bridge window [mem 0xe7800000-0xe78fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.283945] pci 0000:00:17.1:   bridge window [io  0xa000-0xafff]
+Oct 27 00:34:45 debian-min kernel: [    0.283960] pci 0000:00:17.1:   bridge window [mem 0xfce00000-0xfcefffff]
+Oct 27 00:34:45 debian-min kernel: [    0.283990] pci 0000:00:17.1:   bridge window [mem 0xe7400000-0xe74fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.284224] pci 0000:00:17.2:   bridge window [io  0xe000-0xefff]
+Oct 27 00:34:45 debian-min kernel: [    0.284239] pci 0000:00:17.2:   bridge window [mem 0xfca00000-0xfcafffff]
+Oct 27 00:34:45 debian-min kernel: [    0.284268] pci 0000:00:17.2:   bridge window [mem 0xe7000000-0xe70fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.284566] pci 0000:00:17.3:   bridge window [mem 0xfc600000-0xfc6fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.284596] pci 0000:00:17.3:   bridge window [mem 0xe6c00000-0xe6cfffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.284847] pci 0000:00:17.4:   bridge window [mem 0xfc200000-0xfc2fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.284877] pci 0000:00:17.4:   bridge window [mem 0xe6800000-0xe68fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.285126] pci 0000:00:17.5:   bridge window [mem 0xfbe00000-0xfbefffff]
+Oct 27 00:34:45 debian-min kernel: [    0.285156] pci 0000:00:17.5:   bridge window [mem 0xe6400000-0xe64fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.285451] pci 0000:00:17.6:   bridge window [mem 0xfba00000-0xfbafffff]
+Oct 27 00:34:45 debian-min kernel: [    0.285480] pci 0000:00:17.6:   bridge window [mem 0xe6000000-0xe60fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.285726] pci 0000:00:17.7:   bridge window [mem 0xfb600000-0xfb6fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.285754] pci 0000:00:17.7:   bridge window [mem 0xe5c00000-0xe5cfffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.285982] pci 0000:00:18.0:   bridge window [io  0x7000-0x7fff]
+Oct 27 00:34:45 debian-min kernel: [    0.285996] pci 0000:00:18.0:   bridge window [mem 0xfd100000-0xfd1fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.286025] pci 0000:00:18.0:   bridge window [mem 0xe7700000-0xe77fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.286281] pci 0000:00:18.1:   bridge window [io  0xb000-0xbfff]
+Oct 27 00:34:45 debian-min kernel: [    0.286296] pci 0000:00:18.1:   bridge window [mem 0xfcd00000-0xfcdfffff]
+Oct 27 00:34:45 debian-min kernel: [    0.286329] pci 0000:00:18.1:   bridge window [mem 0xe7300000-0xe73fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.286590] pci 0000:00:18.2:   bridge window [mem 0xfc900000-0xfc9fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.286620] pci 0000:00:18.2:   bridge window [mem 0xe6f00000-0xe6ffffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.286899] pci 0000:00:18.3:   bridge window [mem 0xfc500000-0xfc5fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.286929] pci 0000:00:18.3:   bridge window [mem 0xe6b00000-0xe6bfffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.287180] pci 0000:00:18.4:   bridge window [mem 0xfc100000-0xfc1fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.287209] pci 0000:00:18.4:   bridge window [mem 0xe6700000-0xe67fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.287499] pci 0000:00:18.5:   bridge window [mem 0xfbd00000-0xfbdfffff]
+Oct 27 00:34:45 debian-min kernel: [    0.287529] pci 0000:00:18.5:   bridge window [mem 0xe6300000-0xe63fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.287917] pci 0000:00:18.6:   bridge window [mem 0xfb900000-0xfb9fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.287947] pci 0000:00:18.6:   bridge window [mem 0xe5f00000-0xe5ffffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.288199] pci 0000:00:18.7:   bridge window [mem 0xfb500000-0xfb5fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.288229] pci 0000:00:18.7:   bridge window [mem 0xe5b00000-0xe5bfffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.300560] PCI: pci_cache_line_size set to 64 bytes
+Oct 27 00:34:45 debian-min kernel: [    0.301236] e820: reserve RAM buffer [mem 0x0009ec00-0x0009ffff]
+Oct 27 00:34:45 debian-min kernel: [    0.301237] e820: reserve RAM buffer [mem 0x1fee0000-0x1fffffff]
+Oct 27 00:34:45 debian-min kernel: [    0.329155] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+Oct 27 00:34:45 debian-min kernel: [    0.329169] pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+Oct 27 00:34:45 debian-min kernel: [    0.329178] pnp 00:02: Plug and Play ACPI device, IDs PNP0303 (active)
+Oct 27 00:34:45 debian-min kernel: [    0.329186] pnp 00:03: Plug and Play ACPI device, IDs VMW0003 PNP0f13 (active)
+Oct 27 00:34:45 debian-min kernel: [    0.329361] system 00:04: Plug and Play ACPI device, IDs PNP0103 PNP0c01 (active)
+Oct 27 00:34:45 debian-min kernel: [    0.330276] pnp 00:05: Plug and Play ACPI device, IDs PNP0501 (active)
+Oct 27 00:34:45 debian-min kernel: [    0.330556] system 00:06: Plug and Play ACPI device, IDs PNP0c02 (active)
+Oct 27 00:34:45 debian-min kernel: [    0.339922] pci 0000:00:15.3: bridge window [io  0x1000-0x0fff] to [bus 06] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.339967] pci 0000:00:15.4: bridge window [io  0x1000-0x0fff] to [bus 07] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340012] pci 0000:00:15.5: bridge window [io  0x1000-0x0fff] to [bus 08] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340057] pci 0000:00:15.6: bridge window [io  0x1000-0x0fff] to [bus 09] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340101] pci 0000:00:15.7: bridge window [io  0x1000-0x0fff] to [bus 0a] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340280] pci 0000:00:16.3: bridge window [io  0x1000-0x0fff] to [bus 0e] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340324] pci 0000:00:16.4: bridge window [io  0x1000-0x0fff] to [bus 0f] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340369] pci 0000:00:16.5: bridge window [io  0x1000-0x0fff] to [bus 10] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340414] pci 0000:00:16.6: bridge window [io  0x1000-0x0fff] to [bus 11] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340459] pci 0000:00:16.7: bridge window [io  0x1000-0x0fff] to [bus 12] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340635] pci 0000:00:17.3: bridge window [io  0x1000-0x0fff] to [bus 16] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340679] pci 0000:00:17.4: bridge window [io  0x1000-0x0fff] to [bus 17] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340724] pci 0000:00:17.5: bridge window [io  0x1000-0x0fff] to [bus 18] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340769] pci 0000:00:17.6: bridge window [io  0x1000-0x0fff] to [bus 19] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340814] pci 0000:00:17.7: bridge window [io  0x1000-0x0fff] to [bus 1a] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340946] pci 0000:00:18.2: bridge window [io  0x1000-0x0fff] to [bus 1d] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.340991] pci 0000:00:18.3: bridge window [io  0x1000-0x0fff] to [bus 1e] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.341036] pci 0000:00:18.4: bridge window [io  0x1000-0x0fff] to [bus 1f] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.341080] pci 0000:00:18.5: bridge window [io  0x1000-0x0fff] to [bus 20] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.341125] pci 0000:00:18.6: bridge window [io  0x1000-0x0fff] to [bus 21] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.341170] pci 0000:00:18.7: bridge window [io  0x1000-0x0fff] to [bus 22] add_size 1000
+Oct 27 00:34:45 debian-min kernel: [    0.344027] pci_bus 0000:00: resource 4 [mem 0x000a0000-0x000bffff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344027] pci_bus 0000:00: resource 5 [mem 0x000cc000-0x000cffff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344028] pci_bus 0000:00: resource 6 [mem 0x000d0000-0x000d3fff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344028] pci_bus 0000:00: resource 7 [mem 0x000d4000-0x000d7fff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344029] pci_bus 0000:00: resource 8 [mem 0x000d8000-0x000dbfff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344029] pci_bus 0000:00: resource 9 [mem 0x20000000-0xfebfffff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344030] pci_bus 0000:00: resource 10 [io  0x0000-0x0cf7 window]
+Oct 27 00:34:45 debian-min kernel: [    0.344031] pci_bus 0000:00: resource 11 [io  0x0d00-0xfeff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344031] pci_bus 0000:02: resource 0 [io  0x2000-0x3fff]
+Oct 27 00:34:45 debian-min kernel: [    0.344032] pci_bus 0000:02: resource 1 [mem 0xfd500000-0xfdffffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344032] pci_bus 0000:02: resource 2 [mem 0xe7b00000-0xe7ffffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344033] pci_bus 0000:02: resource 4 [mem 0x000a0000-0x000bffff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344033] pci_bus 0000:02: resource 5 [mem 0x000cc000-0x000cffff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344034] pci_bus 0000:02: resource 6 [mem 0x000d0000-0x000d3fff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344034] pci_bus 0000:02: resource 7 [mem 0x000d4000-0x000d7fff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344035] pci_bus 0000:02: resource 8 [mem 0x000d8000-0x000dbfff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344035] pci_bus 0000:02: resource 9 [mem 0x20000000-0xfebfffff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344036] pci_bus 0000:02: resource 10 [io  0x0000-0x0cf7 window]
+Oct 27 00:34:45 debian-min kernel: [    0.344036] pci_bus 0000:02: resource 11 [io  0x0d00-0xfeff window]
+Oct 27 00:34:45 debian-min kernel: [    0.344037] pci_bus 0000:03: resource 0 [io  0x4000-0x4fff]
+Oct 27 00:34:45 debian-min kernel: [    0.344037] pci_bus 0000:03: resource 1 [mem 0xfd400000-0xfd4fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344038] pci_bus 0000:03: resource 2 [mem 0xe7a00000-0xe7afffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344038] pci_bus 0000:04: resource 0 [io  0x8000-0x8fff]
+Oct 27 00:34:45 debian-min kernel: [    0.344039] pci_bus 0000:04: resource 1 [mem 0xfd000000-0xfd0fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344039] pci_bus 0000:04: resource 2 [mem 0xe7600000-0xe76fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344040] pci_bus 0000:05: resource 0 [io  0xc000-0xcfff]
+Oct 27 00:34:45 debian-min kernel: [    0.344040] pci_bus 0000:05: resource 1 [mem 0xfcc00000-0xfccfffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344041] pci_bus 0000:05: resource 2 [mem 0xe7200000-0xe72fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344041] pci_bus 0000:06: resource 1 [mem 0xfc800000-0xfc8fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344042] pci_bus 0000:06: resource 2 [mem 0xe6e00000-0xe6efffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344043] pci_bus 0000:07: resource 1 [mem 0xfc400000-0xfc4fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344043] pci_bus 0000:07: resource 2 [mem 0xe6a00000-0xe6afffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344044] pci_bus 0000:08: resource 1 [mem 0xfc000000-0xfc0fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344044] pci_bus 0000:08: resource 2 [mem 0xe6600000-0xe66fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344045] pci_bus 0000:09: resource 1 [mem 0xfbc00000-0xfbcfffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344045] pci_bus 0000:09: resource 2 [mem 0xe6200000-0xe62fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344046] pci_bus 0000:0a: resource 1 [mem 0xfb800000-0xfb8fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344046] pci_bus 0000:0a: resource 2 [mem 0xe5e00000-0xe5efffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344047] pci_bus 0000:0b: resource 0 [io  0x5000-0x5fff]
+Oct 27 00:34:45 debian-min kernel: [    0.344047] pci_bus 0000:0b: resource 1 [mem 0xfd300000-0xfd3fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344048] pci_bus 0000:0b: resource 2 [mem 0xe7900000-0xe79fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344048] pci_bus 0000:0c: resource 0 [io  0x9000-0x9fff]
+Oct 27 00:34:45 debian-min kernel: [    0.344049] pci_bus 0000:0c: resource 1 [mem 0xfcf00000-0xfcffffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344049] pci_bus 0000:0c: resource 2 [mem 0xe7500000-0xe75fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344050] pci_bus 0000:0d: resource 0 [io  0xd000-0xdfff]
+Oct 27 00:34:45 debian-min kernel: [    0.344050] pci_bus 0000:0d: resource 1 [mem 0xfcb00000-0xfcbfffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344051] pci_bus 0000:0d: resource 2 [mem 0xe7100000-0xe71fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344051] pci_bus 0000:0e: resource 1 [mem 0xfc700000-0xfc7fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344052] pci_bus 0000:0e: resource 2 [mem 0xe6d00000-0xe6dfffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344052] pci_bus 0000:0f: resource 1 [mem 0xfc300000-0xfc3fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344053] pci_bus 0000:0f: resource 2 [mem 0xe6900000-0xe69fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344053] pci_bus 0000:10: resource 1 [mem 0xfbf00000-0xfbffffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344054] pci_bus 0000:10: resource 2 [mem 0xe6500000-0xe65fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344054] pci_bus 0000:11: resource 1 [mem 0xfbb00000-0xfbbfffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344055] pci_bus 0000:11: resource 2 [mem 0xe6100000-0xe61fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344055] pci_bus 0000:12: resource 1 [mem 0xfb700000-0xfb7fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344056] pci_bus 0000:12: resource 2 [mem 0xe5d00000-0xe5dfffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344056] pci_bus 0000:13: resource 0 [io  0x6000-0x6fff]
+Oct 27 00:34:45 debian-min kernel: [    0.344057] pci_bus 0000:13: resource 1 [mem 0xfd200000-0xfd2fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344057] pci_bus 0000:13: resource 2 [mem 0xe7800000-0xe78fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344058] pci_bus 0000:14: resource 0 [io  0xa000-0xafff]
+Oct 27 00:34:45 debian-min kernel: [    0.344058] pci_bus 0000:14: resource 1 [mem 0xfce00000-0xfcefffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344059] pci_bus 0000:14: resource 2 [mem 0xe7400000-0xe74fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344059] pci_bus 0000:15: resource 0 [io  0xe000-0xefff]
+Oct 27 00:34:45 debian-min kernel: [    0.344060] pci_bus 0000:15: resource 1 [mem 0xfca00000-0xfcafffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344060] pci_bus 0000:15: resource 2 [mem 0xe7000000-0xe70fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344061] pci_bus 0000:16: resource 1 [mem 0xfc600000-0xfc6fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344061] pci_bus 0000:16: resource 2 [mem 0xe6c00000-0xe6cfffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344062] pci_bus 0000:17: resource 1 [mem 0xfc200000-0xfc2fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344062] pci_bus 0000:17: resource 2 [mem 0xe6800000-0xe68fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344063] pci_bus 0000:18: resource 1 [mem 0xfbe00000-0xfbefffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344063] pci_bus 0000:18: resource 2 [mem 0xe6400000-0xe64fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344064] pci_bus 0000:19: resource 1 [mem 0xfba00000-0xfbafffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344064] pci_bus 0000:19: resource 2 [mem 0xe6000000-0xe60fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344065] pci_bus 0000:1a: resource 1 [mem 0xfb600000-0xfb6fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344065] pci_bus 0000:1a: resource 2 [mem 0xe5c00000-0xe5cfffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344066] pci_bus 0000:1b: resource 0 [io  0x7000-0x7fff]
+Oct 27 00:34:45 debian-min kernel: [    0.344066] pci_bus 0000:1b: resource 1 [mem 0xfd100000-0xfd1fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344067] pci_bus 0000:1b: resource 2 [mem 0xe7700000-0xe77fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344068] pci_bus 0000:1c: resource 0 [io  0xb000-0xbfff]
+Oct 27 00:34:45 debian-min kernel: [    0.344068] pci_bus 0000:1c: resource 1 [mem 0xfcd00000-0xfcdfffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344068] pci_bus 0000:1c: resource 2 [mem 0xe7300000-0xe73fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344069] pci_bus 0000:1d: resource 1 [mem 0xfc900000-0xfc9fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344069] pci_bus 0000:1d: resource 2 [mem 0xe6f00000-0xe6ffffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344070] pci_bus 0000:1e: resource 1 [mem 0xfc500000-0xfc5fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344070] pci_bus 0000:1e: resource 2 [mem 0xe6b00000-0xe6bfffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344071] pci_bus 0000:1f: resource 1 [mem 0xfc100000-0xfc1fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344071] pci_bus 0000:1f: resource 2 [mem 0xe6700000-0xe67fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344072] pci_bus 0000:20: resource 1 [mem 0xfbd00000-0xfbdfffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344073] pci_bus 0000:20: resource 2 [mem 0xe6300000-0xe63fffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344073] pci_bus 0000:21: resource 1 [mem 0xfb900000-0xfb9fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344074] pci_bus 0000:21: resource 2 [mem 0xe5f00000-0xe5ffffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.344074] pci_bus 0000:22: resource 1 [mem 0xfb500000-0xfb5fffff]
+Oct 27 00:34:45 debian-min kernel: [    0.344075] pci_bus 0000:22: resource 2 [mem 0xe5b00000-0xe5bfffff 64bit pref]
+Oct 27 00:34:45 debian-min kernel: [    0.347939] PCI: CLS mismatch (32 != 64), using 64 bytes
+Oct 27 00:34:45 debian-min kernel: [    1.231589] ehci-pci 0000:02:03.0: cache line size of 64 is not supported
+Oct 27 00:34:45 debian-min kernel: [    1.260215] libata version 3.00 loaded.
+Oct 27 00:34:45 debian-min kernel: [    1.260954] ata_piix 0000:00:07.1: version 2.13
+Oct 27 00:34:45 debian-min kernel: [    1.511933] sr 1:0:0:0: Attached scsi CD-ROM sr0
+Oct 27 00:34:45 debian-min kernel: [    1.811805] sd 2:0:0:0: [sda] Mode Sense: 61 00 00 00
+Oct 27 00:34:45 debian-min kernel: [    1.915010] PM: Image not found (code -22)
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke calendar: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke calendar: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke ctype: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke ctype: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke exif: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke exif: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke fileinfo: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke fileinfo: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke ftp: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:36 debian-min php7.3-common: php_invoke ftp: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke gettext: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke gettext: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke iconv: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke iconv: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke pdo: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke pdo: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke phar: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke phar: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke posix: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke posix: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke shmop: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:37 debian-min php7.3-common: php_invoke shmop: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sockets: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sockets: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sysvmsg: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sysvmsg: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sysvsem: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sysvsem: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sysvshm: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke sysvshm: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke tokenizer: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:38 debian-min php7.3-common: php_invoke tokenizer: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:38 debian-min php7.3-opcache: php_invoke opcache: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:38 debian-min php7.3-opcache: php_invoke opcache: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-json: php_invoke json: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-json: php_invoke json: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-readline: php_invoke readline: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-readline: php_invoke readline: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke ctype: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke tokenizer: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke sysvmsg: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke shmop: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke readline: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke posix: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke exif: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke pdo: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke iconv: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke fileinfo: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke json: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke calendar: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke ftp: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke gettext: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke opcache: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke sockets: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke sysvsem: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke sysvshm: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-cli: php_invoke phar: already enabled for PHP 7.3 cli sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke ctype: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke tokenizer: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke sysvmsg: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke shmop: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke readline: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke posix: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke exif: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke pdo: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke iconv: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke fileinfo: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke json: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke calendar: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke ftp: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke gettext: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke opcache: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke sockets: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke sysvsem: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke sysvshm: already enabled for PHP 7.3 fpm sapi
+Oct 27 21:11:39 debian-min php7.3-fpm: php_invoke phar: already enabled for PHP 7.3 fpm sapi
