@@ -1,6 +1,6 @@
 # H4x0r3d writeup
 
-Исходя из условия таска, предпринимаем попытку найти какой-либо `интересный` запрос к приложению автора таска, в котором бы содержалась полезная нагрузка - проверяем файл
+Исходя из условия задания, предпринимаем попытку найти какой-либо `интересный` запрос к приложению автора таска, в котором бы содержалась полезная нагрузка - проверяем файл
 `access.log` и находим там следующий `GET` запрос:
 
 ```
@@ -60,7 +60,7 @@ root@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/SPbCTF's Student CTF 2020 Quals
 Oct 29 0:26:54 debian-min root: Started door with uid AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
 ```
 
-Теперь используем консольную утилиту `curl` для перехода на http://188.143.222.218:4455/persist/?uuid=AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy:
+Теперь перейдём на http://188.143.222.218:4455/persist/?uuid=AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy:
 
 ```
 root@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/SPbCTF's Student CTF 2020 Quals/H4x0r3d# curl http://188.143.222.218:4455?uuid=AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
