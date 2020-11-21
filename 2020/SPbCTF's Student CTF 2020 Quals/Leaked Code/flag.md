@@ -1,0 +1,3 @@
+```
+spbctf{fpqt@_ucgszrwiyo}
+```
