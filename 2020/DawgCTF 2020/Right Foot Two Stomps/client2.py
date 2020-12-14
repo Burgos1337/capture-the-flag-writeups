@@ -26,7 +26,7 @@ msg = 'flg'.encode()
 sock.sendall(msg)
 enc = sock.recv(1024)
 
-msg = b'dec:' + "A" * 32 + enc
+msg = b'dec:' + 'A' * 32 + enc
 sock.sendall(msg)
 dec = sock.recv(1024)
 print(dec) 
