@@ -1,3 +1,0 @@
-```
-DawgCTF{P@dding_M0r3_L1K3_S@dding_@mir!73}
-```
