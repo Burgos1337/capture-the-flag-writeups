@@ -1,3 +1,0 @@
-```
-WPI{1_H4VE_2_return_SOME_VIDE0TAP3S}
-```
