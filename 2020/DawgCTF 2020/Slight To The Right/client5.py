@@ -36,7 +36,7 @@ nonce = ct[:16]
 
 encflag = ct[16:]
 
-pt = "DawgCTF{".encode()
+pt = 'DawgCTF{'.encode()
 
 msg = b'enc:' + nonce + pt
 sock.sendall(msg)
@@ -45,7 +45,7 @@ print(enc)
 print(enc.encode('hex'))
 
 print(ct.encode('hex'))
-msg = b'dec:' + nonce + enc[:-1] + "\x11"
+msg = b'dec:' + nonce + enc[:-1] + '\x11'
 sock.sendall(msg)
 dec = sock.recv(1024)
 print(dec) 
@@ -79,7 +79,6 @@ for bbb in range(len(encflag) - len(flag)):
 	enc = enc[16:]
 
 	if (enc[len(flag)] == encflag[len(flag)]):
-	   print("FOUND!!")
 	   flag += guess
 	   print(flag)
 	   break
