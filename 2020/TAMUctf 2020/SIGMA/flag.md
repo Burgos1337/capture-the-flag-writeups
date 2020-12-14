@@ -1,3 +1,0 @@
-```
-gigem{n3v3r_evv3r_r01l_yer0wn_cryptoo00oo}
-```
