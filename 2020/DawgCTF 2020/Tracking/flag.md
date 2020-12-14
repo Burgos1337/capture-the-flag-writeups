@@ -1,3 +1,0 @@
-```
-DawgCTF{ClearEdge_uni}
-```
