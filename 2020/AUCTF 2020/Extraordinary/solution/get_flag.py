@@ -14,7 +14,7 @@ try:
        for ch in lowercase[::-1]:
            data = find + ch
            p.sendline(data)
-           msg = p.recvuntil("'\n").split()[1][2:-1]
+           msg = p.recvuntil('\n').split()[1][2:-1]
            print(data, '->', msg)
            if len(msg) == 0:
               find += ch
