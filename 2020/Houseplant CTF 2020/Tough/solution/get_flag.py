@@ -1,7 +1,7 @@
 from z3 import *
 
 def algo (inp):
-    got = "ow0_wh4t_4_h4ckr_y0u_4r3"
+    got = 'ow0_wh4t_4_h4ckr_y0u_4r3'
 
     realflag = [9, 4, 23, 8, 17, 1, 18, 0, 13, 7, 2, 20, 16, 10, 22, 12, 19, 6, 15, 21, 3, 14, 5, 11]
     therealflag = [20, 16, 12, 9, 6, 15, 21, 3, 18, 0, 13, 7, 1, 4, 23, 8, 17, 2, 10, 22, 19, 11, 14, 5]
@@ -51,7 +51,7 @@ inp = []
 target = [157, 157, 236, 168, 160, 162, 171, 162, 165, 199, 169, 169, 160, 194, 235, 207, 227, 210, 157, 203, 227, 104, 212, 202]
 
 for i in range(24):
-    b = BitVec("%d" % i, 16)
+    b = BitVec('%d' % i, 16)
     inp.append(b)
 
 res = algo(inp)
@@ -64,7 +64,7 @@ s.add(inp[3] != 41)
 while s.check() == sat:
    solution = s.model()
    block = []
-   flag = ""
+   flag = ''
    for i in range (len(inp)):
        c = inp[i]
        try: 
