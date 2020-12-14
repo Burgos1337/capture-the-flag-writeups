@@ -1,3 +1,0 @@
-```
-auctf{p6p_1nj3c7i0n_iz_k3wl}
-```
