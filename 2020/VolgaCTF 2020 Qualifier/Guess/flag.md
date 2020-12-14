@@ -1,3 +1,0 @@
-```
-VolgaCTF{B3_c4r3ful_with_4lg0rithm5_impl3m3nt4ti0n5}
-```
