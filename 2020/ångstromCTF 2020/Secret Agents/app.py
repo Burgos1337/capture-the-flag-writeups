@@ -19,7 +19,6 @@ limiter = Limiter(
     default_limits = ["1 per second"],
 )"""
 
-#@limiter.exempt
 @app.route("/")
 def index():
     return render_template("index.html")
