@@ -1,3 +1,0 @@
-```
-a:2:{s:8:"username";b:1;s:8:"password";b:1;}
-```
